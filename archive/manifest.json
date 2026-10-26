@@ -1,0 +1,466 @@
+{
+  "format": "small-machines-public-media-inventory",
+  "version": 1,
+  "date": "2026-10-26",
+  "repository": "https://github.com/frnkptrln/small-machines",
+  "publication_status": "Assets prepared; publication has not yet been confirmed.",
+  "assets": [
+    {
+      "filename": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 375383920,
+      "sha256": "9524f3ee85939e6cb649209e5e9de77e64a0b4cb2df74063d619943459afe526",
+      "status": "prepared_upload_pending"
+    },
+    {
+      "filename": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 428674733,
+      "sha256": "9882d854795318de70cbece8caf4d362fdafda51502e4b17b7f96fc7fd996975",
+      "status": "prepared_upload_pending"
+    },
+    {
+      "filename": "Small-Machines-Video-Cues-2026-10-26.zip",
+      "bytes": 3875187,
+      "sha256": "6b00ee8af24c9f0b501953fbe7a292f917dce3f6a49d90e98cf0efc31775a508",
+      "status": "prepared_upload_pending"
+    },
+    {
+      "filename": "bernsteinfenster-besuch.m4a",
+      "bytes": 2674413,
+      "sha256": "50467370a928ad983760f185c44f3b28e848257aff38b3ee41559d4ccf17a0c7",
+      "status": "prepared_upload_pending"
+    },
+    {
+      "filename": "bernsteinfenster.m4a",
+      "bytes": 4950207,
+      "sha256": "f2fecb9b7915d083cd9a578220f94e17d6ffc39390dcfbaa7bcfbaf751d38841",
+      "status": "prepared_upload_pending"
+    },
+    {
+      "filename": "licht-im-hinterhof.m4a",
+      "bytes": 23085981,
+      "sha256": "2c911e448c1c9d52ad0f4162e7ce237975aecaa5029f819510b871ff30561134",
+      "status": "prepared_upload_pending"
+    }
+  ],
+  "recordings": [
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/01-Stadt-aus-Strom.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5131156,
+      "sha256": "d6ae90c942a112c87996712dc2bb349f0da7beaa9fea699336d18c5202dcc67d"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/02-Drei-Stimmen-im-Neon.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 3294230,
+      "sha256": "569fd3f6d29888365a73d4da53b1c8ac27765295bc19b7bbdd639b69a2a85998"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/03-Loetzinnlibellen.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5233992,
+      "sha256": "3a11010af77bcc1c0c21706b42588e37a1c80240541d04390c35a33b7734a969"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/04-Ein-Bit-von-dir.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 3625875,
+      "sha256": "379eed943ba0dcd63a6062051de49b35aff560d4910b599da16bd9128e0cdf27"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/05-Nachtbus-03-17.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 6338011,
+      "sha256": "0fd265bf37cc034ce71aabdfc8bdd78441264460b878fe742db4bc9a522604cf"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/06-Fenster-ohne-Schlaf.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 4259715,
+      "sha256": "c4a98f5c4d3f16e56596ff99dc90fb52f7d968c4ce2b6e53a1042c42b9b0bed2"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/07-Wir-bleiben-kurz.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 6101657,
+      "sha256": "b840278223dcddf3fafe7f9ce76faab7e2f15d2d5852a6e4ec8ff4c078467173"
+    },
+    {
+      "path": "SM001-SID-Drei-Stimmen-eine-Stadt/audio/08-Morgen-im-RAM.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 6396943,
+      "sha256": "88cdd8859469879567044484265fc8d6f0d4961270d69990c69b63f6ee1b6136"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/01-Unter-dem-Ladekopf.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5313589,
+      "sha256": "c4f56820594d68d2782dfdbd50c76279a5938f48441230e4ca6b12f34e198176"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/02-Diskettenblumen.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 2962565,
+      "sha256": "f25109b4a772c4d82d29b8764b3dab96ec7bc7b6fa04ea80af5b38dc5ad1603e"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/03-Kupferregen.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 4736798,
+      "sha256": "3545a0a0f73ef7eb04cfa48abb863848b208f0ac6c39a65b98d60c602502174b"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/04-Papiermond.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 3601410,
+      "sha256": "a8ca6a058de0cc4d7adc4b85f39def6bbdbf7941b332f82ce922fc8958e9f1e8"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/05-Rasterklee.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5185685,
+      "sha256": "51ed8eaff9d3e98ad682aee9e94339627820847d825fd8ca937dafb0f0fcf9fe"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/06-Magnetischer-Sommer.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5593831,
+      "sha256": "dd9ffe0eb48f84a7bd31acf90ff1dacab28f57ead0bc6429c4c6b4129ae832b0"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/07-Die-letzte-Diskette.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 6228292,
+      "sha256": "081f8440d73c6a0ed4ede4c3baa12e934bebc3dbdc623028d728a40870743950"
+    },
+    {
+      "path": "SM002-PAULA-Diskettenblumen/audio/08-Bitte-nicht-ausschalten.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 7469635,
+      "sha256": "12dc37156076b1667701f82f0068e8e78b50c1f1f62bb06c73d4e03dd6486b55"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/01-Zwei-Fenster-offen.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5723621,
+      "sha256": "84d8bacbe64a6908608803791619f2bf0a1feb31f82e63f6ad9a96ecc261ec34"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/02-Fensterlicht-auf-Magnetband.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 4176971,
+      "sha256": "f5052318de43013e5f8f647885a554a7a970225f674c7d4d645b80c8081ef00a"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/03-Zwischen-zwei-Takten.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 3095495,
+      "sha256": "642c663c92b0e23ab176d4d41aa5fc276843c4560e23dfdbc4be52dfd44f1327"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/04-Die-Maschinen-besuchen-sich.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5396368,
+      "sha256": "c288146b1c98877d702d7475c61ddae479d7240df3966e6648229d50d360c2d9"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/05-Gemeinsam-um-drei.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 5852769,
+      "sha256": "f3fba42d2fd646ffd7036c6c8c43f166e55d5a3661bd60b23e65de7ae1b79652"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/06-Was-im-Speicher-bleibt.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 4009573,
+      "sha256": "59a71e45c765ef8af117c8991cf3f169923434e5aca12eafd7d3bcb01c8cb9b8"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/07-Kleine-Welt-bei-Nacht.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 6477203,
+      "sha256": "876372e3869d54b1b88a7f95dc2398a4899adace6cc58e81514590dcd6e78e12"
+    },
+    {
+      "path": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen/audio/08-Es-geht-noch-weiter.mp3",
+      "within_package": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 6152448,
+      "sha256": "0ac32eb5e1b6492dd27d6fb6e0984a0a70635f665beabc98210449cc96c25ac1"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Duo/audio/01-Fensterlicht-auf-Magnetband.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 5569156,
+      "sha256": "871228512e588497ee8ea4ffd2039f46094f40f4169420d147803461c5b1d1b3"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Duo/audio/01-Fensterlicht-auf-Magnetband.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 30686010,
+      "sha256": "893d30c7502dec1eaa068c17208475fbc47af9a083fc54a175848f9ffe786341"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Duo/audio/02-Zwischen-zwei-Takten.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4127191,
+      "sha256": "81fe7776e8b13bcdb01f81f3bf49115ad898c41bd39e0e80ab7b48e56b5e8554"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Duo/audio/02-Zwischen-zwei-Takten.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 22738878,
+      "sha256": "b13c7a5cca13faec9e3509c75cbe93cc420824e903fae10f27e670e09b52bed7"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Duo/audio/03-Was-im-Speicher-bleibt.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 5345961,
+      "sha256": "71797b5e31a17fa1b543bf97f482887ae0939587c9c7f1d9616884258cad633a"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Duo/audio/03-Was-im-Speicher-bleibt.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 29458878,
+      "sha256": "8ac6204e70ce4172751ec0c22d95aca925be8d85fca98b6e1fc3e966abb6a975"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/PAULA-01-Papiermond.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4801758,
+      "sha256": "51357bdbe86444f501626dadf1bb43b7bb840aa99f335367b91e458e922e4b76"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/PAULA-01-Papiermond.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 26456326,
+      "sha256": "37c332b1e652f24bb4bdac2e59e36a68857dba795410332b37b12fff6c11b245"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/PAULA-02-Diskettenblumen.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 3949963,
+      "sha256": "b879793795e33eed88582c4c7d1e8de619eed769b2e5cd247509a1fe675efedf"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/PAULA-02-Diskettenblumen.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 21761426,
+      "sha256": "22575ecb085da4c4be7c5de650763078d39c11fe66bfaf6da3c3aff7ace2c497"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/SID-01-Drei-Stimmen-im-Neon.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4392165,
+      "sha256": "639a7befb3800f7324a9bdf4aa983833d762d8380874231892c4a6badfd5c6b9"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/SID-01-Drei-Stimmen-im-Neon.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 24196778,
+      "sha256": "4df034d98dcc12dbbb8efb56fac7b89a63f89183018780350f22f14625834386"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/SID-02-Ein-Bit-von-dir.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4834360,
+      "sha256": "15b84906e383145af3e008d949f97bc4ba88c61d759ee378cbbcadc6d2be7192"
+    },
+    {
+      "path": "Small-Machines-Allein-und-zusammen/Solo/audio/SID-02-Ein-Bit-von-dir.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Allein-und-zusammen-7-Stuecke.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 26636478,
+      "sha256": "b0b89df087c0df9801c060cd60208b235f317ba0f0fe0f8884960baf237836f7"
+    },
+    {
+      "path": "Zwei-Maschinen-drei-Momente/audio/01-Fensterlicht-auf-Magnetband.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Zwei-Maschinen-drei-Momente.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 5569156,
+      "sha256": "871228512e588497ee8ea4ffd2039f46094f40f4169420d147803461c5b1d1b3"
+    },
+    {
+      "path": "Zwei-Maschinen-drei-Momente/audio/01-Fensterlicht-auf-Magnetband.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Zwei-Maschinen-drei-Momente.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 30686010,
+      "sha256": "893d30c7502dec1eaa068c17208475fbc47af9a083fc54a175848f9ffe786341"
+    },
+    {
+      "path": "Zwei-Maschinen-drei-Momente/audio/02-Zwischen-zwei-Takten.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Zwei-Maschinen-drei-Momente.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4127191,
+      "sha256": "81fe7776e8b13bcdb01f81f3bf49115ad898c41bd39e0e80ab7b48e56b5e8554"
+    },
+    {
+      "path": "Zwei-Maschinen-drei-Momente/audio/02-Zwischen-zwei-Takten.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Zwei-Maschinen-drei-Momente.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 22738878,
+      "sha256": "b13c7a5cca13faec9e3509c75cbe93cc420824e903fae10f27e670e09b52bed7"
+    },
+    {
+      "path": "Zwei-Maschinen-drei-Momente/audio/03-Was-im-Speicher-bleibt.mp3",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Zwei-Maschinen-drei-Momente.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 5345961,
+      "sha256": "71797b5e31a17fa1b543bf97f482887ae0939587c9c7f1d9616884258cad633a"
+    },
+    {
+      "path": "Zwei-Maschinen-drei-Momente/audio/03-Was-im-Speicher-bleibt.wav",
+      "within_package": "Small-Machines-Archiv/04-Fruehere-Ausgaben/Small-Machines-Zwei-Maschinen-drei-Momente.zip",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 29458878,
+      "sha256": "8ac6204e70ce4172751ec0c22d95aca925be8d85fca98b6e1fc3e966abb6a975"
+    },
+    {
+      "path": "Small-Machines-Archiv/01-Alben/SM001-SID-Drei-Stimmen-eine-Stadt.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 40368113,
+      "sha256": "ca607a1907d1e59a95a9512be49efacbdc430383a0f6ec56302e17ae19b86e9f"
+    },
+    {
+      "path": "Small-Machines-Archiv/01-Alben/SM002-PAULA-Diskettenblumen.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 41079642,
+      "sha256": "cee6473bae472c7d9a9fb39f919b65e762fb38a9c1680e8039a7b2fe00d624ef"
+    },
+    {
+      "path": "Small-Machines-Archiv/01-Alben/SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 40872213,
+      "sha256": "b25aa3a2a55d47c6f74c08c6b1d29ac5463e8774f39af3dd10d0c7f17426e916"
+    },
+    {
+      "path": "Small-Machines-Archiv/02-Stuecke/Licht-im-Hinterhof.mp3",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 21697901,
+      "sha256": "6bbad626a53a840dfe0761b81fe9fe13266dfb738b4e93dd9179b8499ba993a6"
+    },
+    {
+      "path": "Small-Machines-Archiv/02-Stuecke/Licht-im-Hinterhof.wav",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 159465800,
+      "sha256": "ef99233d3687e14e1130445972a9367e5a309ffc60816247119353dbb3e49aab"
+    },
+    {
+      "path": "Small-Machines-Archiv/02-Stuecke/SM004-Saeureblumen.mp3",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 4581388,
+      "sha256": "e0bfa1508c83f827e6a92ae361a8c0a3dd2550e1e474dfecc3f62a9c02b20522"
+    },
+    {
+      "path": "Small-Machines-Archiv/02-Stuecke/SM004-Saeureblumen.wav",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 33658338,
+      "sha256": "9565a411e277305a54bbc0a477d04134d3101be77023b19e18946467c0d63d79"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/01-Fensterlicht-auf-Magnetband.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 5569156,
+      "sha256": "871228512e588497ee8ea4ffd2039f46094f40f4169420d147803461c5b1d1b3"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/02-Zwischen-zwei-Takten.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4127191,
+      "sha256": "81fe7776e8b13bcdb01f81f3bf49115ad898c41bd39e0e80ab7b48e56b5e8554"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/03-Was-im-Speicher-bleibt.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 5345961,
+      "sha256": "71797b5e31a17fa1b543bf97f482887ae0939587c9c7f1d9616884258cad633a"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/PAULA-01-Papiermond.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4801758,
+      "sha256": "51357bdbe86444f501626dadf1bb43b7bb840aa99f335367b91e458e922e4b76"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/PAULA-02-Diskettenblumen.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 3949963,
+      "sha256": "b879793795e33eed88582c4c7d1e8de619eed769b2e5cd247509a1fe675efedf"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/SID-01-Drei-Stimmen-im-Neon.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4392165,
+      "sha256": "639a7befb3800f7324a9bdf4aa983833d762d8380874231892c4a6badfd5c6b9"
+    },
+    {
+      "path": "Small-Machines-Archiv/04-Fruehere-Ausgaben/SID-02-Ein-Bit-von-dir.mp3",
+      "archive": "Small-Machines-Archive-Originals-2026-10-26.zip",
+      "bytes": 4834360,
+      "sha256": "15b84906e383145af3e008d949f97bc4ba88c61d759ee378cbbcadc6d2be7192"
+    },
+    {
+      "path": "Small-Machines-Archiv/05-WARM06/Bernsteinfenster-Besuch-im-Hinterhof.mp3",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 2566259,
+      "sha256": "420b3d58f785aef2cb47b800b13a7df62ecfcaab335f1f135e38bd82f5380e9a"
+    },
+    {
+      "path": "Small-Machines-Archiv/05-WARM06/Bernsteinfenster-Besuch-im-Hinterhof.wav",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 18849822,
+      "sha256": "3f0c7f29d8dc3ec189ffefe661378dbeae906ee64dc3d6f50a45187f7798b257"
+    },
+    {
+      "path": "Small-Machines-Archiv/05-WARM06/Bernsteinfenster.mp3",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 4921645,
+      "sha256": "fe1fb66196aac787dfdac000e847c3e18746e6aca4f773ab33c7642386cc598a"
+    },
+    {
+      "path": "Small-Machines-Archiv/05-WARM06/Bernsteinfenster.wav",
+      "archive": "Small-Machines-Archive-2026-10-26.zip",
+      "bytes": 36162200,
+      "sha256": "ca80a699e7d375a9362a8755a23bbd37d39d082264843ac185468037299372c1"
+    }
+  ],
+  "scope": "All original supplied MP3/WAV recordings, including historical duplicate releases. No video files were supplied.",
+  "archive_root": "Small-Machines-Archiv",
+  "sanitization": "Private source URLs and account metadata removed recursively, including nested workshop archives; scores and audio are unchanged and affected checksums are refreshed."
+}

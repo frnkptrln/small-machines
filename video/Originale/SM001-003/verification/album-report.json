@@ -1,0 +1,41 @@
+[
+  {
+    "catalogue_number": "SM001",
+    "title": "Drei Stimmen, eine Stadt",
+    "engine": "sid",
+    "tracks": 8,
+    "duration_seconds": 1681.9109523809525,
+    "mp3_chapters": 8,
+    "mp3_lufs": "-17.03",
+    "mp3_true_peak_dbtp": "-4.19",
+    "album_file": "SM001-SID-Drei-Stimmen-eine-Stadt.mp3",
+    "tracks_zip": "SM001-SID-Drei-Stimmen-eine-Stadt-Einzelstuecke.zip",
+    "bytes": 40368113
+  },
+  {
+    "catalogue_number": "SM002",
+    "title": "Diskettenblumen",
+    "engine": "paula",
+    "tracks": 8,
+    "duration_seconds": 1711.5579818594103,
+    "mp3_chapters": 8,
+    "mp3_lufs": "-17.17",
+    "mp3_true_peak_dbtp": "-1.76",
+    "album_file": "SM002-PAULA-Diskettenblumen.mp3",
+    "tracks_zip": "SM002-PAULA-Diskettenblumen-Einzelstuecke.zip",
+    "bytes": 41079642
+  },
+  {
+    "catalogue_number": "SM003",
+    "title": "Wo die Maschinen sich treffen",
+    "engine": "duo",
+    "tracks": 8,
+    "duration_seconds": 1702.9190249433107,
+    "mp3_chapters": 8,
+    "mp3_lufs": "-17.11",
+    "mp3_true_peak_dbtp": "-1.75",
+    "album_file": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen.mp3",
+    "tracks_zip": "SM003-SID-und-PAULA-Wo-die-Maschinen-sich-treffen-Einzelstuecke.zip",
+    "bytes": 40872213
+  }
+]

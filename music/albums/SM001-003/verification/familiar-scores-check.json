@@ -1,0 +1,19 @@
+{
+  "unchanged_note_data": [
+    "SID-02",
+    "SID-04",
+    "PAULA-02",
+    "PAULA-04",
+    "DUO-02",
+    "DUO-03",
+    "DUO-06"
+  ],
+  "verified_fields": [
+    "events",
+    "bpm",
+    "bars",
+    "swing",
+    "voices"
+  ],
+  "result": "passed"
+}

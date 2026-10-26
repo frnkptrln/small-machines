@@ -1,0 +1,30 @@
+# Browser studio has no npm dependencies or build output.
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local renders and large recordings are distributed separately.
+rendered/
+rendered-warm/
+dist/audio/*
+!dist/audio/README.md
+dist/downloads/
+
+# Local hosting identity and credentials do not belong in the public source.
+.openai/
+.env
+.env.*
+.sites-checkout/
+.sites-runtime/
+
+# Reproducible video timelines; distributed in the video download
+video/Cues/
+# Synchronization intermediates are never project content
+.*.??????
+
+# Outputs of the archived composition and production tools
+music/**/work/
+music/**/audio/
+music/**/releases/
+**/.*.??????.*

@@ -1,0 +1,15 @@
+{
+  "id": "SID-06",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 6,
+  "engine": "sid",
+  "title": "Fenster ohne Schlaf",
+  "duration_seconds": 177.411768707483,
+  "bpm": 136,
+  "key": "a-Moll",
+  "wav_peak_dbfs": -4.65,
+  "mp3_lufs": "-16.76",
+  "mp3_true_peak_dbtp": "-4.90",
+  "mp3_lra": "4.00",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

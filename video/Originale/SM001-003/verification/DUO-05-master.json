@@ -1,0 +1,15 @@
+{
+  "id": "DUO-05",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 5,
+  "engine": "duo",
+  "title": "Gemeinsam um drei",
+  "duration_seconds": 243.7894784580499,
+  "bpm": 114,
+  "key": "a-Dorisch",
+  "wav_peak_dbfs": -1.74,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-1.96",
+  "mp3_lra": "4.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

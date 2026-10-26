@@ -1,0 +1,21 @@
+{
+  "stopBoundaryJump": 0,
+  "settlesToSilence": true,
+  "albums": {
+    "sid": {
+      "tracks": 8,
+      "new": 6,
+      "seconds": 1681.9109265609763
+    },
+    "paula": {
+      "tracks": 8,
+      "new": 6,
+      "seconds": 1711.5579339145258
+    },
+    "duo": {
+      "tracks": 8,
+      "new": 5,
+      "seconds": 1702.9189947636373
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-02",
+  "album": "Diskettenblumen",
+  "track": 2,
+  "engine": "paula",
+  "title": "Diskettenblumen",
+  "duration_seconds": 123.36365079365079,
+  "bpm": 132,
+  "key": "c-Moll",
+  "wav_peak_dbfs": -1.5,
+  "mp3_lufs": "-16.27",
+  "mp3_true_peak_dbtp": "-1.75",
+  "mp3_lra": "2.90",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

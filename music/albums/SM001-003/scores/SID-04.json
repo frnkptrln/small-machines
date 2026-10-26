@@ -1,0 +1,3054 @@
+{
+  "format": "small-machines-solo-composition",
+  "version": 1,
+  "engine": "sid",
+  "track": 4,
+  "id": "SID-04",
+  "title": "Ein Bit von dir",
+  "bpm": 80,
+  "bars": 48,
+  "swing": 0.055,
+  "key": "h-Moll / D-Dur",
+  "description": "Ein stilles Trio: eine Dreiecksmelodie, tiefe gehaltene Töne und kleine Pulse, die sich im Mittelteil zu einer zweiten Melodie öffnen.",
+  "rate": 44100,
+  "tail": 7,
+  "voices": [
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 4,
+      "decay": 9,
+      "sustain": 6,
+      "release": 9,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 5,
+      "decay": 8,
+      "sustain": 7,
+      "release": 10,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 64,
+      "pw": 38,
+      "attack": 1,
+      "decay": 8,
+      "sustain": 0,
+      "release": 6,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ein erster Ton",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "name": "Nachricht",
+      "start": 8,
+      "end": 20
+    },
+    {
+      "name": "Antwort",
+      "start": 20,
+      "end": 32
+    },
+    {
+      "name": "Nähe",
+      "start": 32,
+      "end": 40
+    },
+    {
+      "name": "Bleibt offen",
+      "start": 40,
+      "end": 48
+    }
+  ],
+  "mix": {
+    "sid": 0.8,
+    "paula": 0,
+    "width": 72,
+    "sidechain": 0,
+    "fadeIn": 2.5,
+    "fadeOut": 6,
+    "reverb": 0.14,
+    "roomSeconds": 2.1,
+    "echo": 23,
+    "lufs": -18
+  },
+  "events": [
+    {
+      "at": 0,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 50,
+      "id": 0
+    },
+    {
+      "at": 0,
+      "type": "sid",
+      "voice": 1,
+      "note": 47,
+      "gate": 27,
+      "id": 1
+    },
+    {
+      "at": 1,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 2
+    },
+    {
+      "at": 5,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 3
+    },
+    {
+      "at": 9,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 4
+    },
+    {
+      "at": 13,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 5
+    },
+    {
+      "at": 16,
+      "type": "tone",
+      "cutoff": 1316,
+      "paulaFilter": 50,
+      "id": 6
+    },
+    {
+      "at": 17,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 7
+    },
+    {
+      "at": 19,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 6,
+      "id": 8
+    },
+    {
+      "at": 21,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 9
+    },
+    {
+      "at": 25,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 10
+    },
+    {
+      "at": 29,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 11
+    },
+    {
+      "at": 32,
+      "type": "tone",
+      "cutoff": 1332,
+      "paulaFilter": 50,
+      "id": 12
+    },
+    {
+      "at": 32,
+      "type": "sid",
+      "voice": 1,
+      "note": 43,
+      "gate": 27,
+      "id": 13
+    },
+    {
+      "at": 33,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 14
+    },
+    {
+      "at": 37,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 15
+    },
+    {
+      "at": 41,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 16
+    },
+    {
+      "at": 45,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 17
+    },
+    {
+      "at": 48,
+      "type": "tone",
+      "cutoff": 1348,
+      "paulaFilter": 50,
+      "id": 18
+    },
+    {
+      "at": 49,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 19
+    },
+    {
+      "at": 51,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 6,
+      "id": 20
+    },
+    {
+      "at": 53,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 21
+    },
+    {
+      "at": 57,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 22
+    },
+    {
+      "at": 61,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 23
+    },
+    {
+      "at": 64,
+      "type": "tone",
+      "cutoff": 1364,
+      "paulaFilter": 50,
+      "id": 24
+    },
+    {
+      "at": 64,
+      "type": "sid",
+      "voice": 1,
+      "note": 50,
+      "gate": 27,
+      "id": 25
+    },
+    {
+      "at": 65,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 26
+    },
+    {
+      "at": 69,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 27
+    },
+    {
+      "at": 73,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 28
+    },
+    {
+      "at": 77,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 29
+    },
+    {
+      "at": 80,
+      "type": "tone",
+      "cutoff": 1380,
+      "paulaFilter": 50,
+      "id": 30
+    },
+    {
+      "at": 81,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 31
+    },
+    {
+      "at": 83,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 6,
+      "id": 32
+    },
+    {
+      "at": 85,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 33
+    },
+    {
+      "at": 89,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 34
+    },
+    {
+      "at": 93,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 35
+    },
+    {
+      "at": 96,
+      "type": "tone",
+      "cutoff": 1396,
+      "paulaFilter": 50,
+      "id": 36
+    },
+    {
+      "at": 96,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 37
+    },
+    {
+      "at": 97,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 38
+    },
+    {
+      "at": 101,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 2.2,
+      "id": 39
+    },
+    {
+      "at": 105,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 2.2,
+      "id": 40
+    },
+    {
+      "at": 109,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 41
+    },
+    {
+      "at": 112,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 50,
+      "id": 42
+    },
+    {
+      "at": 113,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 2.2,
+      "id": 43
+    },
+    {
+      "at": 115,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 6,
+      "id": 44
+    },
+    {
+      "at": 117,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 45
+    },
+    {
+      "at": 121,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 46
+    },
+    {
+      "at": 125,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 2.2,
+      "id": 47
+    },
+    {
+      "at": 128,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 50,
+      "id": 48
+    },
+    {
+      "at": 128,
+      "type": "sid",
+      "voice": 1,
+      "note": 47,
+      "gate": 27,
+      "id": 49
+    },
+    {
+      "at": 129,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 50
+    },
+    {
+      "at": 129,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 5,
+      "id": 51
+    },
+    {
+      "at": 133,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 52
+    },
+    {
+      "at": 137,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 53
+    },
+    {
+      "at": 137,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 54
+    },
+    {
+      "at": 141,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 55
+    },
+    {
+      "at": 144,
+      "type": "tone",
+      "cutoff": 1316,
+      "paulaFilter": 50,
+      "id": 56
+    },
+    {
+      "at": 144,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 57
+    },
+    {
+      "at": 145,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 58
+    },
+    {
+      "at": 149,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 59
+    },
+    {
+      "at": 153,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 60
+    },
+    {
+      "at": 154,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 3,
+      "id": 61
+    },
+    {
+      "at": 157,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 62
+    },
+    {
+      "at": 160,
+      "type": "tone",
+      "cutoff": 1332,
+      "paulaFilter": 50,
+      "id": 63
+    },
+    {
+      "at": 160,
+      "type": "sid",
+      "voice": 1,
+      "note": 43,
+      "gate": 27,
+      "id": 64
+    },
+    {
+      "at": 160,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 65
+    },
+    {
+      "at": 161,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 66
+    },
+    {
+      "at": 165,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 67
+    },
+    {
+      "at": 166,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 3,
+      "id": 68
+    },
+    {
+      "at": 169,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 69
+    },
+    {
+      "at": 172,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 3,
+      "id": 70
+    },
+    {
+      "at": 173,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 71
+    },
+    {
+      "at": 176,
+      "type": "tone",
+      "cutoff": 1348,
+      "paulaFilter": 50,
+      "id": 72
+    },
+    {
+      "at": 177,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 73
+    },
+    {
+      "at": 178,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 74
+    },
+    {
+      "at": 181,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 75
+    },
+    {
+      "at": 185,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 76
+    },
+    {
+      "at": 186,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 77
+    },
+    {
+      "at": 189,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 78
+    },
+    {
+      "at": 192,
+      "type": "tone",
+      "cutoff": 1364,
+      "paulaFilter": 50,
+      "id": 79
+    },
+    {
+      "at": 192,
+      "type": "sid",
+      "voice": 1,
+      "note": 50,
+      "gate": 27,
+      "id": 80
+    },
+    {
+      "at": 192,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 5,
+      "id": 81
+    },
+    {
+      "at": 193,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 82
+    },
+    {
+      "at": 197,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 83
+    },
+    {
+      "at": 201,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 84
+    },
+    {
+      "at": 201,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 4,
+      "id": 85
+    },
+    {
+      "at": 205,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 86
+    },
+    {
+      "at": 208,
+      "type": "tone",
+      "cutoff": 1380,
+      "paulaFilter": 50,
+      "id": 87
+    },
+    {
+      "at": 209,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 88
+    },
+    {
+      "at": 209,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 5,
+      "id": 89
+    },
+    {
+      "at": 213,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 90
+    },
+    {
+      "at": 217,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 91
+    },
+    {
+      "at": 218,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 3,
+      "id": 92
+    },
+    {
+      "at": 221,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 93
+    },
+    {
+      "at": 224,
+      "type": "tone",
+      "cutoff": 1396,
+      "paulaFilter": 50,
+      "id": 94
+    },
+    {
+      "at": 224,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 95
+    },
+    {
+      "at": 224,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 96
+    },
+    {
+      "at": 225,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 97
+    },
+    {
+      "at": 229,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 2.2,
+      "id": 98
+    },
+    {
+      "at": 233,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 2.2,
+      "id": 99
+    },
+    {
+      "at": 234,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 100
+    },
+    {
+      "at": 237,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 101
+    },
+    {
+      "at": 240,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 50,
+      "id": 102
+    },
+    {
+      "at": 240,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 103
+    },
+    {
+      "at": 241,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 2.2,
+      "id": 104
+    },
+    {
+      "at": 245,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 105
+    },
+    {
+      "at": 247,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 106
+    },
+    {
+      "at": 249,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 107
+    },
+    {
+      "at": 253,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 2.2,
+      "id": 108
+    },
+    {
+      "at": 253,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 2,
+      "id": 109
+    },
+    {
+      "at": 256,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 50,
+      "id": 110
+    },
+    {
+      "at": 256,
+      "type": "sid",
+      "voice": 1,
+      "note": 47,
+      "gate": 27,
+      "id": 111
+    },
+    {
+      "at": 257,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 112
+    },
+    {
+      "at": 257,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 5,
+      "id": 113
+    },
+    {
+      "at": 261,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 114
+    },
+    {
+      "at": 265,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 115
+    },
+    {
+      "at": 265,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 116
+    },
+    {
+      "at": 269,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 117
+    },
+    {
+      "at": 272,
+      "type": "tone",
+      "cutoff": 1316,
+      "paulaFilter": 50,
+      "id": 118
+    },
+    {
+      "at": 272,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 119
+    },
+    {
+      "at": 273,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 120
+    },
+    {
+      "at": 277,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 121
+    },
+    {
+      "at": 281,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 122
+    },
+    {
+      "at": 282,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 3,
+      "id": 123
+    },
+    {
+      "at": 285,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 124
+    },
+    {
+      "at": 288,
+      "type": "tone",
+      "cutoff": 1332,
+      "paulaFilter": 50,
+      "id": 125
+    },
+    {
+      "at": 288,
+      "type": "sid",
+      "voice": 1,
+      "note": 43,
+      "gate": 27,
+      "id": 126
+    },
+    {
+      "at": 288,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 127
+    },
+    {
+      "at": 289,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 128
+    },
+    {
+      "at": 293,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 129
+    },
+    {
+      "at": 294,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 3,
+      "id": 130
+    },
+    {
+      "at": 297,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 131
+    },
+    {
+      "at": 300,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 3,
+      "id": 132
+    },
+    {
+      "at": 301,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 133
+    },
+    {
+      "at": 304,
+      "type": "tone",
+      "cutoff": 1348,
+      "paulaFilter": 50,
+      "id": 134
+    },
+    {
+      "at": 305,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 135
+    },
+    {
+      "at": 306,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 136
+    },
+    {
+      "at": 309,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 137
+    },
+    {
+      "at": 313,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 138
+    },
+    {
+      "at": 314,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 139
+    },
+    {
+      "at": 317,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 140
+    },
+    {
+      "at": 320,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 141
+    },
+    {
+      "at": 320,
+      "type": "sid",
+      "voice": 1,
+      "note": 50,
+      "gate": 27,
+      "id": 142
+    },
+    {
+      "at": 320,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 143
+    },
+    {
+      "at": 320,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 5,
+      "id": 144
+    },
+    {
+      "at": 323,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 145
+    },
+    {
+      "at": 326,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 146
+    },
+    {
+      "at": 329,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 147
+    },
+    {
+      "at": 329,
+      "type": "sid",
+      "voice": 0,
+      "note": 64,
+      "gate": 4,
+      "id": 148
+    },
+    {
+      "at": 332,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 149
+    },
+    {
+      "at": 335,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 150
+    },
+    {
+      "at": 336,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 151
+    },
+    {
+      "at": 336,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 152
+    },
+    {
+      "at": 337,
+      "type": "sid",
+      "voice": 0,
+      "note": 62,
+      "gate": 5,
+      "id": 153
+    },
+    {
+      "at": 339,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 154
+    },
+    {
+      "at": 342,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 155
+    },
+    {
+      "at": 343,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.5,
+      "id": 156
+    },
+    {
+      "at": 345,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 157
+    },
+    {
+      "at": 346,
+      "type": "sid",
+      "voice": 0,
+      "note": 61,
+      "gate": 3,
+      "id": 158
+    },
+    {
+      "at": 348,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 159
+    },
+    {
+      "at": 348,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 3,
+      "id": 160
+    },
+    {
+      "at": 351,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 161
+    },
+    {
+      "at": 352,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 162
+    },
+    {
+      "at": 352,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 163
+    },
+    {
+      "at": 352,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 164
+    },
+    {
+      "at": 352,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 165
+    },
+    {
+      "at": 355,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 1.4,
+      "id": 166
+    },
+    {
+      "at": 358,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 1.4,
+      "id": 167
+    },
+    {
+      "at": 361,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 1.4,
+      "id": 168
+    },
+    {
+      "at": 362,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 169
+    },
+    {
+      "at": 364,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 170
+    },
+    {
+      "at": 367,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 1.4,
+      "id": 171
+    },
+    {
+      "at": 368,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 172
+    },
+    {
+      "at": 368,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 1.4,
+      "id": 173
+    },
+    {
+      "at": 368,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 174
+    },
+    {
+      "at": 371,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 1.4,
+      "id": 175
+    },
+    {
+      "at": 374,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 176
+    },
+    {
+      "at": 375,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 177
+    },
+    {
+      "at": 375,
+      "type": "sid",
+      "voice": 2,
+      "note": 83,
+      "gate": 2.5,
+      "id": 178
+    },
+    {
+      "at": 377,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 1.4,
+      "id": 179
+    },
+    {
+      "at": 380,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 1.4,
+      "id": 180
+    },
+    {
+      "at": 380,
+      "type": "sid",
+      "voice": 2,
+      "note": 76,
+      "gate": 3,
+      "id": 181
+    },
+    {
+      "at": 381,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 2,
+      "id": 182
+    },
+    {
+      "at": 383,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 1.4,
+      "id": 183
+    },
+    {
+      "at": 384,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 184
+    },
+    {
+      "at": 384,
+      "type": "sid",
+      "voice": 1,
+      "note": 47,
+      "gate": 27,
+      "id": 185
+    },
+    {
+      "at": 384,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 1.4,
+      "id": 186
+    },
+    {
+      "at": 385,
+      "type": "sid",
+      "voice": 0,
+      "note": 62,
+      "gate": 5,
+      "id": 187
+    },
+    {
+      "at": 387,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 188
+    },
+    {
+      "at": 390,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 189
+    },
+    {
+      "at": 393,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 1.4,
+      "id": 190
+    },
+    {
+      "at": 393,
+      "type": "sid",
+      "voice": 0,
+      "note": 61,
+      "gate": 4,
+      "id": 191
+    },
+    {
+      "at": 396,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 1.4,
+      "id": 192
+    },
+    {
+      "at": 399,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 193
+    },
+    {
+      "at": 400,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 194
+    },
+    {
+      "at": 400,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 195
+    },
+    {
+      "at": 400,
+      "type": "sid",
+      "voice": 0,
+      "note": 59,
+      "gate": 6,
+      "id": 196
+    },
+    {
+      "at": 403,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 1.4,
+      "id": 197
+    },
+    {
+      "at": 406,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 1.4,
+      "id": 198
+    },
+    {
+      "at": 407,
+      "type": "sid",
+      "voice": 2,
+      "note": 85,
+      "gate": 2.5,
+      "id": 199
+    },
+    {
+      "at": 409,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 200
+    },
+    {
+      "at": 410,
+      "type": "sid",
+      "voice": 0,
+      "note": 54,
+      "gate": 3,
+      "id": 201
+    },
+    {
+      "at": 412,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 202
+    },
+    {
+      "at": 412,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 3,
+      "id": 203
+    },
+    {
+      "at": 415,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 1.4,
+      "id": 204
+    },
+    {
+      "at": 416,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 205
+    },
+    {
+      "at": 416,
+      "type": "sid",
+      "voice": 1,
+      "note": 43,
+      "gate": 27,
+      "id": 206
+    },
+    {
+      "at": 416,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 1.4,
+      "id": 207
+    },
+    {
+      "at": 416,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 208
+    },
+    {
+      "at": 419,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 209
+    },
+    {
+      "at": 422,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 210
+    },
+    {
+      "at": 422,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 3,
+      "id": 211
+    },
+    {
+      "at": 425,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 212
+    },
+    {
+      "at": 428,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 1.4,
+      "id": 213
+    },
+    {
+      "at": 428,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 3,
+      "id": 214
+    },
+    {
+      "at": 431,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 215
+    },
+    {
+      "at": 432,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 216
+    },
+    {
+      "at": 432,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 217
+    },
+    {
+      "at": 434,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 218
+    },
+    {
+      "at": 435,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 219
+    },
+    {
+      "at": 438,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 1.4,
+      "id": 220
+    },
+    {
+      "at": 439,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.5,
+      "id": 221
+    },
+    {
+      "at": 441,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 222
+    },
+    {
+      "at": 442,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 223
+    },
+    {
+      "at": 444,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 224
+    },
+    {
+      "at": 444,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 3,
+      "id": 225
+    },
+    {
+      "at": 447,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 226
+    },
+    {
+      "at": 448,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 227
+    },
+    {
+      "at": 448,
+      "type": "sid",
+      "voice": 1,
+      "note": 50,
+      "gate": 27,
+      "id": 228
+    },
+    {
+      "at": 448,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 229
+    },
+    {
+      "at": 448,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 5,
+      "id": 230
+    },
+    {
+      "at": 451,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 231
+    },
+    {
+      "at": 454,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 232
+    },
+    {
+      "at": 457,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 233
+    },
+    {
+      "at": 457,
+      "type": "sid",
+      "voice": 0,
+      "note": 64,
+      "gate": 4,
+      "id": 234
+    },
+    {
+      "at": 460,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 235
+    },
+    {
+      "at": 463,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 236
+    },
+    {
+      "at": 464,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 237
+    },
+    {
+      "at": 464,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 238
+    },
+    {
+      "at": 465,
+      "type": "sid",
+      "voice": 0,
+      "note": 62,
+      "gate": 5,
+      "id": 239
+    },
+    {
+      "at": 467,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 240
+    },
+    {
+      "at": 470,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 241
+    },
+    {
+      "at": 471,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.5,
+      "id": 242
+    },
+    {
+      "at": 473,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 1.4,
+      "id": 243
+    },
+    {
+      "at": 474,
+      "type": "sid",
+      "voice": 0,
+      "note": 61,
+      "gate": 3,
+      "id": 244
+    },
+    {
+      "at": 476,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 1.4,
+      "id": 245
+    },
+    {
+      "at": 476,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 3,
+      "id": 246
+    },
+    {
+      "at": 479,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 1.4,
+      "id": 247
+    },
+    {
+      "at": 480,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 248
+    },
+    {
+      "at": 480,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 249
+    },
+    {
+      "at": 480,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 250
+    },
+    {
+      "at": 480,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 251
+    },
+    {
+      "at": 483,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 1.4,
+      "id": 252
+    },
+    {
+      "at": 486,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 1.4,
+      "id": 253
+    },
+    {
+      "at": 489,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 1.4,
+      "id": 254
+    },
+    {
+      "at": 490,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 255
+    },
+    {
+      "at": 492,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 256
+    },
+    {
+      "at": 495,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 1.4,
+      "id": 257
+    },
+    {
+      "at": 496,
+      "type": "tone",
+      "cutoff": 1590,
+      "paulaFilter": 50,
+      "id": 258
+    },
+    {
+      "at": 496,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 1.4,
+      "id": 259
+    },
+    {
+      "at": 496,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 260
+    },
+    {
+      "at": 499,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 1.4,
+      "id": 261
+    },
+    {
+      "at": 502,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 1.4,
+      "id": 262
+    },
+    {
+      "at": 503,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 263
+    },
+    {
+      "at": 503,
+      "type": "sid",
+      "voice": 2,
+      "note": 83,
+      "gate": 2.5,
+      "id": 264
+    },
+    {
+      "at": 505,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 1.4,
+      "id": 265
+    },
+    {
+      "at": 508,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 1.4,
+      "id": 266
+    },
+    {
+      "at": 508,
+      "type": "sid",
+      "voice": 2,
+      "note": 76,
+      "gate": 3,
+      "id": 267
+    },
+    {
+      "at": 509,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 2,
+      "id": 268
+    },
+    {
+      "at": 511,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 1.4,
+      "id": 269
+    },
+    {
+      "at": 512,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 270
+    },
+    {
+      "at": 512,
+      "type": "sid",
+      "voice": 1,
+      "note": 47,
+      "gate": 27,
+      "id": 271
+    },
+    {
+      "at": 513,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 272
+    },
+    {
+      "at": 513,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 5,
+      "id": 273
+    },
+    {
+      "at": 517,
+      "type": "sid",
+      "voice": 2,
+      "note": 74,
+      "gate": 2.2,
+      "id": 274
+    },
+    {
+      "at": 521,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 2.2,
+      "id": 275
+    },
+    {
+      "at": 521,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 276
+    },
+    {
+      "at": 525,
+      "type": "sid",
+      "voice": 2,
+      "note": 85,
+      "gate": 2.2,
+      "id": 277
+    },
+    {
+      "at": 528,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 278
+    },
+    {
+      "at": 528,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 279
+    },
+    {
+      "at": 529,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 2.2,
+      "id": 280
+    },
+    {
+      "at": 533,
+      "type": "sid",
+      "voice": 2,
+      "note": 85,
+      "gate": 2.2,
+      "id": 281
+    },
+    {
+      "at": 537,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 282
+    },
+    {
+      "at": 538,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 3,
+      "id": 283
+    },
+    {
+      "at": 541,
+      "type": "sid",
+      "voice": 2,
+      "note": 74,
+      "gate": 2.2,
+      "id": 284
+    },
+    {
+      "at": 544,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 285
+    },
+    {
+      "at": 544,
+      "type": "sid",
+      "voice": 1,
+      "note": 43,
+      "gate": 27,
+      "id": 286
+    },
+    {
+      "at": 544,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 287
+    },
+    {
+      "at": 545,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 288
+    },
+    {
+      "at": 549,
+      "type": "sid",
+      "voice": 2,
+      "note": 74,
+      "gate": 2.2,
+      "id": 289
+    },
+    {
+      "at": 550,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 3,
+      "id": 290
+    },
+    {
+      "at": 553,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 2.2,
+      "id": 291
+    },
+    {
+      "at": 556,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 3,
+      "id": 292
+    },
+    {
+      "at": 557,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.2,
+      "id": 293
+    },
+    {
+      "at": 560,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 294
+    },
+    {
+      "at": 561,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 2.2,
+      "id": 295
+    },
+    {
+      "at": 562,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 296
+    },
+    {
+      "at": 565,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.2,
+      "id": 297
+    },
+    {
+      "at": 569,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 298
+    },
+    {
+      "at": 570,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 299
+    },
+    {
+      "at": 573,
+      "type": "sid",
+      "voice": 2,
+      "note": 74,
+      "gate": 2.2,
+      "id": 300
+    },
+    {
+      "at": 576,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 301
+    },
+    {
+      "at": 576,
+      "type": "sid",
+      "voice": 1,
+      "note": 50,
+      "gate": 27,
+      "id": 302
+    },
+    {
+      "at": 576,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 5,
+      "id": 303
+    },
+    {
+      "at": 577,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 304
+    },
+    {
+      "at": 581,
+      "type": "sid",
+      "voice": 2,
+      "note": 74,
+      "gate": 2.2,
+      "id": 305
+    },
+    {
+      "at": 585,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 2.2,
+      "id": 306
+    },
+    {
+      "at": 585,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 4,
+      "id": 307
+    },
+    {
+      "at": 589,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.2,
+      "id": 308
+    },
+    {
+      "at": 592,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 309
+    },
+    {
+      "at": 593,
+      "type": "sid",
+      "voice": 2,
+      "note": 78,
+      "gate": 2.2,
+      "id": 310
+    },
+    {
+      "at": 593,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 5,
+      "id": 311
+    },
+    {
+      "at": 597,
+      "type": "sid",
+      "voice": 2,
+      "note": 81,
+      "gate": 2.2,
+      "id": 312
+    },
+    {
+      "at": 601,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 313
+    },
+    {
+      "at": 602,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 3,
+      "id": 314
+    },
+    {
+      "at": 605,
+      "type": "sid",
+      "voice": 2,
+      "note": 74,
+      "gate": 2.2,
+      "id": 315
+    },
+    {
+      "at": 608,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 316
+    },
+    {
+      "at": 608,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 317
+    },
+    {
+      "at": 608,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 318
+    },
+    {
+      "at": 609,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 319
+    },
+    {
+      "at": 613,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 320
+    },
+    {
+      "at": 617,
+      "type": "sid",
+      "voice": 2,
+      "note": 76,
+      "gate": 2.2,
+      "id": 321
+    },
+    {
+      "at": 618,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 322
+    },
+    {
+      "at": 621,
+      "type": "sid",
+      "voice": 2,
+      "note": 83,
+      "gate": 2.2,
+      "id": 323
+    },
+    {
+      "at": 624,
+      "type": "tone",
+      "cutoff": 1680,
+      "paulaFilter": 50,
+      "id": 324
+    },
+    {
+      "at": 624,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 325
+    },
+    {
+      "at": 625,
+      "type": "sid",
+      "voice": 2,
+      "note": 76,
+      "gate": 2.2,
+      "id": 326
+    },
+    {
+      "at": 629,
+      "type": "sid",
+      "voice": 2,
+      "note": 83,
+      "gate": 2.2,
+      "id": 327
+    },
+    {
+      "at": 631,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 328
+    },
+    {
+      "at": 633,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 329
+    },
+    {
+      "at": 637,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 330
+    },
+    {
+      "at": 637,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 2,
+      "id": 331
+    },
+    {
+      "at": 640,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 50,
+      "id": 332
+    },
+    {
+      "at": 640,
+      "type": "sid",
+      "voice": 1,
+      "note": 47,
+      "gate": 27,
+      "id": 333
+    },
+    {
+      "at": 641,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 5,
+      "id": 334
+    },
+    {
+      "at": 642,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 335
+    },
+    {
+      "at": 649,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 336
+    },
+    {
+      "at": 650,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 337
+    },
+    {
+      "at": 656,
+      "type": "tone",
+      "cutoff": 1316,
+      "paulaFilter": 50,
+      "id": 338
+    },
+    {
+      "at": 656,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 6,
+      "id": 339
+    },
+    {
+      "at": 658,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 340
+    },
+    {
+      "at": 666,
+      "type": "sid",
+      "voice": 2,
+      "note": 73,
+      "gate": 2.2,
+      "id": 341
+    },
+    {
+      "at": 666,
+      "type": "sid",
+      "voice": 0,
+      "note": 66,
+      "gate": 3,
+      "id": 342
+    },
+    {
+      "at": 672,
+      "type": "tone",
+      "cutoff": 1332,
+      "paulaFilter": 50,
+      "id": 343
+    },
+    {
+      "at": 672,
+      "type": "sid",
+      "voice": 1,
+      "note": 43,
+      "gate": 27,
+      "id": 344
+    },
+    {
+      "at": 672,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 345
+    },
+    {
+      "at": 674,
+      "type": "sid",
+      "voice": 2,
+      "note": 59,
+      "gate": 2.2,
+      "id": 346
+    },
+    {
+      "at": 678,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 3,
+      "id": 347
+    },
+    {
+      "at": 682,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 348
+    },
+    {
+      "at": 684,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 3,
+      "id": 349
+    },
+    {
+      "at": 688,
+      "type": "tone",
+      "cutoff": 1348,
+      "paulaFilter": 50,
+      "id": 350
+    },
+    {
+      "at": 690,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 351
+    },
+    {
+      "at": 690,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 352
+    },
+    {
+      "at": 698,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 353
+    },
+    {
+      "at": 698,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 4,
+      "id": 354
+    },
+    {
+      "at": 704,
+      "type": "tone",
+      "cutoff": 1364,
+      "paulaFilter": 50,
+      "id": 355
+    },
+    {
+      "at": 704,
+      "type": "sid",
+      "voice": 1,
+      "note": 50,
+      "gate": 27,
+      "id": 356
+    },
+    {
+      "at": 704,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 6,
+      "id": 357
+    },
+    {
+      "at": 706,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 358
+    },
+    {
+      "at": 713,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 359
+    },
+    {
+      "at": 714,
+      "type": "sid",
+      "voice": 2,
+      "note": 62,
+      "gate": 2.2,
+      "id": 360
+    },
+    {
+      "at": 720,
+      "type": "tone",
+      "cutoff": 1380,
+      "paulaFilter": 50,
+      "id": 361
+    },
+    {
+      "at": 722,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 2.2,
+      "id": 362
+    },
+    {
+      "at": 730,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 2.2,
+      "id": 363
+    },
+    {
+      "at": 736,
+      "type": "tone",
+      "cutoff": 1396,
+      "paulaFilter": 50,
+      "id": 364
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 365
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 0,
+      "note": 74,
+      "gate": 23,
+      "id": 366
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 1,
+      "note": 38,
+      "gate": 27,
+      "id": 367
+    },
+    {
+      "at": 738,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 2.2,
+      "id": 368
+    },
+    {
+      "at": 740,
+      "type": "sid",
+      "voice": 2,
+      "note": 66,
+      "gate": 7,
+      "id": 369
+    },
+    {
+      "at": 746,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 2.2,
+      "id": 370
+    },
+    {
+      "at": 748,
+      "type": "sid",
+      "voice": 2,
+      "note": 69,
+      "gate": 8,
+      "id": 371
+    },
+    {
+      "at": 752,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 50,
+      "id": 372
+    },
+    {
+      "at": 754,
+      "type": "sid",
+      "voice": 2,
+      "note": 64,
+      "gate": 2.2,
+      "id": 373
+    },
+    {
+      "at": 760,
+      "type": "sid",
+      "voice": 2,
+      "note": 76,
+      "gate": 6,
+      "id": 374
+    },
+    {
+      "at": 762,
+      "type": "sid",
+      "voice": 2,
+      "note": 71,
+      "gate": 2.2,
+      "id": 375
+    }
+  ],
+  "album": "Drei Stimmen, eine Stadt",
+  "origin": "existing composition; album recording",
+  "recording_revision": 3
+}

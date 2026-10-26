@@ -1,0 +1,10746 @@
+{
+  "format": "small-machines-solo-composition",
+  "version": 1,
+  "engine": "paula",
+  "track": 2,
+  "id": "PAULA-02-Diskettenblumen",
+  "title": "Diskettenblumen",
+  "bpm": 132,
+  "bars": 64,
+  "swing": 0.025,
+  "key": "c-Moll",
+  "description": "Ein lebhaftes Tracker-Stück: Marimba-Fragen, gläserne Antworten, ein beweglicher Samplebass und ein ruhiger Zwischenraum.",
+  "rate": 44100,
+  "tail": 7,
+  "voices": [
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 0,
+      "decay": 0,
+      "sustain": 0,
+      "release": 0,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 0,
+      "decay": 0,
+      "sustain": 0,
+      "release": 0,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 0,
+      "decay": 0,
+      "sustain": 0,
+      "release": 0,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "Laufwerk",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "name": "Blüten",
+      "start": 8,
+      "end": 24
+    },
+    {
+      "name": "Alles offen",
+      "start": 24,
+      "end": 32
+    },
+    {
+      "name": "Zwischenraum",
+      "start": 32,
+      "end": 40
+    },
+    {
+      "name": "Noch einmal Sommer",
+      "start": 40,
+      "end": 56
+    },
+    {
+      "name": "Auswerfen",
+      "start": 56,
+      "end": 64
+    }
+  ],
+  "mix": {
+    "sid": 0,
+    "paula": 1.5,
+    "width": 85,
+    "sidechain": 0,
+    "fadeIn": 0.8,
+    "fadeOut": 4,
+    "reverb": 0.085,
+    "roomSeconds": 1.1,
+    "echo": 15,
+    "lufs": -16
+  },
+  "events": [
+    {
+      "at": 0,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 0
+    },
+    {
+      "at": 0,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 72,
+      "volume": 29,
+      "id": 1
+    },
+    {
+      "at": 7,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 79,
+      "volume": 29,
+      "id": 2
+    },
+    {
+      "at": 16,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 3
+    },
+    {
+      "at": 32,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 4
+    },
+    {
+      "at": 32,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 5
+    },
+    {
+      "at": 32,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 72,
+      "volume": 29,
+      "id": 6
+    },
+    {
+      "at": 35,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 7
+    },
+    {
+      "at": 38,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 8
+    },
+    {
+      "at": 39,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 79,
+      "volume": 29,
+      "id": 9
+    },
+    {
+      "at": 40,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 10
+    },
+    {
+      "at": 43,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 11
+    },
+    {
+      "at": 46,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 12
+    },
+    {
+      "at": 48,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 13
+    },
+    {
+      "at": 48,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 14
+    },
+    {
+      "at": 51,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 15
+    },
+    {
+      "at": 54,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 16
+    },
+    {
+      "at": 56,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 17
+    },
+    {
+      "at": 59,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 18
+    },
+    {
+      "at": 62,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 19
+    },
+    {
+      "at": 64,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 20
+    },
+    {
+      "at": 64,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 21
+    },
+    {
+      "at": 64,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 70,
+      "volume": 29,
+      "id": 22
+    },
+    {
+      "at": 64,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 23
+    },
+    {
+      "at": 66,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 24
+    },
+    {
+      "at": 67,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 25
+    },
+    {
+      "at": 68,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 26
+    },
+    {
+      "at": 70,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 27
+    },
+    {
+      "at": 70,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 28
+    },
+    {
+      "at": 71,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 79,
+      "volume": 29,
+      "id": 29
+    },
+    {
+      "at": 72,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 30
+    },
+    {
+      "at": 72,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 31
+    },
+    {
+      "at": 74,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 32
+    },
+    {
+      "at": 75,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 33
+    },
+    {
+      "at": 76,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 34
+    },
+    {
+      "at": 78,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 35
+    },
+    {
+      "at": 78,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 36
+    },
+    {
+      "at": 80,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 37
+    },
+    {
+      "at": 80,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 38
+    },
+    {
+      "at": 80,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 39
+    },
+    {
+      "at": 82,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 40
+    },
+    {
+      "at": 83,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 41
+    },
+    {
+      "at": 84,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 42
+    },
+    {
+      "at": 86,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 43
+    },
+    {
+      "at": 86,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 44
+    },
+    {
+      "at": 88,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 45
+    },
+    {
+      "at": 88,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 46
+    },
+    {
+      "at": 90,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 47
+    },
+    {
+      "at": 91,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 48
+    },
+    {
+      "at": 92,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 49
+    },
+    {
+      "at": 94,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 50
+    },
+    {
+      "at": 94,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 51
+    },
+    {
+      "at": 96,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 52
+    },
+    {
+      "at": 96,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 53
+    },
+    {
+      "at": 96,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 70,
+      "volume": 29,
+      "id": 54
+    },
+    {
+      "at": 96,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 55
+    },
+    {
+      "at": 98,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 56
+    },
+    {
+      "at": 99,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 57
+    },
+    {
+      "at": 100,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 58
+    },
+    {
+      "at": 102,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 59
+    },
+    {
+      "at": 102,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 60
+    },
+    {
+      "at": 103,
+      "type": "paula",
+      "voice": 1,
+      "sample": "music-box",
+      "note": 77,
+      "volume": 29,
+      "id": 61
+    },
+    {
+      "at": 104,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 62
+    },
+    {
+      "at": 104,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 63
+    },
+    {
+      "at": 106,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 64
+    },
+    {
+      "at": 107,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 65
+    },
+    {
+      "at": 108,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 66
+    },
+    {
+      "at": 110,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 67
+    },
+    {
+      "at": 110,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 68
+    },
+    {
+      "at": 112,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 69
+    },
+    {
+      "at": 112,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 70
+    },
+    {
+      "at": 112,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 71
+    },
+    {
+      "at": 114,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 72
+    },
+    {
+      "at": 115,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 73
+    },
+    {
+      "at": 116,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 74
+    },
+    {
+      "at": 118,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 75
+    },
+    {
+      "at": 118,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 76
+    },
+    {
+      "at": 120,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 77
+    },
+    {
+      "at": 120,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 78
+    },
+    {
+      "at": 122,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 79
+    },
+    {
+      "at": 123,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 80
+    },
+    {
+      "at": 124,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 81
+    },
+    {
+      "at": 124,
+      "type": "paula",
+      "voice": 3,
+      "sample": "riser",
+      "note": 60,
+      "volume": 24,
+      "id": 82
+    },
+    {
+      "at": 125,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 45,
+      "volume": 30,
+      "id": 83
+    },
+    {
+      "at": 126,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 84
+    },
+    {
+      "at": 126,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 85
+    },
+    {
+      "at": 126,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 48,
+      "volume": 33,
+      "id": 86
+    },
+    {
+      "at": 127,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 51,
+      "volume": 36,
+      "id": 87
+    },
+    {
+      "at": 128,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 88
+    },
+    {
+      "at": 128,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 89
+    },
+    {
+      "at": 128,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 90
+    },
+    {
+      "at": 128,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 91
+    },
+    {
+      "at": 130,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 92
+    },
+    {
+      "at": 131,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 93
+    },
+    {
+      "at": 131,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 94
+    },
+    {
+      "at": 132,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 95
+    },
+    {
+      "at": 134,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 96
+    },
+    {
+      "at": 134,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 97
+    },
+    {
+      "at": 134,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 98
+    },
+    {
+      "at": 136,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 99
+    },
+    {
+      "at": 136,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 100
+    },
+    {
+      "at": 138,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 101
+    },
+    {
+      "at": 138,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 102
+    },
+    {
+      "at": 139,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 103
+    },
+    {
+      "at": 140,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 104
+    },
+    {
+      "at": 141,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 105
+    },
+    {
+      "at": 142,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 106
+    },
+    {
+      "at": 142,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 107
+    },
+    {
+      "at": 144,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 108
+    },
+    {
+      "at": 144,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 109
+    },
+    {
+      "at": 144,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 110
+    },
+    {
+      "at": 144,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 111
+    },
+    {
+      "at": 146,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 112
+    },
+    {
+      "at": 147,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 113
+    },
+    {
+      "at": 148,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 114
+    },
+    {
+      "at": 150,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 115
+    },
+    {
+      "at": 150,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 116
+    },
+    {
+      "at": 150,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 117
+    },
+    {
+      "at": 152,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 118
+    },
+    {
+      "at": 152,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 119
+    },
+    {
+      "at": 154,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 120
+    },
+    {
+      "at": 154,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 121
+    },
+    {
+      "at": 155,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 122
+    },
+    {
+      "at": 156,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 123
+    },
+    {
+      "at": 158,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 124
+    },
+    {
+      "at": 158,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 125
+    },
+    {
+      "at": 160,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 126
+    },
+    {
+      "at": 160,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 127
+    },
+    {
+      "at": 160,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 128
+    },
+    {
+      "at": 160,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 129
+    },
+    {
+      "at": 162,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 130
+    },
+    {
+      "at": 163,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 131
+    },
+    {
+      "at": 163,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 132
+    },
+    {
+      "at": 164,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 133
+    },
+    {
+      "at": 166,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 134
+    },
+    {
+      "at": 166,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 135
+    },
+    {
+      "at": 167,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 84,
+      "volume": 39,
+      "id": 136
+    },
+    {
+      "at": 168,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 137
+    },
+    {
+      "at": 168,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 138
+    },
+    {
+      "at": 170,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 139
+    },
+    {
+      "at": 171,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 140
+    },
+    {
+      "at": 172,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 141
+    },
+    {
+      "at": 172,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 142
+    },
+    {
+      "at": 174,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 143
+    },
+    {
+      "at": 174,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 144
+    },
+    {
+      "at": 176,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 145
+    },
+    {
+      "at": 176,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 146
+    },
+    {
+      "at": 176,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 147
+    },
+    {
+      "at": 177,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 148
+    },
+    {
+      "at": 178,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 149
+    },
+    {
+      "at": 179,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 150
+    },
+    {
+      "at": 180,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 151
+    },
+    {
+      "at": 182,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 152
+    },
+    {
+      "at": 182,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 153
+    },
+    {
+      "at": 182,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 154
+    },
+    {
+      "at": 184,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 155
+    },
+    {
+      "at": 184,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 156
+    },
+    {
+      "at": 186,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 157
+    },
+    {
+      "at": 187,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 158
+    },
+    {
+      "at": 187,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 159
+    },
+    {
+      "at": 188,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 160
+    },
+    {
+      "at": 190,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 161
+    },
+    {
+      "at": 190,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 162
+    },
+    {
+      "at": 192,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 163
+    },
+    {
+      "at": 192,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 164
+    },
+    {
+      "at": 192,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 165
+    },
+    {
+      "at": 192,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 166
+    },
+    {
+      "at": 194,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 167
+    },
+    {
+      "at": 195,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 168
+    },
+    {
+      "at": 196,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 169
+    },
+    {
+      "at": 196,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 170
+    },
+    {
+      "at": 198,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 171
+    },
+    {
+      "at": 198,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 172
+    },
+    {
+      "at": 200,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 173
+    },
+    {
+      "at": 200,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 86,
+      "volume": 39,
+      "id": 174
+    },
+    {
+      "at": 200,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 175
+    },
+    {
+      "at": 201,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 176
+    },
+    {
+      "at": 202,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 177
+    },
+    {
+      "at": 203,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 178
+    },
+    {
+      "at": 204,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 179
+    },
+    {
+      "at": 205,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 180
+    },
+    {
+      "at": 206,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 181
+    },
+    {
+      "at": 206,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 182
+    },
+    {
+      "at": 206,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 183
+    },
+    {
+      "at": 208,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 184
+    },
+    {
+      "at": 208,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 185
+    },
+    {
+      "at": 208,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 186
+    },
+    {
+      "at": 209,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 187
+    },
+    {
+      "at": 210,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 188
+    },
+    {
+      "at": 210,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 189
+    },
+    {
+      "at": 211,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 190
+    },
+    {
+      "at": 212,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 191
+    },
+    {
+      "at": 214,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 192
+    },
+    {
+      "at": 214,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 193
+    },
+    {
+      "at": 215,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 39,
+      "id": 194
+    },
+    {
+      "at": 215,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 195
+    },
+    {
+      "at": 216,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 196
+    },
+    {
+      "at": 216,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 197
+    },
+    {
+      "at": 218,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 198
+    },
+    {
+      "at": 219,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 199
+    },
+    {
+      "at": 220,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 200
+    },
+    {
+      "at": 220,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 201
+    },
+    {
+      "at": 220,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 202
+    },
+    {
+      "at": 222,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 203
+    },
+    {
+      "at": 222,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 204
+    },
+    {
+      "at": 224,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 205
+    },
+    {
+      "at": 224,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 206
+    },
+    {
+      "at": 224,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 39,
+      "id": 207
+    },
+    {
+      "at": 224,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 208
+    },
+    {
+      "at": 226,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 209
+    },
+    {
+      "at": 227,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 210
+    },
+    {
+      "at": 228,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 211
+    },
+    {
+      "at": 229,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 212
+    },
+    {
+      "at": 230,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 213
+    },
+    {
+      "at": 230,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 214
+    },
+    {
+      "at": 232,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 215
+    },
+    {
+      "at": 232,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 216
+    },
+    {
+      "at": 233,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 70,
+      "volume": 39,
+      "id": 217
+    },
+    {
+      "at": 233,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 77,
+      "volume": 26,
+      "id": 218
+    },
+    {
+      "at": 234,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 219
+    },
+    {
+      "at": 235,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 220
+    },
+    {
+      "at": 236,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 221
+    },
+    {
+      "at": 237,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 222
+    },
+    {
+      "at": 238,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 223
+    },
+    {
+      "at": 238,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 224
+    },
+    {
+      "at": 238,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 225
+    },
+    {
+      "at": 240,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 226
+    },
+    {
+      "at": 240,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 227
+    },
+    {
+      "at": 240,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 71,
+      "volume": 39,
+      "id": 228
+    },
+    {
+      "at": 240,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 229
+    },
+    {
+      "at": 242,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 83,
+      "volume": 26,
+      "id": 230
+    },
+    {
+      "at": 242,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 231
+    },
+    {
+      "at": 243,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 232
+    },
+    {
+      "at": 244,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 233
+    },
+    {
+      "at": 245,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 234
+    },
+    {
+      "at": 246,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 235
+    },
+    {
+      "at": 246,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 236
+    },
+    {
+      "at": 247,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 71,
+      "volume": 26,
+      "id": 237
+    },
+    {
+      "at": 248,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 238
+    },
+    {
+      "at": 248,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 239
+    },
+    {
+      "at": 249,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 240
+    },
+    {
+      "at": 250,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 241
+    },
+    {
+      "at": 251,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 242
+    },
+    {
+      "at": 252,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 74,
+      "volume": 26,
+      "id": 243
+    },
+    {
+      "at": 252,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 244
+    },
+    {
+      "at": 253,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 245
+    },
+    {
+      "at": 253,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 45,
+      "volume": 30,
+      "id": 246
+    },
+    {
+      "at": 254,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 247
+    },
+    {
+      "at": 254,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 248
+    },
+    {
+      "at": 254,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 48,
+      "volume": 33,
+      "id": 249
+    },
+    {
+      "at": 255,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 51,
+      "volume": 36,
+      "id": 250
+    },
+    {
+      "at": 256,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 251
+    },
+    {
+      "at": 256,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 252
+    },
+    {
+      "at": 256,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 253
+    },
+    {
+      "at": 256,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 254
+    },
+    {
+      "at": 258,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 255
+    },
+    {
+      "at": 259,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 256
+    },
+    {
+      "at": 259,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 257
+    },
+    {
+      "at": 260,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 258
+    },
+    {
+      "at": 262,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 259
+    },
+    {
+      "at": 262,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 260
+    },
+    {
+      "at": 262,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 261
+    },
+    {
+      "at": 264,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 262
+    },
+    {
+      "at": 264,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 263
+    },
+    {
+      "at": 265,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 264
+    },
+    {
+      "at": 266,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 265
+    },
+    {
+      "at": 266,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 266
+    },
+    {
+      "at": 267,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 267
+    },
+    {
+      "at": 268,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 268
+    },
+    {
+      "at": 269,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 269
+    },
+    {
+      "at": 270,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 270
+    },
+    {
+      "at": 270,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 271
+    },
+    {
+      "at": 270,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 272
+    },
+    {
+      "at": 272,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 273
+    },
+    {
+      "at": 272,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 274
+    },
+    {
+      "at": 272,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 275
+    },
+    {
+      "at": 272,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 276
+    },
+    {
+      "at": 274,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 277
+    },
+    {
+      "at": 274,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 278
+    },
+    {
+      "at": 275,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 279
+    },
+    {
+      "at": 276,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 280
+    },
+    {
+      "at": 278,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 281
+    },
+    {
+      "at": 278,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 282
+    },
+    {
+      "at": 278,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 283
+    },
+    {
+      "at": 279,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 284
+    },
+    {
+      "at": 280,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 285
+    },
+    {
+      "at": 280,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 286
+    },
+    {
+      "at": 282,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 287
+    },
+    {
+      "at": 282,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 288
+    },
+    {
+      "at": 283,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 289
+    },
+    {
+      "at": 284,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 290
+    },
+    {
+      "at": 284,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 291
+    },
+    {
+      "at": 286,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 292
+    },
+    {
+      "at": 286,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 293
+    },
+    {
+      "at": 288,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 294
+    },
+    {
+      "at": 288,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 295
+    },
+    {
+      "at": 288,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 296
+    },
+    {
+      "at": 288,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 297
+    },
+    {
+      "at": 290,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 298
+    },
+    {
+      "at": 291,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 299
+    },
+    {
+      "at": 291,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 300
+    },
+    {
+      "at": 292,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 301
+    },
+    {
+      "at": 294,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 302
+    },
+    {
+      "at": 294,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 303
+    },
+    {
+      "at": 295,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 84,
+      "volume": 39,
+      "id": 304
+    },
+    {
+      "at": 296,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 305
+    },
+    {
+      "at": 296,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 306
+    },
+    {
+      "at": 297,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 307
+    },
+    {
+      "at": 298,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 308
+    },
+    {
+      "at": 299,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 309
+    },
+    {
+      "at": 300,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 310
+    },
+    {
+      "at": 300,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 311
+    },
+    {
+      "at": 302,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 312
+    },
+    {
+      "at": 302,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 313
+    },
+    {
+      "at": 302,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 314
+    },
+    {
+      "at": 304,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 315
+    },
+    {
+      "at": 304,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 316
+    },
+    {
+      "at": 304,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 317
+    },
+    {
+      "at": 305,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 318
+    },
+    {
+      "at": 306,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 319
+    },
+    {
+      "at": 306,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 320
+    },
+    {
+      "at": 307,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 321
+    },
+    {
+      "at": 308,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 322
+    },
+    {
+      "at": 310,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 323
+    },
+    {
+      "at": 310,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 324
+    },
+    {
+      "at": 310,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 325
+    },
+    {
+      "at": 311,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 326
+    },
+    {
+      "at": 312,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 327
+    },
+    {
+      "at": 312,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 328
+    },
+    {
+      "at": 314,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 329
+    },
+    {
+      "at": 315,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 330
+    },
+    {
+      "at": 315,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 331
+    },
+    {
+      "at": 316,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 332
+    },
+    {
+      "at": 316,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 333
+    },
+    {
+      "at": 318,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 334
+    },
+    {
+      "at": 318,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 335
+    },
+    {
+      "at": 320,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 336
+    },
+    {
+      "at": 320,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 337
+    },
+    {
+      "at": 320,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 338
+    },
+    {
+      "at": 320,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 339
+    },
+    {
+      "at": 322,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 340
+    },
+    {
+      "at": 323,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 341
+    },
+    {
+      "at": 324,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 342
+    },
+    {
+      "at": 324,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 343
+    },
+    {
+      "at": 326,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 344
+    },
+    {
+      "at": 326,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 345
+    },
+    {
+      "at": 328,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 346
+    },
+    {
+      "at": 328,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 86,
+      "volume": 39,
+      "id": 347
+    },
+    {
+      "at": 328,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 348
+    },
+    {
+      "at": 329,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 349
+    },
+    {
+      "at": 330,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 350
+    },
+    {
+      "at": 331,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 351
+    },
+    {
+      "at": 332,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 352
+    },
+    {
+      "at": 333,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 353
+    },
+    {
+      "at": 334,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 354
+    },
+    {
+      "at": 334,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 355
+    },
+    {
+      "at": 334,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 356
+    },
+    {
+      "at": 336,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 357
+    },
+    {
+      "at": 336,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 358
+    },
+    {
+      "at": 336,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 359
+    },
+    {
+      "at": 337,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 360
+    },
+    {
+      "at": 338,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 361
+    },
+    {
+      "at": 338,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 362
+    },
+    {
+      "at": 339,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 363
+    },
+    {
+      "at": 340,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 364
+    },
+    {
+      "at": 342,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 365
+    },
+    {
+      "at": 342,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 366
+    },
+    {
+      "at": 343,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 39,
+      "id": 367
+    },
+    {
+      "at": 343,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 368
+    },
+    {
+      "at": 344,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 369
+    },
+    {
+      "at": 344,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 370
+    },
+    {
+      "at": 346,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 371
+    },
+    {
+      "at": 347,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 372
+    },
+    {
+      "at": 348,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 373
+    },
+    {
+      "at": 348,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 374
+    },
+    {
+      "at": 348,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 375
+    },
+    {
+      "at": 350,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 376
+    },
+    {
+      "at": 350,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 377
+    },
+    {
+      "at": 352,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 378
+    },
+    {
+      "at": 352,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 379
+    },
+    {
+      "at": 352,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 39,
+      "id": 380
+    },
+    {
+      "at": 352,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 381
+    },
+    {
+      "at": 354,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 382
+    },
+    {
+      "at": 355,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 383
+    },
+    {
+      "at": 356,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 384
+    },
+    {
+      "at": 357,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 385
+    },
+    {
+      "at": 358,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 386
+    },
+    {
+      "at": 358,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 387
+    },
+    {
+      "at": 360,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 388
+    },
+    {
+      "at": 360,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 389
+    },
+    {
+      "at": 361,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 70,
+      "volume": 39,
+      "id": 390
+    },
+    {
+      "at": 361,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 77,
+      "volume": 26,
+      "id": 391
+    },
+    {
+      "at": 362,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 392
+    },
+    {
+      "at": 363,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 393
+    },
+    {
+      "at": 364,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 394
+    },
+    {
+      "at": 365,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 395
+    },
+    {
+      "at": 366,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 396
+    },
+    {
+      "at": 366,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 397
+    },
+    {
+      "at": 366,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 398
+    },
+    {
+      "at": 368,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 399
+    },
+    {
+      "at": 368,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 400
+    },
+    {
+      "at": 368,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 71,
+      "volume": 39,
+      "id": 401
+    },
+    {
+      "at": 368,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 402
+    },
+    {
+      "at": 370,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 83,
+      "volume": 26,
+      "id": 403
+    },
+    {
+      "at": 370,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 404
+    },
+    {
+      "at": 371,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 405
+    },
+    {
+      "at": 372,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 406
+    },
+    {
+      "at": 373,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 407
+    },
+    {
+      "at": 374,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 408
+    },
+    {
+      "at": 374,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 409
+    },
+    {
+      "at": 375,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 71,
+      "volume": 26,
+      "id": 410
+    },
+    {
+      "at": 376,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 411
+    },
+    {
+      "at": 376,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 412
+    },
+    {
+      "at": 377,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 413
+    },
+    {
+      "at": 378,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 414
+    },
+    {
+      "at": 379,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 415
+    },
+    {
+      "at": 380,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 74,
+      "volume": 26,
+      "id": 416
+    },
+    {
+      "at": 380,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 417
+    },
+    {
+      "at": 381,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 418
+    },
+    {
+      "at": 381,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 45,
+      "volume": 30,
+      "id": 419
+    },
+    {
+      "at": 382,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 420
+    },
+    {
+      "at": 382,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 421
+    },
+    {
+      "at": 382,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 48,
+      "volume": 33,
+      "id": 422
+    },
+    {
+      "at": 383,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 51,
+      "volume": 36,
+      "id": 423
+    },
+    {
+      "at": 384,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 424
+    },
+    {
+      "at": 384,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 425
+    },
+    {
+      "at": 384,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 426
+    },
+    {
+      "at": 384,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 427
+    },
+    {
+      "at": 386,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 428
+    },
+    {
+      "at": 386,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 429
+    },
+    {
+      "at": 387,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 430
+    },
+    {
+      "at": 387,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 431
+    },
+    {
+      "at": 388,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 432
+    },
+    {
+      "at": 390,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 433
+    },
+    {
+      "at": 390,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 434
+    },
+    {
+      "at": 390,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 435
+    },
+    {
+      "at": 392,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 436
+    },
+    {
+      "at": 392,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 437
+    },
+    {
+      "at": 393,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 438
+    },
+    {
+      "at": 394,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 439
+    },
+    {
+      "at": 394,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 440
+    },
+    {
+      "at": 395,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 441
+    },
+    {
+      "at": 396,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 442
+    },
+    {
+      "at": 397,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 443
+    },
+    {
+      "at": 398,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 444
+    },
+    {
+      "at": 398,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 445
+    },
+    {
+      "at": 398,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 446
+    },
+    {
+      "at": 400,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 447
+    },
+    {
+      "at": 400,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 448
+    },
+    {
+      "at": 400,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 449
+    },
+    {
+      "at": 400,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 450
+    },
+    {
+      "at": 402,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 451
+    },
+    {
+      "at": 402,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 452
+    },
+    {
+      "at": 403,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 453
+    },
+    {
+      "at": 404,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 454
+    },
+    {
+      "at": 406,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 455
+    },
+    {
+      "at": 406,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 456
+    },
+    {
+      "at": 406,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 457
+    },
+    {
+      "at": 407,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 458
+    },
+    {
+      "at": 408,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 459
+    },
+    {
+      "at": 408,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 460
+    },
+    {
+      "at": 410,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 461
+    },
+    {
+      "at": 410,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 462
+    },
+    {
+      "at": 411,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 463
+    },
+    {
+      "at": 412,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 464
+    },
+    {
+      "at": 412,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 465
+    },
+    {
+      "at": 414,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 466
+    },
+    {
+      "at": 414,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 467
+    },
+    {
+      "at": 416,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 468
+    },
+    {
+      "at": 416,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 469
+    },
+    {
+      "at": 416,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 470
+    },
+    {
+      "at": 416,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 471
+    },
+    {
+      "at": 418,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 472
+    },
+    {
+      "at": 418,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 473
+    },
+    {
+      "at": 419,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 474
+    },
+    {
+      "at": 419,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 475
+    },
+    {
+      "at": 420,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 476
+    },
+    {
+      "at": 422,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 477
+    },
+    {
+      "at": 422,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 478
+    },
+    {
+      "at": 423,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 84,
+      "volume": 45,
+      "id": 479
+    },
+    {
+      "at": 424,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 480
+    },
+    {
+      "at": 424,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 481
+    },
+    {
+      "at": 425,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 482
+    },
+    {
+      "at": 426,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 483
+    },
+    {
+      "at": 427,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 484
+    },
+    {
+      "at": 428,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 485
+    },
+    {
+      "at": 428,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 486
+    },
+    {
+      "at": 430,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 487
+    },
+    {
+      "at": 430,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 488
+    },
+    {
+      "at": 430,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 489
+    },
+    {
+      "at": 432,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 490
+    },
+    {
+      "at": 432,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 491
+    },
+    {
+      "at": 432,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 492
+    },
+    {
+      "at": 433,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 493
+    },
+    {
+      "at": 434,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 494
+    },
+    {
+      "at": 434,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 495
+    },
+    {
+      "at": 435,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 496
+    },
+    {
+      "at": 436,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 497
+    },
+    {
+      "at": 438,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 498
+    },
+    {
+      "at": 438,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 499
+    },
+    {
+      "at": 438,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 500
+    },
+    {
+      "at": 439,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 501
+    },
+    {
+      "at": 440,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 502
+    },
+    {
+      "at": 440,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 503
+    },
+    {
+      "at": 442,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 504
+    },
+    {
+      "at": 443,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 505
+    },
+    {
+      "at": 443,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 506
+    },
+    {
+      "at": 444,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 507
+    },
+    {
+      "at": 444,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 508
+    },
+    {
+      "at": 446,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 509
+    },
+    {
+      "at": 446,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 510
+    },
+    {
+      "at": 448,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 511
+    },
+    {
+      "at": 448,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 512
+    },
+    {
+      "at": 448,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 513
+    },
+    {
+      "at": 448,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 514
+    },
+    {
+      "at": 450,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 515
+    },
+    {
+      "at": 450,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 516
+    },
+    {
+      "at": 451,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 517
+    },
+    {
+      "at": 452,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 518
+    },
+    {
+      "at": 452,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 519
+    },
+    {
+      "at": 454,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 520
+    },
+    {
+      "at": 454,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 521
+    },
+    {
+      "at": 456,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 522
+    },
+    {
+      "at": 456,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 86,
+      "volume": 45,
+      "id": 523
+    },
+    {
+      "at": 456,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 524
+    },
+    {
+      "at": 457,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 525
+    },
+    {
+      "at": 458,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 526
+    },
+    {
+      "at": 459,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 527
+    },
+    {
+      "at": 460,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 528
+    },
+    {
+      "at": 461,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 529
+    },
+    {
+      "at": 462,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 530
+    },
+    {
+      "at": 462,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 531
+    },
+    {
+      "at": 462,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 532
+    },
+    {
+      "at": 464,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 533
+    },
+    {
+      "at": 464,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 534
+    },
+    {
+      "at": 464,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 535
+    },
+    {
+      "at": 465,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 536
+    },
+    {
+      "at": 466,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 537
+    },
+    {
+      "at": 466,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 538
+    },
+    {
+      "at": 467,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 539
+    },
+    {
+      "at": 468,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 540
+    },
+    {
+      "at": 470,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 541
+    },
+    {
+      "at": 470,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 542
+    },
+    {
+      "at": 471,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 45,
+      "id": 543
+    },
+    {
+      "at": 471,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 544
+    },
+    {
+      "at": 472,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 545
+    },
+    {
+      "at": 472,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 546
+    },
+    {
+      "at": 474,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 547
+    },
+    {
+      "at": 475,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 548
+    },
+    {
+      "at": 476,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 549
+    },
+    {
+      "at": 476,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 550
+    },
+    {
+      "at": 476,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 551
+    },
+    {
+      "at": 478,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 552
+    },
+    {
+      "at": 478,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 553
+    },
+    {
+      "at": 480,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 554
+    },
+    {
+      "at": 480,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 555
+    },
+    {
+      "at": 480,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 45,
+      "id": 556
+    },
+    {
+      "at": 480,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 557
+    },
+    {
+      "at": 482,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 77,
+      "volume": 26,
+      "id": 558
+    },
+    {
+      "at": 482,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 559
+    },
+    {
+      "at": 483,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 560
+    },
+    {
+      "at": 484,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 561
+    },
+    {
+      "at": 485,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 562
+    },
+    {
+      "at": 486,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 563
+    },
+    {
+      "at": 486,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 564
+    },
+    {
+      "at": 488,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 565
+    },
+    {
+      "at": 488,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 566
+    },
+    {
+      "at": 489,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 70,
+      "volume": 45,
+      "id": 567
+    },
+    {
+      "at": 489,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 568
+    },
+    {
+      "at": 490,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 569
+    },
+    {
+      "at": 491,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 570
+    },
+    {
+      "at": 492,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 571
+    },
+    {
+      "at": 493,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 572
+    },
+    {
+      "at": 494,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 573
+    },
+    {
+      "at": 494,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 574
+    },
+    {
+      "at": 494,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 575
+    },
+    {
+      "at": 496,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 576
+    },
+    {
+      "at": 496,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 577
+    },
+    {
+      "at": 496,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 71,
+      "volume": 45,
+      "id": 578
+    },
+    {
+      "at": 496,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 579
+    },
+    {
+      "at": 498,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 83,
+      "volume": 26,
+      "id": 580
+    },
+    {
+      "at": 498,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 581
+    },
+    {
+      "at": 499,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 582
+    },
+    {
+      "at": 500,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 583
+    },
+    {
+      "at": 501,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 584
+    },
+    {
+      "at": 502,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 585
+    },
+    {
+      "at": 502,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 586
+    },
+    {
+      "at": 503,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 71,
+      "volume": 26,
+      "id": 587
+    },
+    {
+      "at": 504,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 588
+    },
+    {
+      "at": 504,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 589
+    },
+    {
+      "at": 505,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 590
+    },
+    {
+      "at": 506,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 591
+    },
+    {
+      "at": 507,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 592
+    },
+    {
+      "at": 508,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 74,
+      "volume": 26,
+      "id": 593
+    },
+    {
+      "at": 508,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 594
+    },
+    {
+      "at": 508,
+      "type": "paula",
+      "voice": 3,
+      "sample": "riser",
+      "note": 60,
+      "volume": 24,
+      "id": 595
+    },
+    {
+      "at": 509,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 596
+    },
+    {
+      "at": 509,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 45,
+      "volume": 30,
+      "id": 597
+    },
+    {
+      "at": 510,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 598
+    },
+    {
+      "at": 510,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 599
+    },
+    {
+      "at": 510,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 48,
+      "volume": 33,
+      "id": 600
+    },
+    {
+      "at": 511,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 51,
+      "volume": 36,
+      "id": 601
+    },
+    {
+      "at": 512,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 602
+    },
+    {
+      "at": 512,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 34,
+      "gate": 7,
+      "id": 603
+    },
+    {
+      "at": 512,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 72,
+      "volume": 33,
+      "id": 604
+    },
+    {
+      "at": 512,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 605
+    },
+    {
+      "at": 515,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 60,
+      "volume": 22,
+      "id": 606
+    },
+    {
+      "at": 520,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 607
+    },
+    {
+      "at": 520,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 608
+    },
+    {
+      "at": 522,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 34,
+      "gate": 4,
+      "id": 609
+    },
+    {
+      "at": 522,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 610
+    },
+    {
+      "at": 523,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 63,
+      "volume": 22,
+      "id": 611
+    },
+    {
+      "at": 526,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 612
+    },
+    {
+      "at": 528,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 613
+    },
+    {
+      "at": 528,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 34,
+      "gate": 7,
+      "id": 614
+    },
+    {
+      "at": 528,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 72,
+      "volume": 33,
+      "id": 615
+    },
+    {
+      "at": 528,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 616
+    },
+    {
+      "at": 531,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 63,
+      "volume": 22,
+      "id": 617
+    },
+    {
+      "at": 536,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 618
+    },
+    {
+      "at": 536,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 619
+    },
+    {
+      "at": 538,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 34,
+      "gate": 4,
+      "id": 620
+    },
+    {
+      "at": 538,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 621
+    },
+    {
+      "at": 539,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 67,
+      "volume": 22,
+      "id": 622
+    },
+    {
+      "at": 542,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 623
+    },
+    {
+      "at": 544,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 624
+    },
+    {
+      "at": 544,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 34,
+      "gate": 7,
+      "id": 625
+    },
+    {
+      "at": 544,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 72,
+      "volume": 33,
+      "id": 626
+    },
+    {
+      "at": 544,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 627
+    },
+    {
+      "at": 547,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 67,
+      "volume": 22,
+      "id": 628
+    },
+    {
+      "at": 552,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 629
+    },
+    {
+      "at": 552,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 630
+    },
+    {
+      "at": 554,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 34,
+      "gate": 4,
+      "id": 631
+    },
+    {
+      "at": 554,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 632
+    },
+    {
+      "at": 555,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 72,
+      "volume": 22,
+      "id": 633
+    },
+    {
+      "at": 558,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 634
+    },
+    {
+      "at": 560,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 635
+    },
+    {
+      "at": 560,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 34,
+      "gate": 7,
+      "id": 636
+    },
+    {
+      "at": 560,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 72,
+      "volume": 33,
+      "id": 637
+    },
+    {
+      "at": 560,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 638
+    },
+    {
+      "at": 563,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 72,
+      "volume": 22,
+      "id": 639
+    },
+    {
+      "at": 568,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 640
+    },
+    {
+      "at": 568,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 641
+    },
+    {
+      "at": 570,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 34,
+      "gate": 4,
+      "id": 642
+    },
+    {
+      "at": 570,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 643
+    },
+    {
+      "at": 571,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 60,
+      "volume": 22,
+      "id": 644
+    },
+    {
+      "at": 574,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 645
+    },
+    {
+      "at": 576,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 646
+    },
+    {
+      "at": 576,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 34,
+      "gate": 7,
+      "id": 647
+    },
+    {
+      "at": 576,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 70,
+      "volume": 33,
+      "id": 648
+    },
+    {
+      "at": 576,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 649
+    },
+    {
+      "at": 579,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 58,
+      "volume": 22,
+      "id": 650
+    },
+    {
+      "at": 584,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 651
+    },
+    {
+      "at": 584,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 652
+    },
+    {
+      "at": 586,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 34,
+      "gate": 4,
+      "id": 653
+    },
+    {
+      "at": 586,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 654
+    },
+    {
+      "at": 587,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 63,
+      "volume": 22,
+      "id": 655
+    },
+    {
+      "at": 590,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 656
+    },
+    {
+      "at": 592,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 657
+    },
+    {
+      "at": 592,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 34,
+      "gate": 7,
+      "id": 658
+    },
+    {
+      "at": 592,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 70,
+      "volume": 33,
+      "id": 659
+    },
+    {
+      "at": 592,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 660
+    },
+    {
+      "at": 595,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 63,
+      "volume": 22,
+      "id": 661
+    },
+    {
+      "at": 600,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 662
+    },
+    {
+      "at": 600,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 663
+    },
+    {
+      "at": 602,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 34,
+      "gate": 4,
+      "id": 664
+    },
+    {
+      "at": 602,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 665
+    },
+    {
+      "at": 603,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 67,
+      "volume": 22,
+      "id": 666
+    },
+    {
+      "at": 606,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 667
+    },
+    {
+      "at": 608,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 668
+    },
+    {
+      "at": 608,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 34,
+      "gate": 7,
+      "id": 669
+    },
+    {
+      "at": 608,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 70,
+      "volume": 33,
+      "id": 670
+    },
+    {
+      "at": 608,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 671
+    },
+    {
+      "at": 611,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 65,
+      "volume": 22,
+      "id": 672
+    },
+    {
+      "at": 616,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 77,
+      "volume": 28,
+      "id": 673
+    },
+    {
+      "at": 616,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 674
+    },
+    {
+      "at": 618,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 34,
+      "gate": 4,
+      "id": 675
+    },
+    {
+      "at": 618,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 676
+    },
+    {
+      "at": 619,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 70,
+      "volume": 22,
+      "id": 677
+    },
+    {
+      "at": 622,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 678
+    },
+    {
+      "at": 624,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 49,
+      "id": 679
+    },
+    {
+      "at": 624,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 34,
+      "gate": 7,
+      "id": 680
+    },
+    {
+      "at": 624,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 71,
+      "volume": 33,
+      "id": 681
+    },
+    {
+      "at": 624,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 682
+    },
+    {
+      "at": 627,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 71,
+      "volume": 22,
+      "id": 683
+    },
+    {
+      "at": 632,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 79,
+      "volume": 28,
+      "id": 684
+    },
+    {
+      "at": 632,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 685
+    },
+    {
+      "at": 634,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 34,
+      "gate": 4,
+      "id": 686
+    },
+    {
+      "at": 634,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 687
+    },
+    {
+      "at": 635,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 59,
+      "volume": 22,
+      "id": 688
+    },
+    {
+      "at": 636,
+      "type": "paula",
+      "voice": 3,
+      "sample": "riser",
+      "note": 60,
+      "volume": 24,
+      "id": 689
+    },
+    {
+      "at": 638,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 690
+    },
+    {
+      "at": 640,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 691
+    },
+    {
+      "at": 640,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 692
+    },
+    {
+      "at": 640,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 693
+    },
+    {
+      "at": 640,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 694
+    },
+    {
+      "at": 642,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 695
+    },
+    {
+      "at": 642,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 696
+    },
+    {
+      "at": 643,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 697
+    },
+    {
+      "at": 643,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 698
+    },
+    {
+      "at": 644,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 699
+    },
+    {
+      "at": 646,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 700
+    },
+    {
+      "at": 646,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 701
+    },
+    {
+      "at": 646,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 702
+    },
+    {
+      "at": 648,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 703
+    },
+    {
+      "at": 648,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 704
+    },
+    {
+      "at": 649,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 705
+    },
+    {
+      "at": 650,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 706
+    },
+    {
+      "at": 650,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 707
+    },
+    {
+      "at": 651,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 708
+    },
+    {
+      "at": 652,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 709
+    },
+    {
+      "at": 653,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 710
+    },
+    {
+      "at": 654,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 711
+    },
+    {
+      "at": 654,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 712
+    },
+    {
+      "at": 654,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 713
+    },
+    {
+      "at": 656,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 714
+    },
+    {
+      "at": 656,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 715
+    },
+    {
+      "at": 656,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 716
+    },
+    {
+      "at": 656,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 717
+    },
+    {
+      "at": 658,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 718
+    },
+    {
+      "at": 658,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 719
+    },
+    {
+      "at": 659,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 720
+    },
+    {
+      "at": 660,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 721
+    },
+    {
+      "at": 662,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 722
+    },
+    {
+      "at": 662,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 723
+    },
+    {
+      "at": 662,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 724
+    },
+    {
+      "at": 663,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 725
+    },
+    {
+      "at": 664,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 726
+    },
+    {
+      "at": 664,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 727
+    },
+    {
+      "at": 666,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 728
+    },
+    {
+      "at": 666,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 729
+    },
+    {
+      "at": 667,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 730
+    },
+    {
+      "at": 668,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 731
+    },
+    {
+      "at": 668,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 732
+    },
+    {
+      "at": 670,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 733
+    },
+    {
+      "at": 670,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 734
+    },
+    {
+      "at": 672,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 735
+    },
+    {
+      "at": 672,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 736
+    },
+    {
+      "at": 672,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 737
+    },
+    {
+      "at": 672,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 738
+    },
+    {
+      "at": 674,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 739
+    },
+    {
+      "at": 674,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 740
+    },
+    {
+      "at": 675,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 741
+    },
+    {
+      "at": 675,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 742
+    },
+    {
+      "at": 676,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 743
+    },
+    {
+      "at": 678,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 744
+    },
+    {
+      "at": 678,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 745
+    },
+    {
+      "at": 679,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 84,
+      "volume": 45,
+      "id": 746
+    },
+    {
+      "at": 680,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 747
+    },
+    {
+      "at": 680,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 748
+    },
+    {
+      "at": 681,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 749
+    },
+    {
+      "at": 682,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 750
+    },
+    {
+      "at": 683,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 751
+    },
+    {
+      "at": 684,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 752
+    },
+    {
+      "at": 684,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 753
+    },
+    {
+      "at": 686,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 754
+    },
+    {
+      "at": 686,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 755
+    },
+    {
+      "at": 686,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 756
+    },
+    {
+      "at": 688,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 757
+    },
+    {
+      "at": 688,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 758
+    },
+    {
+      "at": 688,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 759
+    },
+    {
+      "at": 689,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 760
+    },
+    {
+      "at": 690,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 761
+    },
+    {
+      "at": 690,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 762
+    },
+    {
+      "at": 691,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 763
+    },
+    {
+      "at": 692,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 764
+    },
+    {
+      "at": 694,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 765
+    },
+    {
+      "at": 694,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 766
+    },
+    {
+      "at": 694,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 767
+    },
+    {
+      "at": 695,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 768
+    },
+    {
+      "at": 696,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 769
+    },
+    {
+      "at": 696,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 770
+    },
+    {
+      "at": 698,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 771
+    },
+    {
+      "at": 699,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 772
+    },
+    {
+      "at": 699,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 773
+    },
+    {
+      "at": 700,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 774
+    },
+    {
+      "at": 700,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 775
+    },
+    {
+      "at": 702,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 776
+    },
+    {
+      "at": 702,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 777
+    },
+    {
+      "at": 704,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 778
+    },
+    {
+      "at": 704,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 779
+    },
+    {
+      "at": 704,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 780
+    },
+    {
+      "at": 704,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 781
+    },
+    {
+      "at": 706,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 782
+    },
+    {
+      "at": 706,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 783
+    },
+    {
+      "at": 707,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 784
+    },
+    {
+      "at": 708,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 785
+    },
+    {
+      "at": 708,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 786
+    },
+    {
+      "at": 710,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 787
+    },
+    {
+      "at": 710,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 788
+    },
+    {
+      "at": 712,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 789
+    },
+    {
+      "at": 712,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 86,
+      "volume": 45,
+      "id": 790
+    },
+    {
+      "at": 712,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 791
+    },
+    {
+      "at": 713,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 792
+    },
+    {
+      "at": 714,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 793
+    },
+    {
+      "at": 715,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 794
+    },
+    {
+      "at": 716,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 795
+    },
+    {
+      "at": 717,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 796
+    },
+    {
+      "at": 718,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 797
+    },
+    {
+      "at": 718,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 798
+    },
+    {
+      "at": 718,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 799
+    },
+    {
+      "at": 720,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 800
+    },
+    {
+      "at": 720,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 801
+    },
+    {
+      "at": 720,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 802
+    },
+    {
+      "at": 721,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 803
+    },
+    {
+      "at": 722,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 804
+    },
+    {
+      "at": 722,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 805
+    },
+    {
+      "at": 723,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 806
+    },
+    {
+      "at": 724,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 807
+    },
+    {
+      "at": 726,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 808
+    },
+    {
+      "at": 726,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 809
+    },
+    {
+      "at": 727,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 45,
+      "id": 810
+    },
+    {
+      "at": 727,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 811
+    },
+    {
+      "at": 728,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 812
+    },
+    {
+      "at": 728,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 813
+    },
+    {
+      "at": 730,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 814
+    },
+    {
+      "at": 731,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 815
+    },
+    {
+      "at": 732,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 816
+    },
+    {
+      "at": 732,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 817
+    },
+    {
+      "at": 732,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 818
+    },
+    {
+      "at": 734,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 819
+    },
+    {
+      "at": 734,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 820
+    },
+    {
+      "at": 736,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 821
+    },
+    {
+      "at": 736,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 822
+    },
+    {
+      "at": 736,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 45,
+      "id": 823
+    },
+    {
+      "at": 736,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 824
+    },
+    {
+      "at": 738,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 77,
+      "volume": 26,
+      "id": 825
+    },
+    {
+      "at": 738,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 826
+    },
+    {
+      "at": 739,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 827
+    },
+    {
+      "at": 740,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 828
+    },
+    {
+      "at": 741,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 829
+    },
+    {
+      "at": 742,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 830
+    },
+    {
+      "at": 742,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 831
+    },
+    {
+      "at": 744,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 832
+    },
+    {
+      "at": 744,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 833
+    },
+    {
+      "at": 745,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 70,
+      "volume": 45,
+      "id": 834
+    },
+    {
+      "at": 745,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 835
+    },
+    {
+      "at": 746,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 836
+    },
+    {
+      "at": 747,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 837
+    },
+    {
+      "at": 748,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 838
+    },
+    {
+      "at": 749,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 839
+    },
+    {
+      "at": 750,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 840
+    },
+    {
+      "at": 750,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 841
+    },
+    {
+      "at": 750,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 842
+    },
+    {
+      "at": 752,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 843
+    },
+    {
+      "at": 752,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 844
+    },
+    {
+      "at": 752,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 71,
+      "volume": 45,
+      "id": 845
+    },
+    {
+      "at": 752,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 846
+    },
+    {
+      "at": 754,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 83,
+      "volume": 26,
+      "id": 847
+    },
+    {
+      "at": 754,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 848
+    },
+    {
+      "at": 755,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 849
+    },
+    {
+      "at": 756,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 850
+    },
+    {
+      "at": 757,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 851
+    },
+    {
+      "at": 758,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 852
+    },
+    {
+      "at": 758,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 853
+    },
+    {
+      "at": 759,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 71,
+      "volume": 26,
+      "id": 854
+    },
+    {
+      "at": 760,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 855
+    },
+    {
+      "at": 760,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 856
+    },
+    {
+      "at": 761,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 857
+    },
+    {
+      "at": 762,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 858
+    },
+    {
+      "at": 763,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 859
+    },
+    {
+      "at": 764,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 74,
+      "volume": 26,
+      "id": 860
+    },
+    {
+      "at": 764,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 861
+    },
+    {
+      "at": 765,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 862
+    },
+    {
+      "at": 765,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 45,
+      "volume": 30,
+      "id": 863
+    },
+    {
+      "at": 766,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 864
+    },
+    {
+      "at": 766,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 865
+    },
+    {
+      "at": 766,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 48,
+      "volume": 33,
+      "id": 866
+    },
+    {
+      "at": 767,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 51,
+      "volume": 36,
+      "id": 867
+    },
+    {
+      "at": 768,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 868
+    },
+    {
+      "at": 768,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 869
+    },
+    {
+      "at": 768,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 870
+    },
+    {
+      "at": 768,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 871
+    },
+    {
+      "at": 770,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 872
+    },
+    {
+      "at": 770,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 873
+    },
+    {
+      "at": 771,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 874
+    },
+    {
+      "at": 771,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 875
+    },
+    {
+      "at": 772,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 876
+    },
+    {
+      "at": 774,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 877
+    },
+    {
+      "at": 774,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 878
+    },
+    {
+      "at": 774,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 879
+    },
+    {
+      "at": 776,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 880
+    },
+    {
+      "at": 776,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 881
+    },
+    {
+      "at": 777,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 882
+    },
+    {
+      "at": 778,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 883
+    },
+    {
+      "at": 778,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 884
+    },
+    {
+      "at": 779,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 885
+    },
+    {
+      "at": 780,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 886
+    },
+    {
+      "at": 781,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 887
+    },
+    {
+      "at": 782,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 888
+    },
+    {
+      "at": 782,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 889
+    },
+    {
+      "at": 782,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 890
+    },
+    {
+      "at": 784,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 891
+    },
+    {
+      "at": 784,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 892
+    },
+    {
+      "at": 784,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 893
+    },
+    {
+      "at": 784,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 894
+    },
+    {
+      "at": 786,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 895
+    },
+    {
+      "at": 786,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 896
+    },
+    {
+      "at": 787,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 897
+    },
+    {
+      "at": 788,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 898
+    },
+    {
+      "at": 790,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 899
+    },
+    {
+      "at": 790,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 900
+    },
+    {
+      "at": 790,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 901
+    },
+    {
+      "at": 791,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 902
+    },
+    {
+      "at": 792,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 903
+    },
+    {
+      "at": 792,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 904
+    },
+    {
+      "at": 794,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 905
+    },
+    {
+      "at": 794,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 906
+    },
+    {
+      "at": 795,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 907
+    },
+    {
+      "at": 796,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 908
+    },
+    {
+      "at": 796,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 909
+    },
+    {
+      "at": 798,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 910
+    },
+    {
+      "at": 798,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 911
+    },
+    {
+      "at": 800,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 912
+    },
+    {
+      "at": 800,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 913
+    },
+    {
+      "at": 800,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 914
+    },
+    {
+      "at": 800,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 915
+    },
+    {
+      "at": 802,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 916
+    },
+    {
+      "at": 802,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 917
+    },
+    {
+      "at": 803,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 918
+    },
+    {
+      "at": 803,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 919
+    },
+    {
+      "at": 804,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 920
+    },
+    {
+      "at": 806,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 921
+    },
+    {
+      "at": 806,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 922
+    },
+    {
+      "at": 807,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 84,
+      "volume": 45,
+      "id": 923
+    },
+    {
+      "at": 808,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 924
+    },
+    {
+      "at": 808,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 925
+    },
+    {
+      "at": 809,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 926
+    },
+    {
+      "at": 810,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 927
+    },
+    {
+      "at": 811,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 928
+    },
+    {
+      "at": 812,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 929
+    },
+    {
+      "at": 812,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 930
+    },
+    {
+      "at": 814,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 931
+    },
+    {
+      "at": 814,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 932
+    },
+    {
+      "at": 814,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 933
+    },
+    {
+      "at": 816,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 934
+    },
+    {
+      "at": 816,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 935
+    },
+    {
+      "at": 816,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 936
+    },
+    {
+      "at": 817,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 937
+    },
+    {
+      "at": 818,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 84,
+      "volume": 26,
+      "id": 938
+    },
+    {
+      "at": 818,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 939
+    },
+    {
+      "at": 819,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 940
+    },
+    {
+      "at": 820,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 941
+    },
+    {
+      "at": 822,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 942
+    },
+    {
+      "at": 822,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 943
+    },
+    {
+      "at": 822,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 944
+    },
+    {
+      "at": 823,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 72,
+      "volume": 26,
+      "id": 945
+    },
+    {
+      "at": 824,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 946
+    },
+    {
+      "at": 824,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 947
+    },
+    {
+      "at": 826,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 948
+    },
+    {
+      "at": 827,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 949
+    },
+    {
+      "at": 827,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 45,
+      "id": 950
+    },
+    {
+      "at": 828,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 951
+    },
+    {
+      "at": 828,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 952
+    },
+    {
+      "at": 830,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 953
+    },
+    {
+      "at": 830,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 954
+    },
+    {
+      "at": 832,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 955
+    },
+    {
+      "at": 832,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 956
+    },
+    {
+      "at": 832,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 957
+    },
+    {
+      "at": 832,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 958
+    },
+    {
+      "at": 834,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 959
+    },
+    {
+      "at": 834,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 960
+    },
+    {
+      "at": 835,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 961
+    },
+    {
+      "at": 836,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 962
+    },
+    {
+      "at": 836,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 963
+    },
+    {
+      "at": 838,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 964
+    },
+    {
+      "at": 838,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 965
+    },
+    {
+      "at": 840,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 966
+    },
+    {
+      "at": 840,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 86,
+      "volume": 45,
+      "id": 967
+    },
+    {
+      "at": 840,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 968
+    },
+    {
+      "at": 841,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 969
+    },
+    {
+      "at": 842,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 970
+    },
+    {
+      "at": 843,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 971
+    },
+    {
+      "at": 844,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 972
+    },
+    {
+      "at": 845,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 45,
+      "id": 973
+    },
+    {
+      "at": 846,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 974
+    },
+    {
+      "at": 846,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 975
+    },
+    {
+      "at": 846,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 976
+    },
+    {
+      "at": 848,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 977
+    },
+    {
+      "at": 848,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 978
+    },
+    {
+      "at": 848,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 979
+    },
+    {
+      "at": 849,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 980
+    },
+    {
+      "at": 850,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 75,
+      "volume": 26,
+      "id": 981
+    },
+    {
+      "at": 850,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 982
+    },
+    {
+      "at": 851,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 983
+    },
+    {
+      "at": 852,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 984
+    },
+    {
+      "at": 854,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 985
+    },
+    {
+      "at": 854,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 986
+    },
+    {
+      "at": 855,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 45,
+      "id": 987
+    },
+    {
+      "at": 855,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 26,
+      "id": 988
+    },
+    {
+      "at": 856,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 989
+    },
+    {
+      "at": 856,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 990
+    },
+    {
+      "at": 858,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 991
+    },
+    {
+      "at": 859,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 992
+    },
+    {
+      "at": 860,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 45,
+      "id": 993
+    },
+    {
+      "at": 860,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 994
+    },
+    {
+      "at": 860,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 995
+    },
+    {
+      "at": 862,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 996
+    },
+    {
+      "at": 862,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 997
+    },
+    {
+      "at": 864,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 998
+    },
+    {
+      "at": 864,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 999
+    },
+    {
+      "at": 864,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 77,
+      "volume": 45,
+      "id": 1000
+    },
+    {
+      "at": 864,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1001
+    },
+    {
+      "at": 866,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 77,
+      "volume": 26,
+      "id": 1002
+    },
+    {
+      "at": 866,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1003
+    },
+    {
+      "at": 867,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1004
+    },
+    {
+      "at": 868,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1005
+    },
+    {
+      "at": 869,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 1006
+    },
+    {
+      "at": 870,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1007
+    },
+    {
+      "at": 870,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1008
+    },
+    {
+      "at": 872,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 34,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1009
+    },
+    {
+      "at": 872,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1010
+    },
+    {
+      "at": 873,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 70,
+      "volume": 45,
+      "id": 1011
+    },
+    {
+      "at": 873,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 82,
+      "volume": 26,
+      "id": 1012
+    },
+    {
+      "at": 874,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1013
+    },
+    {
+      "at": 875,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 41,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1014
+    },
+    {
+      "at": 876,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1015
+    },
+    {
+      "at": 877,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 1016
+    },
+    {
+      "at": 878,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1017
+    },
+    {
+      "at": 878,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 70,
+      "volume": 26,
+      "id": 1018
+    },
+    {
+      "at": 878,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1019
+    },
+    {
+      "at": 880,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 78,
+      "id": 1020
+    },
+    {
+      "at": 880,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1021
+    },
+    {
+      "at": 880,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 71,
+      "volume": 45,
+      "id": 1022
+    },
+    {
+      "at": 880,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1023
+    },
+    {
+      "at": 882,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 83,
+      "volume": 26,
+      "id": 1024
+    },
+    {
+      "at": 882,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1025
+    },
+    {
+      "at": 883,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1026
+    },
+    {
+      "at": 884,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1027
+    },
+    {
+      "at": 885,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 1028
+    },
+    {
+      "at": 886,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1029
+    },
+    {
+      "at": 886,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1030
+    },
+    {
+      "at": 887,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 71,
+      "volume": 26,
+      "id": 1031
+    },
+    {
+      "at": 888,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 31,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1032
+    },
+    {
+      "at": 888,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1033
+    },
+    {
+      "at": 889,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 45,
+      "id": 1034
+    },
+    {
+      "at": 890,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1035
+    },
+    {
+      "at": 891,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 38,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1036
+    },
+    {
+      "at": 892,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 74,
+      "volume": 26,
+      "id": 1037
+    },
+    {
+      "at": 892,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1038
+    },
+    {
+      "at": 892,
+      "type": "paula",
+      "voice": 3,
+      "sample": "riser",
+      "note": 60,
+      "volume": 24,
+      "id": 1039
+    },
+    {
+      "at": 893,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 45,
+      "id": 1040
+    },
+    {
+      "at": 893,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 45,
+      "volume": 30,
+      "id": 1041
+    },
+    {
+      "at": 894,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1042
+    },
+    {
+      "at": 894,
+      "type": "paula",
+      "voice": 2,
+      "sample": "open-hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1043
+    },
+    {
+      "at": 894,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 48,
+      "volume": 33,
+      "id": 1044
+    },
+    {
+      "at": 895,
+      "type": "paula",
+      "voice": 2,
+      "sample": "tom",
+      "note": 51,
+      "volume": 36,
+      "id": 1045
+    },
+    {
+      "at": 896,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1046
+    },
+    {
+      "at": 896,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1047
+    },
+    {
+      "at": 896,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 1048
+    },
+    {
+      "at": 896,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1049
+    },
+    {
+      "at": 898,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1050
+    },
+    {
+      "at": 899,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1051
+    },
+    {
+      "at": 899,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 1052
+    },
+    {
+      "at": 900,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1053
+    },
+    {
+      "at": 902,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1054
+    },
+    {
+      "at": 902,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 1055
+    },
+    {
+      "at": 902,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1056
+    },
+    {
+      "at": 904,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1057
+    },
+    {
+      "at": 904,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1058
+    },
+    {
+      "at": 904,
+      "type": "paula",
+      "voice": 3,
+      "sample": "music-box",
+      "note": 72,
+      "volume": 23,
+      "id": 1059
+    },
+    {
+      "at": 906,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 1060
+    },
+    {
+      "at": 906,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1061
+    },
+    {
+      "at": 907,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1062
+    },
+    {
+      "at": 908,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1063
+    },
+    {
+      "at": 909,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 1064
+    },
+    {
+      "at": 910,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1065
+    },
+    {
+      "at": 910,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1066
+    },
+    {
+      "at": 912,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1067
+    },
+    {
+      "at": 912,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1068
+    },
+    {
+      "at": 912,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 1069
+    },
+    {
+      "at": 912,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1070
+    },
+    {
+      "at": 914,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1071
+    },
+    {
+      "at": 915,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1072
+    },
+    {
+      "at": 916,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1073
+    },
+    {
+      "at": 918,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1074
+    },
+    {
+      "at": 918,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 74,
+      "volume": 39,
+      "id": 1075
+    },
+    {
+      "at": 918,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1076
+    },
+    {
+      "at": 920,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 36,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1077
+    },
+    {
+      "at": 920,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1078
+    },
+    {
+      "at": 922,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 1079
+    },
+    {
+      "at": 922,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1080
+    },
+    {
+      "at": 923,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 43,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1081
+    },
+    {
+      "at": 924,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1082
+    },
+    {
+      "at": 926,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 48,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1083
+    },
+    {
+      "at": 926,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1084
+    },
+    {
+      "at": 928,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1085
+    },
+    {
+      "at": 928,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1086
+    },
+    {
+      "at": 928,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 1087
+    },
+    {
+      "at": 928,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1088
+    },
+    {
+      "at": 930,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1089
+    },
+    {
+      "at": 931,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1090
+    },
+    {
+      "at": 931,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 1091
+    },
+    {
+      "at": 932,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1092
+    },
+    {
+      "at": 934,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1093
+    },
+    {
+      "at": 934,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1094
+    },
+    {
+      "at": 935,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 84,
+      "volume": 39,
+      "id": 1095
+    },
+    {
+      "at": 936,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1096
+    },
+    {
+      "at": 936,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1097
+    },
+    {
+      "at": 936,
+      "type": "paula",
+      "voice": 3,
+      "sample": "music-box",
+      "note": 72,
+      "volume": 23,
+      "id": 1098
+    },
+    {
+      "at": 938,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1099
+    },
+    {
+      "at": 939,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1100
+    },
+    {
+      "at": 940,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 82,
+      "volume": 39,
+      "id": 1101
+    },
+    {
+      "at": 940,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1102
+    },
+    {
+      "at": 942,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1103
+    },
+    {
+      "at": 942,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1104
+    },
+    {
+      "at": 944,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1105
+    },
+    {
+      "at": 944,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1106
+    },
+    {
+      "at": 944,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1107
+    },
+    {
+      "at": 945,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 79,
+      "volume": 39,
+      "id": 1108
+    },
+    {
+      "at": 946,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1109
+    },
+    {
+      "at": 947,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1110
+    },
+    {
+      "at": 948,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1111
+    },
+    {
+      "at": 950,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1112
+    },
+    {
+      "at": 950,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 75,
+      "volume": 39,
+      "id": 1113
+    },
+    {
+      "at": 950,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1114
+    },
+    {
+      "at": 952,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 32,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1115
+    },
+    {
+      "at": 952,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1116
+    },
+    {
+      "at": 954,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1117
+    },
+    {
+      "at": 955,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1118
+    },
+    {
+      "at": 955,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 39,
+      "id": 1119
+    },
+    {
+      "at": 956,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1120
+    },
+    {
+      "at": 958,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 44,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1121
+    },
+    {
+      "at": 958,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1122
+    },
+    {
+      "at": 960,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1123
+    },
+    {
+      "at": 960,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1124
+    },
+    {
+      "at": 960,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1125
+    },
+    {
+      "at": 962,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1126
+    },
+    {
+      "at": 963,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1127
+    },
+    {
+      "at": 964,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1128
+    },
+    {
+      "at": 966,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1129
+    },
+    {
+      "at": 966,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1130
+    },
+    {
+      "at": 968,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1131
+    },
+    {
+      "at": 968,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1132
+    },
+    {
+      "at": 968,
+      "type": "paula",
+      "voice": 3,
+      "sample": "music-box",
+      "note": 70,
+      "volume": 23,
+      "id": 1133
+    },
+    {
+      "at": 970,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1134
+    },
+    {
+      "at": 971,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1135
+    },
+    {
+      "at": 972,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1136
+    },
+    {
+      "at": 974,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1137
+    },
+    {
+      "at": 974,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1138
+    },
+    {
+      "at": 976,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1139
+    },
+    {
+      "at": 976,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1140
+    },
+    {
+      "at": 976,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1141
+    },
+    {
+      "at": 978,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1142
+    },
+    {
+      "at": 979,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.2,
+      "id": 1143
+    },
+    {
+      "at": 980,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1144
+    },
+    {
+      "at": 982,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1145
+    },
+    {
+      "at": 982,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1146
+    },
+    {
+      "at": 984,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 39,
+      "volume": 43,
+      "gate": 1.7,
+      "id": 1147
+    },
+    {
+      "at": 984,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 55,
+      "id": 1148
+    },
+    {
+      "at": 986,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1149
+    },
+    {
+      "at": 987,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 46,
+      "volume": 43,
+      "gate": 1.5,
+      "id": 1150
+    },
+    {
+      "at": 988,
+      "type": "paula",
+      "voice": 2,
+      "sample": "clap",
+      "note": 48,
+      "volume": 37,
+      "id": 1151
+    },
+    {
+      "at": 990,
+      "type": "paula",
+      "voice": 0,
+      "sample": "hollow-bass",
+      "note": 51,
+      "volume": 43,
+      "gate": 1.6,
+      "id": 1152
+    },
+    {
+      "at": 990,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hat",
+      "note": 48,
+      "volume": 24,
+      "id": 1153
+    },
+    {
+      "at": 992,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1154
+    },
+    {
+      "at": 1000,
+      "type": "paula",
+      "voice": 3,
+      "sample": "music-box",
+      "note": 70,
+      "volume": 23,
+      "id": 1155
+    },
+    {
+      "at": 1008,
+      "type": "tone",
+      "cutoff": 1300,
+      "paulaFilter": 66,
+      "id": 1156
+    },
+    {
+      "at": 1008,
+      "type": "paula",
+      "voice": 0,
+      "sample": "sub",
+      "note": 36,
+      "volume": 40,
+      "gate": 8,
+      "id": 1157
+    },
+    {
+      "at": 1008,
+      "type": "paula",
+      "voice": 1,
+      "sample": "mallet",
+      "note": 72,
+      "volume": 42,
+      "id": 1158
+    },
+    {
+      "at": 1008,
+      "type": "paula",
+      "voice": 2,
+      "sample": "hard-kick",
+      "note": 48,
+      "volume": 52,
+      "id": 1159
+    },
+    {
+      "at": 1013,
+      "type": "paula",
+      "voice": 3,
+      "sample": "glass",
+      "note": 79,
+      "volume": 25,
+      "id": 1160
+    }
+  ]
+}

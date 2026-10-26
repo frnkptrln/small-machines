@@ -1,0 +1,79 @@
+SMALL MACHINES — ÜBERGABE FÜR MUSIKVIDEOS
+Datenstand: 24. Oktober 2026 · Repo-Anleitung: 26. Oktober 2026 · SM001–003 + Licht im Hinterhof
+
+Hallo Claude,
+hier liegen die tatsächlichen Partituren und daraus ausgezählten Zeitdaten.
+Für diese Stücke ist keine Noten-/Beat-Erkennung aus der Audiodatei nötig.
+Der Ensemble-Sequencer existiert ebenfalls bereits im beigefügten Studio.
+Dieses Paket wurde vorbereitet, aber nicht an einen Dienst versendet.
+
+SOFORT LOSLEGEN
+0. Vom Repository-Hauptordner aus einmal ausführen:
+     node video/generate-cues.mjs
+   Das erzeugt die unten genannten Dateien unter video/Cues/.
+   Diese großen, reproduzierbaren Zeitlisten sind nicht im Git-Clone enthalten.
+1. Die passende veröffentlichte Audiodatei verwenden. Quelle und aktueller
+   Downloadstatus stehen in ../archive/RELEASES.md. Der Ordner ../music/
+   enthält Partituren und Erzeugungsquellen, nicht die fertigen Aufnahmen.
+   Für Licht im Hinterhof ist die WAV-Fassung zum Synchronisieren geeignet.
+2. Für einen einzelnen Albumtitel:
+   Cues/SM001-003/<ID>.json oder <ID>-Ereignisse.csv öffnen.
+   Beispiel Diskettenblumen: PAULA-02.
+   <ID>-Abschnitte.csv liefert Namen und Grenzen der musikalischen Abschnitte.
+3. Für ein durchgehendes Album: Cues/Alben-Trackpositionen.json verwenden.
+   Die Ereignisse tragen zusätzlich album_frame und album_seconds.
+4. Für Licht im Hinterhof: Cues/Licht-im-Hinterhof/Ereignisse.json bzw. .csv.
+   Szenen.csv enthält die acht Szenen und den viersekündigen Ausklang.
+   Taktraster.csv liefert alle 7.680 Sechzehntelpositionen.
+5. Die Audio-Zeitposition ist die Uhr für das Video. Zu jedem Videoframe die
+   Ereignisse bis einschließlich currentTime nachschlagen; nicht mit einem
+   frei laufenden setInterval mitzählen. Bei Seeking den Ereignisindex neu setzen.
+
+DIE DREI ALBEN
+SM001 · SID       · SID-01 bis SID-08   · Drei Stimmen, eine Stadt
+SM002 · PAULA     · PAULA-01 bis -08    · Diskettenblumen
+SM003 · SID+PAULA · DUO-01 bis DUO-08   · Wo die Maschinen sich treffen
+
+WELCHE DATEN WOFÜR?
+• note_on / drum_trigger: visuelle Impulse, Farb-/Formwechsel, Tastenbilder.
+• Album-note_off mit applied=true: ausgeführter Gate-Release. Bei Licht sind
+  alle note_off ausgeführt und haben kein applied-Feld. Ein Gate-Release ist
+  kein harter Klangstopp. Album-note_off mit applied=false ignorieren.
+• Abschnitte/Szenen: größere Bildwechsel und dramaturgische Übergänge.
+• filter_target: Steuerziel für Filterfarbe, keine gemessene Ausgangsenergie.
+• Die Originale enthalten Instrumente, Patches, Sample-IDs, Noten, Swing,
+  Lautstärkeeinstellungen und komplette Arrangements.
+• Stimmenzahlen und Gatezeiten sind kein Pegelmesser: Hüllkurven, Filter,
+  Delay, Hall und Mischpegel bestimmen zusätzlich den hörbaren Verlauf.
+
+ZEITBASIS — BITTE BEACHTEN
+Alle frame-Werte sind Audio-Sampleframes bei 44.100 Hz, keine Videoframes.
+Sekunden = frame / 44100. Frame 0 ist der PCM-Anfang der Aufnahme.
+Die Albumpositionen stammen aus den exakten verketteten PCM-Längen der
+Originalausgabe (Tracks.json), nicht aus addierten gerundeten Titelzeiten.
+MP3 kann Encoder-Delay und End-Padding tragen. Mit einem gapless-fähigen
+Decoder dekodieren und den dekodierten Anfang prüfen. ffprobe-Containerdauer
+kann länger sein als die musikalische PCM-Dauer. Bei abweichendem Decoder
+nach Prüfung einen konstanten Audiooffset anwenden, nicht Tempo/Swing ändern.
+Auf gerundete Sekunden/MP3-Dateigrößen gestützte Summen driften unnötig.
+
+KEIN SEQUENCER-NEUBAU NÖTIG
+Licht im Hinterhof hat ein vollständiges Set-JSON. Für Audio-Neurendering ist
+unter ../dist/ensemble.mjs der gemeinsame Sequencer
+verfügbar; ../tools/render-ensemble.mjs erzeugt die
+veröffentlichte Vierer-Komposition.
+Für das Video reicht die hier vorbereitete Ereignisliste. Sie wurde mit dem
+echten tick()-Ablauf ausgezählt, einschließlich ausgelassener Stimmen,
+Drumfills, Anschlagänderungen und Acid-Slides. Es ist nicht bloß ein Loopraster.
+Die Datei ist die ursprüngliche Viererfassung: WARM/06 spielt darin nicht mit.
+
+ORIGINALE UND NACHBAU
+Originale/SM001-003/scores/: alle 24 vollständigen Originalpartituren.
+Originale/Licht-im-Hinterhof/: Originalset und originale Messberichte.
+Originale/HERKUNFT.json: Herkunft und SHA256 jeder übernommenen Datei.
+generate-cues.mjs: nachvollziehbarer Generator, ohne Audioanalyse.
+FORMAT-UND-ERZEUGUNG.txt: Details und Aufruf.
+Cues/Pruefbericht.json: Zählungen, Engine-Prüfsummen und Prüfungen.
+
+Dieses Paket enthält keine neuen Audiorender oder Videos. Es beschreibt die
+festen Aufnahmen. Spontane Live-Eingriffe brauchen einen eigenen Event-Mitschnitt.

@@ -1,0 +1,77 @@
+{
+  "title": "Bernsteinfenster",
+  "seconds": 205,
+  "sourceAnalysis": {
+    "input_i": "-29.43",
+    "input_tp": "-15.92",
+    "input_lra": "5.30",
+    "input_thresh": "-39.65",
+    "output_i": "-17.57",
+    "output_tp": "-3.19",
+    "output_lra": "5.30",
+    "output_thresh": "-27.79",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.43"
+  },
+  "fixedGainDb": 11.43,
+  "processing": "24 Hz highpass, fixed gain, final 2 s fade; no dynamic loudness compression",
+  "pcmSamplePeakDbfs": -4.488729619886752,
+  "pcmRmsDbfs": -20.42311486544458,
+  "clippedSamples": 0,
+  "firstStereoFrame": [
+    0,
+    0
+  ],
+  "lastStereoFrame": [
+    0,
+    0
+  ],
+  "mp3LoudnessAndTruePeak": "Summary:\n\n  Integrated loudness:\n    I:         -18.2 LUFS\n    Threshold: -28.5 LUFS\n\n  Loudness range:\n    LRA:         5.3 LU\n    Threshold: -38.5 LUFS\n    LRA low:   -22.2 LUFS\n    LRA high:  -16.9 LUFS\n\n  True peak:\n    Peak:       -4.7 dBFS\n",
+  "formats": [
+    {
+      "file": "Bernsteinfenster.wav",
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "205.000000",
+        "size": "36162200"
+      }
+    },
+    {
+      "file": "Bernsteinfenster.mp3",
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "205.035102",
+        "size": "4921645"
+      }
+    },
+    {
+      "file": "bernsteinfenster.m4a",
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "205.000000",
+        "size": "4950207"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "format": "small-machines-acid",
+  "version": 1,
+  "name": "Säureblumen",
+  "bpm": 124,
+  "wave": "saw",
+  "params": {
+    "cutoff": 280,
+    "resonance": 68,
+    "env": 62,
+    "decay": 260,
+    "accent": 65,
+    "glide": 65,
+    "echo": 18,
+    "volume": 78,
+    "gate": 62
+  },
+  "steps": [
+    {
+      "note": 38,
+      "accent": true,
+      "slide": false
+    },
+    {
+      "note": null,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": 38,
+      "accent": false,
+      "slide": true
+    },
+    {
+      "note": 50,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": 41,
+      "accent": true,
+      "slide": false
+    },
+    {
+      "note": 38,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": null,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": 45,
+      "accent": false,
+      "slide": true
+    },
+    {
+      "note": 38,
+      "accent": true,
+      "slide": false
+    },
+    {
+      "note": 38,
+      "accent": false,
+      "slide": true
+    },
+    {
+      "note": 53,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": null,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": 50,
+      "accent": false,
+      "slide": false
+    },
+    {
+      "note": 45,
+      "accent": false,
+      "slide": true
+    },
+    {
+      "note": 41,
+      "accent": true,
+      "slide": false
+    },
+    {
+      "note": 36,
+      "accent": false,
+      "slide": false
+    }
+  ]
+}

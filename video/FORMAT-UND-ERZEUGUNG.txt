@@ -1,0 +1,75 @@
+SMALL MACHINES — CUEFORMAT UND ERZEUGUNG
+
+AUFRUF
+Node.js wird benötigt. Aus diesem Ordner:
+  node generate-cues.mjs
+
+Der Standardpfad ist ../dist im Repository.
+Für einen anderen Ort: node generate-cues.mjs --engine-dir /pfad/zum/studio/dist
+--engine-dir bezeichnet den dist-Ordner des Small-Machines-Studios.
+Der Generator liest nur eigene Originale und Studio-Module und schreibt Cues/.
+Der Export benötigt weder ffmpeg noch Audiodateien noch ein Modell/API.
+Die sechs in der Albumwerkstatt festgehaltenen Engine-Dateien werden gegen ihre
+Original-SHA256 geprüft; bei einem abweichenden Modul bricht er ab.
+
+ALBUM-PARTITUREN
+Die Originale verwenden Sechzehntelschritte in events[].at und gate, Takte in
+sections[].start/end. Alle Stücke bleiben im 4/4-Takt bei ihrem festen BPM.
+Es gilt die unveränderte Renderer-Formel:
+  stepSeconds = 60 / bpm / 4
+  whole = floor(step); part = step - whole
+  swingAt(step) = whole + part + (whole gerade ? part : 1-part) * swing
+  frame = round(swingAt(step) * stepSeconds * 44100)
+Gate-Enden werden mit derselben Funktion bei at + gate bestimmt.
+Bei gleichem Frame werden Gatebefehle vor Note-on ausgeführt, danach bleibt
+Originalreihenfolge erhalten. applied=false bedeutet: Die Stimme hat inzwischen
+eine andere Event-ID erhalten; dieser alte Gatebefehl wird vom Renderer ignoriert.
+Ein erneut angeschlagener monophoner Kanal ersetzt seinen vorherigen Ton.
+Bei Paula ohne gate hängt das Ausklingen vom Sample und seiner Loop-Einstellung
+ab. Es wird keine geschätzte hörbare Endzeit erfunden.
+SID-Pitch-Sweeps/Vibrato und kontinuierliche Filterglättung bleiben in der
+Originalpartitur bzw. im Renderer; diese Cue-Liste tastet sie nicht pro Sample ab.
+
+Zu jedem Event: frame/seconds lokal im Titel; album_frame/album_seconds für das
+durchgehende Album; bar_1/step_1 sind menschenlesbar und beginnen bei 1.
+voice bleibt die originale nullbasierte Maschinenstimme (SID 0–2, Paula 0–3).
+MIDI-Noten bleiben MIDI-Zahlen; ihre tatsächliche Klangfarbe kommt aus dem Patch.
+Die JSON-Datei enthält auch Original-Eventfelder, beispielsweise patch und sweep.
+CSV ist eine flache Auswahl; verschachtelte Felder sind JSON in CSV-Zellen.
+
+LICHT IM HINTERHOF
+480 Takte, 128 BPM, 16 Sechzehntel/Takt, 900 s Musik + 4 s Ausklang.
+Die acht Szenen starten bei 0, 60, 180, 300, 420, 540, 660, 780 Sekunden.
+Der Generator ruft Ensemble.tick() aus dem Studio auf. Er überspringt reine
+Audio-Samples zwischen Ticks, führt aber die originale Gate-Countdown-Reihenfolge
+aus: Tick zuerst, danach Gate-Dekrement auf demselben Audioframe.
+Damit bleiben negative/fractional clock remainders wie im sample()-Loop erhalten.
+Gates werden beim Erreichen von ceil(gateFrames)-1 Samples freigegeben.
+Der Generator protokolliert echte noteOn, noteOff, Drumtrigger und Filterziele;
+Evolution, ausgelassene Stimmen, Fills, Breath und Slide/Legato entstehen durch
+den Originalcode. An Szenengrenzen gibt es engine_stop-Ereignisse.
+Der Quellhash des genutzten ensemble.mjs steht in Ereignisse.json.
+
+ACHTUNG BEI VISUALISIERUNGEN
+Licht-Trigger laufen auch für momentan leise/stumm gemischte Maschinen weiter.
+Für hörbarkeitsbezogene Bilder zusätzlich scene.levels, globale levels/mutes/solo,
+master und die dokumentierten Ein-/Ausblendungen berücksichtigen. Auch dann
+ist dies eine Steuerdaten-Visualisierung, kein gemessener Frequenz-/Pegelverlauf.
+Bei Acid kann note_on mit legato=true ein Slide ohne neuen Hüllkurvenstart sein.
+Bei Drumkanälen ist velocity der tatsächlich mit Breath verrechnete Anschlag.
+WARM/06 ist im originalen Licht-im-Hinterhof-Set stumm und hat keine Trigger.
+Drumstimmen sind nullbasiert: 0 Kick, 1 Snare, 2 Clap, 3 Closed hat,
+4 Open hat, 5 Tom, 6 Rim, 7 Cowbell. Die Originale enthalten pro Stimme
+level/tune/decay/mute. Ein Drumtrigger allein garantiert daher keine Hörbarkeit.
+
+PRÜFUNG
+24 Scores; vollständige Note-on-Zahl gegen Quellen geprüft; Aufnahmelängen
+gegen originale Renderberichte und Album-Trackoffsets verglichen. Alle acht
+Licht-Szenengrenzen stimmen framegenau mit dem originalen Renderbericht überein.
+Eine zusätzliche einmalige Prüfung führte drei Zweitakt-Ausschnitte durch den
+echten sample()-Audioloop aus; Ergebnisse stehen im Prüfbericht. Der Generator
+führt diese langsamere Audioprüfung nicht bei jedem erneuten Export aus. Optional:
+  node verify-cues.mjs
+Auch hier kann --engine-dir einen anderen Studio-Ort auswählen.
+Die Daten belegen Steuerzeitpunkte, nicht subjektive Hörqualität oder
+sampleidentische Reproduktion aller zukünftigen Decoder/FFmpeg-Versionen.

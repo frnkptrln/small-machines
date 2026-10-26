@@ -1,0 +1,244 @@
+{
+  "format": "small-machines-warm",
+  "version": 1,
+  "name": "Langsame Gardinen",
+  "bpm": 78,
+  "params": {
+    "saw": 72,
+    "pulse": 42,
+    "sub": 8,
+    "noise": 3,
+    "pulseWidth": 46,
+    "pwm": 45,
+    "cutoff": 760,
+    "resonance": 10,
+    "env": 20,
+    "attack": 1500,
+    "decay": 2200,
+    "sustain": 82,
+    "release": 3500,
+    "hpf": 65,
+    "chorus": 83,
+    "drift": 7,
+    "volume": 75,
+    "lfoRate": 0.15
+  },
+  "patterns": [
+    [
+      {
+        "notes": [
+          62,
+          69,
+          72,
+          77
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          62,
+          69,
+          72,
+          77
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          58,
+          65,
+          69,
+          72
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          58,
+          65,
+          69,
+          72
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          65,
+          72,
+          76,
+          81
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          65,
+          72,
+          76,
+          81
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          60,
+          67,
+          70,
+          74
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          60,
+          67,
+          70,
+          74
+        ],
+        "velocity": 0.66,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

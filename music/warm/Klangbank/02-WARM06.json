@@ -1,0 +1,364 @@
+{
+  "format": "small-machines-warm",
+  "version": 1,
+  "name": "Samtboden",
+  "bpm": 104,
+  "params": {
+    "saw": 36,
+    "pulse": 70,
+    "sub": 58,
+    "noise": 0,
+    "pulseWidth": 46,
+    "pwm": 8,
+    "cutoff": 380,
+    "resonance": 23,
+    "env": 47,
+    "attack": 8,
+    "decay": 420,
+    "sustain": 44,
+    "release": 140,
+    "hpf": 20,
+    "chorus": 13,
+    "drift": 2,
+    "volume": 75,
+    "lfoRate": 0.24
+  },
+  "patterns": [
+    [
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          38
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          34
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          41
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ],
+    [
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null,
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.82,
+        "length": 4.8
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          36
+        ],
+        "velocity": 0.61,
+        "length": 1.4
+      },
+      null
+    ]
+  ]
+}

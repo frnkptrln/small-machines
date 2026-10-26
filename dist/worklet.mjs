@@ -1,0 +1,6 @@
+import {Machine} from './machine.mjs';
+class SIDProcessor extends AudioWorkletProcessor {
+ constructor(){super();this.machine=new Machine(sampleRate);this.frames=0;this.scope=new Float32Array(256);this.scopeIndex=0;this.port.onmessage=({data:d})=>{try{if(d.type==='project'){this.machine.setProject(d.project);if(d.reload)this.machine.load(d.project.source);}if(d.type==='play')this.machine.start();if(d.type==='stop')this.machine.stop();if(d.type==='step')this.machine.debugStep();if(d.type==='on')this.machine.noteOn(d.voice,d.note);if(d.type==='off')this.machine.noteOff(d.voice);if(d.type==='load')this.machine.load(d.source);if(d.type==='panic'){this.machine=new Machine(sampleRate,this.machine.project);}this.port.postMessage({type:'state',state:this.machine.snapshot()});}catch(e){this.machine.playing=false;this.port.postMessage({type:'error',message:e.message});}};}
+ process(inputs,outputs){const out=outputs[0][0];for(let i=0;i<out.length;i++){out[i]=this.machine.sample();this.scope[this.scopeIndex++%256]=out[i];}if((this.frames+=out.length)>=sampleRate/15){this.frames=0;this.port.postMessage({type:'state',state:this.machine.snapshot(),scope:Array.from(this.scope)});}return true;}
+}
+registerProcessor('sid-65',SIDProcessor);

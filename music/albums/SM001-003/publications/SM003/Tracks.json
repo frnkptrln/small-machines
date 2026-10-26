@@ -1,0 +1,98 @@
+[
+  {
+    "id": "DUO-01",
+    "number": 1,
+    "title": "Zwei Fenster offen",
+    "bpm": 100,
+    "key": "C-Dur",
+    "seconds": 238.4,
+    "new": true,
+    "description": "SID öffnet das erste Fenster, Paula das zweite. Die beiden Themen antworten sich und treffen sich erst später im selben Refrain.",
+    "file": "audio/01-Zwei-Fenster-offen.mp3",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "DUO-02",
+    "number": 2,
+    "title": "Fensterlicht auf Magnetband",
+    "bpm": 92,
+    "key": "d-Moll",
+    "seconds": 173.9565306122449,
+    "new": false,
+    "description": "Ein warmer Groove, der sich aus elektrischen Tasten und einem einzelnen Bass aufbaut. Die Pulsmelodie kehrt nach einem offenen Mittelteil heller zurück.",
+    "file": "audio/02-Fensterlicht-auf-Magnetband.mp3",
+    "start_seconds": 238.4
+  },
+  {
+    "id": "DUO-03",
+    "number": 3,
+    "title": "Zwischen zwei Takten",
+    "bpm": 126,
+    "key": "e-Moll",
+    "seconds": 128.9047619047619,
+    "new": false,
+    "description": "Ein kleiner Maschinenclub: knappe Bassfiguren, eine Frage aus Pulsen, eine Antwort aus Marimba und ein Mittelteil im halben Tempo.",
+    "file": "audio/03-Zwischen-zwei-Takten.mp3",
+    "start_seconds": 412.3565306122449
+  },
+  {
+    "id": "DUO-04",
+    "number": 4,
+    "title": "Die Maschinen besuchen sich",
+    "bpm": 124,
+    "key": "d-Moll",
+    "seconds": 224.77419501133787,
+    "new": true,
+    "description": "Ein Instrumententausch: dieselbe Frage wandert zwischen Pulston und Marimba. Beide behalten ihre eigene Art zu antworten.",
+    "file": "audio/04-Die-Maschinen-besuchen-sich.mp3",
+    "start_seconds": 541.2612925170068
+  },
+  {
+    "id": "DUO-05",
+    "number": 5,
+    "title": "Gemeinsam um drei",
+    "bpm": 114,
+    "key": "a-Dorisch",
+    "seconds": 243.7894784580499,
+    "new": true,
+    "description": "Eine gemeinsame Clubseite. Der SID trägt Bass und Melodie; Paula antwortet mit Tasten, Luft und einem geraden Puls.",
+    "file": "audio/05-Gemeinsam-um-drei.mp3",
+    "start_seconds": 766.0354875283447
+  },
+  {
+    "id": "DUO-06",
+    "number": 6,
+    "title": "Was im Speicher bleibt",
+    "bpm": 72,
+    "key": "fis-Moll / A-Dur",
+    "seconds": 167.0,
+    "new": false,
+    "description": "Ein ruhiger Dialog aus Dreiecken und gläsernen Tasten. Die Mitte verdichtet sich, am Ende bleibt ein heller Akkord mit einer offenen None.",
+    "file": "audio/06-Was-im-Speicher-bleibt.mp3",
+    "start_seconds": 1009.8249659863945
+  },
+  {
+    "id": "DUO-07",
+    "number": 7,
+    "title": "Kleine Welt bei Nacht",
+    "bpm": 88,
+    "key": "fis-Moll",
+    "seconds": 269.8181859410431,
+    "new": true,
+    "description": "Ein Nachtstück mit viel Raum zwischen den Stimmen. Kleine gläserne Antworten bewegen sich um einen langsamen Dreieckston.",
+    "file": "audio/07-Kleine-Welt-bei-Nacht.mp3",
+    "start_seconds": 1176.8249659863945
+  },
+  {
+    "id": "DUO-08",
+    "number": 8,
+    "title": "Es geht noch weiter",
+    "bpm": 116,
+    "key": "D-Dur",
+    "seconds": 256.275873015873,
+    "new": true,
+    "description": "Ein offenes Finale. Die Melodie aus dem ersten Fenster wächst weiter, bis beide Maschinen nur noch leise aufeinander antworten.",
+    "file": "audio/08-Es-geht-noch-weiter.mp3",
+    "start_seconds": 1446.6431519274377
+  }
+]

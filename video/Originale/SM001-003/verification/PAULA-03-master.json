@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-03",
+  "album": "Diskettenblumen",
+  "track": 3,
+  "engine": "paula",
+  "title": "Kupferregen",
+  "duration_seconds": 197.29578231292518,
+  "bpm": 142,
+  "key": "c-Moll",
+  "wav_peak_dbfs": -3.1,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-3.34",
+  "mp3_lra": "1.70",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

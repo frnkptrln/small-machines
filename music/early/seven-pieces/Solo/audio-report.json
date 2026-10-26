@@ -1,0 +1,50 @@
+[
+  {
+    "engine": "paula",
+    "title": "Papiermond",
+    "duration_seconds": 149.97873015873017,
+    "bpm": 94,
+    "key": "f-Moll",
+    "wav_peak_dbfs": -3.33,
+    "mp3_lufs": "-16.50",
+    "mp3_true_peak_dbtp": "-3.33",
+    "mp3_lra": "3.90",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  },
+  {
+    "engine": "paula",
+    "title": "Diskettenblumen",
+    "duration_seconds": 123.36365079365079,
+    "bpm": 132,
+    "key": "c-Moll",
+    "wav_peak_dbfs": -1.5,
+    "mp3_lufs": "-16.01",
+    "mp3_true_peak_dbtp": "-1.41",
+    "mp3_lra": "2.90",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  },
+  {
+    "engine": "sid",
+    "title": "Drei Stimmen im Neon",
+    "duration_seconds": 137.16950113378684,
+    "bpm": 118,
+    "key": "a-Moll",
+    "wav_peak_dbfs": -4.19,
+    "mp3_lufs": "-16.00",
+    "mp3_true_peak_dbtp": "-4.15",
+    "mp3_lra": "4.00",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  },
+  {
+    "engine": "sid",
+    "title": "Ein Bit von dir",
+    "duration_seconds": 151.0,
+    "bpm": 80,
+    "key": "h-Moll / D-Dur",
+    "wav_peak_dbfs": -5.68,
+    "mp3_lufs": "-18.00",
+    "mp3_true_peak_dbtp": "-5.68",
+    "mp3_lra": "3.40",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  }
+]

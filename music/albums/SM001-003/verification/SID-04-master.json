@@ -1,0 +1,15 @@
+{
+  "id": "SID-04",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 4,
+  "engine": "sid",
+  "title": "Ein Bit von dir",
+  "duration_seconds": 151.0,
+  "bpm": 80,
+  "key": "h-Moll / D-Dur",
+  "wav_peak_dbfs": -5.33,
+  "mp3_lufs": "-18.27",
+  "mp3_true_peak_dbtp": "-5.59",
+  "mp3_lra": "3.20",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

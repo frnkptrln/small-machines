@@ -1,0 +1,50 @@
+{
+  "note": "The three earlier duet scores, rendering sources and notes are byte-identical to seven-pieces/Duo. Only their original package checksum manifest differs; it is retained here.",
+  "files": [
+    {
+      "original_path": "Playlist.m3u",
+      "same_as": "music/early/seven-pieces/Duo/Playlist.m3u",
+      "sha256": "0415dc80468dd93ee66f61bab6dc3f1af61e490ba22c12c8726a1acd895b6f51"
+    },
+    {
+      "original_path": "README.txt",
+      "same_as": "music/early/seven-pieces/Duo/README.txt",
+      "sha256": "a6de4c46c027419ec80e322927aed92eb37559ee5233dca2ce71640cf9cd7d15"
+    },
+    {
+      "original_path": "audio-report.json",
+      "same_as": "music/early/seven-pieces/Duo/audio-report.json",
+      "sha256": "92f1a065c4ad57bb53f5b0daae09d617c39c3315bdefcf90dafb691057881ed9"
+    },
+    {
+      "original_path": "scores/01-Fensterlicht-auf-Magnetband.json",
+      "same_as": "music/early/seven-pieces/Duo/scores/01-Fensterlicht-auf-Magnetband.json",
+      "sha256": "7e7bf5a276dd20018d6d955229983ebfa7f1cdc98602f436ecd8bf4202107313"
+    },
+    {
+      "original_path": "scores/02-Zwischen-zwei-Takten.json",
+      "same_as": "music/early/seven-pieces/Duo/scores/02-Zwischen-zwei-Takten.json",
+      "sha256": "309cdc1e84c8076e44bc5b942e448d768467a5f736b4b66fb0c721d9ab790844"
+    },
+    {
+      "original_path": "scores/03-Was-im-Speicher-bleibt.json",
+      "same_as": "music/early/seven-pieces/Duo/scores/03-Was-im-Speicher-bleibt.json",
+      "sha256": "0cfdcd742f0575f90876ff69657d43928cc76a58deadbb76071ff28d24fb42d1"
+    },
+    {
+      "original_path": "source/compose.mjs",
+      "same_as": "music/early/seven-pieces/Duo/source/compose.mjs",
+      "sha256": "49a08ee462740a2a48216a833bfa54f64cfe16892cf33abc711f5b88bc0f284c"
+    },
+    {
+      "original_path": "source/master.py",
+      "same_as": "music/early/seven-pieces/Duo/source/master.py",
+      "sha256": "f71ddf25cb41dba9dffd1ae73afa82d33b606a6b8392af1700cec0f163fa6e75"
+    },
+    {
+      "original_path": "source/render.mjs",
+      "same_as": "music/early/seven-pieces/Duo/source/render.mjs",
+      "sha256": "d0bd3341e2532e9ddc7e6b65a71af3e437fbb4cdd22d8be2eeb739cc1e6291c1"
+    }
+  ]
+}

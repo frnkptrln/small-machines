@@ -1,0 +1,12 @@
+{
+  "README.txt": "34e4e9b3854cb569a9bca23b7d789cf2792942f8f9a015eb42454ec89b9cfd3e",
+  "engine-version.json": "64b4c70e1d457fc05cc158374f1866f10e35df9a0621ad7bd48d4ad632f7e341",
+  "Saeureblumen-ACID16-Pattern.json": "545cbe41ec0f57913516defbd8b31bad3ca8125e34102ca5772566cce4d409fd",
+  "source/clean-paula.mjs": "008b884a7b7cc5241b0085856c7da4e86d620a7c927642628144dac27db33200",
+  "source/compose.mjs": "2975e38ce2a58ce5e1aa8863771df067aa623aaa0c34cffe22324e44aa276f21",
+  "source/master.py": "2095530936ebe6cbf1f0629851f4d14785e5feedb04987afcba0819466c94a96",
+  "source/render.mjs": "8ad4770064896d336ed00f7f2ba739b9e71a58b44fc0a01732a2860e021625ed",
+  "scores/SM004-Saeureblumen.json": "87e151a5fd0ad209ec7f29013322b2364fe4ca9993755ea978f6a348c5ca21d3",
+  "verification/SM004-Saeureblumen-master.json": "3c531e0ff12b5ef697ccae4144119942f879dad72a7704a07557fd54237b345a",
+  "verification/SM004-Saeureblumen-render.json": "88f91a1ca65253f777a94c3dfd84c59bfa087b78c61e2792bb6a6087497df7b6"
+}

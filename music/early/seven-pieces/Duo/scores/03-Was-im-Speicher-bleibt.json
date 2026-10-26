@@ -1,0 +1,3704 @@
+{
+  "format": "small-machines-composition",
+  "version": 1,
+  "id": "03-Was-im-Speicher-bleibt",
+  "title": "Was im Speicher bleibt",
+  "bpm": 72,
+  "bars": 48,
+  "swing": 0.04,
+  "key": "fis-Moll / A-Dur",
+  "description": "Ein ruhiger Dialog aus Dreiecken und gläsernen Tasten. Die Mitte verdichtet sich, am Ende bleibt ein heller Akkord mit einer offenen None.",
+  "rate": 44100,
+  "tail": 7,
+  "voices": [
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 5,
+      "decay": 10,
+      "sustain": 5,
+      "release": 10,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 3,
+      "decay": 8,
+      "sustain": 8,
+      "release": 9,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 64,
+      "pw": 43,
+      "attack": 10,
+      "decay": 10,
+      "sustain": 4,
+      "release": 11,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ein Rest von Licht",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "name": "Erinnerung",
+      "start": 8,
+      "end": 20
+    },
+    {
+      "name": "Nähe",
+      "start": 20,
+      "end": 32
+    },
+    {
+      "name": "Alles wird weit",
+      "start": 32,
+      "end": 40
+    },
+    {
+      "name": "Bleibt",
+      "start": 40,
+      "end": 48
+    }
+  ],
+  "mix": {
+    "sid": 0.57,
+    "paula": 1.05,
+    "reverb": 0.23,
+    "echo": 29,
+    "width": 92,
+    "sidechain": 0.07,
+    "fadeIn": 3,
+    "fadeOut": 7
+  },
+  "events": [
+    {
+      "at": 0,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 0
+    },
+    {
+      "at": 0,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 22,
+      "id": 1
+    },
+    {
+      "at": 0,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 2
+    },
+    {
+      "at": 2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 3
+    },
+    {
+      "at": 9,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 4
+    },
+    {
+      "at": 16,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 5
+    },
+    {
+      "at": 18,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 6
+    },
+    {
+      "at": 23,
+      "type": "paula",
+      "voice": 2,
+      "sample": "music-box",
+      "note": 73,
+      "volume": 21,
+      "id": 7
+    },
+    {
+      "at": 25,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 80,
+      "volume": 25,
+      "id": 8
+    },
+    {
+      "at": 32,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 9
+    },
+    {
+      "at": 32,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 22,
+      "id": 10
+    },
+    {
+      "at": 32,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 11
+    },
+    {
+      "at": 34,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 12
+    },
+    {
+      "at": 41,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 13
+    },
+    {
+      "at": 48,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 14
+    },
+    {
+      "at": 50,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 15
+    },
+    {
+      "at": 55,
+      "type": "paula",
+      "voice": 2,
+      "sample": "music-box",
+      "note": 73,
+      "volume": 21,
+      "id": 16
+    },
+    {
+      "at": 57,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 17
+    },
+    {
+      "at": 64,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 18
+    },
+    {
+      "at": 64,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 22,
+      "id": 19
+    },
+    {
+      "at": 64,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 20
+    },
+    {
+      "at": 64,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 21
+    },
+    {
+      "at": 66,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 22
+    },
+    {
+      "at": 73,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 23
+    },
+    {
+      "at": 80,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 24
+    },
+    {
+      "at": 82,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 25
+    },
+    {
+      "at": 87,
+      "type": "paula",
+      "voice": 2,
+      "sample": "music-box",
+      "note": 73,
+      "volume": 21,
+      "id": 26
+    },
+    {
+      "at": 89,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 76,
+      "volume": 25,
+      "id": 27
+    },
+    {
+      "at": 96,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 28
+    },
+    {
+      "at": 96,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 22,
+      "id": 29
+    },
+    {
+      "at": 96,
+      "type": "sid",
+      "voice": 2,
+      "note": 56,
+      "gate": 28,
+      "id": 30
+    },
+    {
+      "at": 96,
+      "type": "sid",
+      "voice": 1,
+      "note": 40,
+      "gate": 25,
+      "id": 31
+    },
+    {
+      "at": 98,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 32
+    },
+    {
+      "at": 105,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 68,
+      "volume": 25,
+      "id": 33
+    },
+    {
+      "at": 112,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 34
+    },
+    {
+      "at": 114,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 71,
+      "volume": 25,
+      "id": 35
+    },
+    {
+      "at": 119,
+      "type": "paula",
+      "voice": 2,
+      "sample": "music-box",
+      "note": 71,
+      "volume": 21,
+      "id": 36
+    },
+    {
+      "at": 121,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 37
+    },
+    {
+      "at": 128,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 38
+    },
+    {
+      "at": 128,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 39
+    },
+    {
+      "at": 128,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 40
+    },
+    {
+      "at": 128,
+      "type": "sid",
+      "voice": 1,
+      "note": 42,
+      "gate": 25,
+      "id": 41
+    },
+    {
+      "at": 129,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 42
+    },
+    {
+      "at": 130,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 43
+    },
+    {
+      "at": 137,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 44
+    },
+    {
+      "at": 137,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 45
+    },
+    {
+      "at": 144,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 46
+    },
+    {
+      "at": 144,
+      "type": "sid",
+      "voice": 0,
+      "note": 80,
+      "gate": 6,
+      "id": 47
+    },
+    {
+      "at": 146,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 48
+    },
+    {
+      "at": 153,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 80,
+      "volume": 25,
+      "id": 49
+    },
+    {
+      "at": 154,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 4,
+      "id": 50
+    },
+    {
+      "at": 160,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 51
+    },
+    {
+      "at": 160,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 52
+    },
+    {
+      "at": 160,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 53
+    },
+    {
+      "at": 160,
+      "type": "sid",
+      "voice": 1,
+      "note": 38,
+      "gate": 25,
+      "id": 54
+    },
+    {
+      "at": 162,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 55
+    },
+    {
+      "at": 162,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 5,
+      "id": 56
+    },
+    {
+      "at": 169,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 57
+    },
+    {
+      "at": 170,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 4,
+      "id": 58
+    },
+    {
+      "at": 176,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 59
+    },
+    {
+      "at": 176,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 8,
+      "id": 60
+    },
+    {
+      "at": 178,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 61
+    },
+    {
+      "at": 185,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 62
+    },
+    {
+      "at": 187,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 3,
+      "id": 63
+    },
+    {
+      "at": 192,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 64
+    },
+    {
+      "at": 192,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 65
+    },
+    {
+      "at": 192,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 66
+    },
+    {
+      "at": 192,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 67
+    },
+    {
+      "at": 192,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 68
+    },
+    {
+      "at": 192,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 69
+    },
+    {
+      "at": 194,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 70
+    },
+    {
+      "at": 200,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 71
+    },
+    {
+      "at": 200,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 72
+    },
+    {
+      "at": 201,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 73
+    },
+    {
+      "at": 208,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 74
+    },
+    {
+      "at": 208,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 75
+    },
+    {
+      "at": 210,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 76
+    },
+    {
+      "at": 210,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 77
+    },
+    {
+      "at": 216,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 78
+    },
+    {
+      "at": 217,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 76,
+      "volume": 25,
+      "id": 79
+    },
+    {
+      "at": 217,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 5,
+      "id": 80
+    },
+    {
+      "at": 224,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 81
+    },
+    {
+      "at": 224,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 82
+    },
+    {
+      "at": 224,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 83
+    },
+    {
+      "at": 224,
+      "type": "sid",
+      "voice": 2,
+      "note": 56,
+      "gate": 28,
+      "id": 84
+    },
+    {
+      "at": 224,
+      "type": "sid",
+      "voice": 1,
+      "note": 40,
+      "gate": 25,
+      "id": 85
+    },
+    {
+      "at": 224,
+      "type": "sid",
+      "voice": 0,
+      "note": 68,
+      "gate": 6,
+      "id": 86
+    },
+    {
+      "at": 226,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 87
+    },
+    {
+      "at": 232,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 88
+    },
+    {
+      "at": 233,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 68,
+      "volume": 25,
+      "id": 89
+    },
+    {
+      "at": 233,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 90
+    },
+    {
+      "at": 240,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 91
+    },
+    {
+      "at": 240,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 92
+    },
+    {
+      "at": 240,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 7,
+      "id": 93
+    },
+    {
+      "at": 242,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 71,
+      "volume": 25,
+      "id": 94
+    },
+    {
+      "at": 248,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 95
+    },
+    {
+      "at": 249,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 96
+    },
+    {
+      "at": 250,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 97
+    },
+    {
+      "at": 256,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 98
+    },
+    {
+      "at": 256,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 99
+    },
+    {
+      "at": 256,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 100
+    },
+    {
+      "at": 256,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 101
+    },
+    {
+      "at": 256,
+      "type": "sid",
+      "voice": 1,
+      "note": 42,
+      "gate": 25,
+      "id": 102
+    },
+    {
+      "at": 257,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 103
+    },
+    {
+      "at": 258,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 104
+    },
+    {
+      "at": 264,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 105
+    },
+    {
+      "at": 265,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 106
+    },
+    {
+      "at": 265,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 107
+    },
+    {
+      "at": 272,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 108
+    },
+    {
+      "at": 272,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 109
+    },
+    {
+      "at": 272,
+      "type": "sid",
+      "voice": 0,
+      "note": 80,
+      "gate": 6,
+      "id": 110
+    },
+    {
+      "at": 274,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 111
+    },
+    {
+      "at": 280,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 112
+    },
+    {
+      "at": 281,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 80,
+      "volume": 25,
+      "id": 113
+    },
+    {
+      "at": 282,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 4,
+      "id": 114
+    },
+    {
+      "at": 288,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 115
+    },
+    {
+      "at": 288,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 116
+    },
+    {
+      "at": 288,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 117
+    },
+    {
+      "at": 288,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 118
+    },
+    {
+      "at": 288,
+      "type": "sid",
+      "voice": 1,
+      "note": 38,
+      "gate": 25,
+      "id": 119
+    },
+    {
+      "at": 290,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 120
+    },
+    {
+      "at": 290,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 5,
+      "id": 121
+    },
+    {
+      "at": 296,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 122
+    },
+    {
+      "at": 297,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 123
+    },
+    {
+      "at": 298,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 4,
+      "id": 124
+    },
+    {
+      "at": 304,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 125
+    },
+    {
+      "at": 304,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 126
+    },
+    {
+      "at": 304,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 8,
+      "id": 127
+    },
+    {
+      "at": 306,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 128
+    },
+    {
+      "at": 312,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 129
+    },
+    {
+      "at": 313,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 130
+    },
+    {
+      "at": 315,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 3,
+      "id": 131
+    },
+    {
+      "at": 320,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 132
+    },
+    {
+      "at": 320,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 133
+    },
+    {
+      "at": 320,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 134
+    },
+    {
+      "at": 320,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 135
+    },
+    {
+      "at": 320,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 136
+    },
+    {
+      "at": 320,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 137
+    },
+    {
+      "at": 321,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 138
+    },
+    {
+      "at": 324,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 139
+    },
+    {
+      "at": 325.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 140
+    },
+    {
+      "at": 328,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 141
+    },
+    {
+      "at": 328,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 142
+    },
+    {
+      "at": 329,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 143
+    },
+    {
+      "at": 330,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 144
+    },
+    {
+      "at": 332,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 145
+    },
+    {
+      "at": 333.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 76,
+      "volume": 32,
+      "id": 146
+    },
+    {
+      "at": 335,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 147
+    },
+    {
+      "at": 336,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 148
+    },
+    {
+      "at": 336,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 149
+    },
+    {
+      "at": 337,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 150
+    },
+    {
+      "at": 338,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 151
+    },
+    {
+      "at": 340,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 152
+    },
+    {
+      "at": 341.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 76,
+      "volume": 32,
+      "id": 153
+    },
+    {
+      "at": 344,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 154
+    },
+    {
+      "at": 345,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 155
+    },
+    {
+      "at": 345,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 5,
+      "id": 156
+    },
+    {
+      "at": 346,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 157
+    },
+    {
+      "at": 348,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 158
+    },
+    {
+      "at": 349.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 159
+    },
+    {
+      "at": 351,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 160
+    },
+    {
+      "at": 352,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 161
+    },
+    {
+      "at": 352,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 162
+    },
+    {
+      "at": 352,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 163
+    },
+    {
+      "at": 352,
+      "type": "sid",
+      "voice": 2,
+      "note": 56,
+      "gate": 28,
+      "id": 164
+    },
+    {
+      "at": 352,
+      "type": "sid",
+      "voice": 1,
+      "note": 40,
+      "gate": 25,
+      "id": 165
+    },
+    {
+      "at": 352,
+      "type": "sid",
+      "voice": 0,
+      "note": 68,
+      "gate": 6,
+      "id": 166
+    },
+    {
+      "at": 353,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 167
+    },
+    {
+      "at": 356,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 168
+    },
+    {
+      "at": 357.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 68,
+      "volume": 32,
+      "id": 169
+    },
+    {
+      "at": 360,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 170
+    },
+    {
+      "at": 361,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 71,
+      "volume": 32,
+      "id": 171
+    },
+    {
+      "at": 361,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 172
+    },
+    {
+      "at": 362,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 173
+    },
+    {
+      "at": 364,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 174
+    },
+    {
+      "at": 365.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 78,
+      "volume": 32,
+      "id": 175
+    },
+    {
+      "at": 367,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 176
+    },
+    {
+      "at": 368,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 177
+    },
+    {
+      "at": 368,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 178
+    },
+    {
+      "at": 368,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 7,
+      "id": 179
+    },
+    {
+      "at": 369,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 71,
+      "volume": 32,
+      "id": 180
+    },
+    {
+      "at": 372,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 181
+    },
+    {
+      "at": 373.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 78,
+      "volume": 32,
+      "id": 182
+    },
+    {
+      "at": 376,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 183
+    },
+    {
+      "at": 377,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 184
+    },
+    {
+      "at": 378,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 185
+    },
+    {
+      "at": 378,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 186
+    },
+    {
+      "at": 380,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 187
+    },
+    {
+      "at": 381.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 68,
+      "volume": 32,
+      "id": 188
+    },
+    {
+      "at": 383,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 189
+    },
+    {
+      "at": 384,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 190
+    },
+    {
+      "at": 384,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 191
+    },
+    {
+      "at": 384,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 192
+    },
+    {
+      "at": 384,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 193
+    },
+    {
+      "at": 384,
+      "type": "sid",
+      "voice": 1,
+      "note": 42,
+      "gate": 25,
+      "id": 194
+    },
+    {
+      "at": 385,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 66,
+      "volume": 32,
+      "id": 195
+    },
+    {
+      "at": 385,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 196
+    },
+    {
+      "at": 388,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 197
+    },
+    {
+      "at": 389.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 198
+    },
+    {
+      "at": 392,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 199
+    },
+    {
+      "at": 393,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 200
+    },
+    {
+      "at": 393,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 201
+    },
+    {
+      "at": 394,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 202
+    },
+    {
+      "at": 396,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 203
+    },
+    {
+      "at": 397.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 80,
+      "volume": 32,
+      "id": 204
+    },
+    {
+      "at": 399,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 205
+    },
+    {
+      "at": 400,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 206
+    },
+    {
+      "at": 400,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 207
+    },
+    {
+      "at": 400,
+      "type": "sid",
+      "voice": 0,
+      "note": 80,
+      "gate": 6,
+      "id": 208
+    },
+    {
+      "at": 401,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 209
+    },
+    {
+      "at": 404,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 210
+    },
+    {
+      "at": 405.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 80,
+      "volume": 32,
+      "id": 211
+    },
+    {
+      "at": 408,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 212
+    },
+    {
+      "at": 409,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 66,
+      "volume": 32,
+      "id": 213
+    },
+    {
+      "at": 410,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 214
+    },
+    {
+      "at": 410,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 4,
+      "id": 215
+    },
+    {
+      "at": 412,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 216
+    },
+    {
+      "at": 413.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 217
+    },
+    {
+      "at": 415,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 218
+    },
+    {
+      "at": 416,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 219
+    },
+    {
+      "at": 416,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 220
+    },
+    {
+      "at": 416,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 221
+    },
+    {
+      "at": 416,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 222
+    },
+    {
+      "at": 416,
+      "type": "sid",
+      "voice": 1,
+      "note": 38,
+      "gate": 25,
+      "id": 223
+    },
+    {
+      "at": 417,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 66,
+      "volume": 32,
+      "id": 224
+    },
+    {
+      "at": 418,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 5,
+      "id": 225
+    },
+    {
+      "at": 420,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 226
+    },
+    {
+      "at": 421.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 227
+    },
+    {
+      "at": 424,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 228
+    },
+    {
+      "at": 425,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 229
+    },
+    {
+      "at": 426,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 230
+    },
+    {
+      "at": 426,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 4,
+      "id": 231
+    },
+    {
+      "at": 428,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 232
+    },
+    {
+      "at": 429.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 78,
+      "volume": 32,
+      "id": 233
+    },
+    {
+      "at": 431,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 234
+    },
+    {
+      "at": 432,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 235
+    },
+    {
+      "at": 432,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 236
+    },
+    {
+      "at": 432,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 8,
+      "id": 237
+    },
+    {
+      "at": 433,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 238
+    },
+    {
+      "at": 436,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 239
+    },
+    {
+      "at": 437.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 78,
+      "volume": 32,
+      "id": 240
+    },
+    {
+      "at": 440,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 241
+    },
+    {
+      "at": 441,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 66,
+      "volume": 32,
+      "id": 242
+    },
+    {
+      "at": 442,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 243
+    },
+    {
+      "at": 443,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 3,
+      "id": 244
+    },
+    {
+      "at": 444,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 245
+    },
+    {
+      "at": 445.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 246
+    },
+    {
+      "at": 447,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 247
+    },
+    {
+      "at": 448,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 248
+    },
+    {
+      "at": 448,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 249
+    },
+    {
+      "at": 448,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 250
+    },
+    {
+      "at": 448,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 251
+    },
+    {
+      "at": 448,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 252
+    },
+    {
+      "at": 448,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 253
+    },
+    {
+      "at": 449,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 254
+    },
+    {
+      "at": 452,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 255
+    },
+    {
+      "at": 453.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 256
+    },
+    {
+      "at": 456,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 257
+    },
+    {
+      "at": 456,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 258
+    },
+    {
+      "at": 457,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 259
+    },
+    {
+      "at": 458,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 260
+    },
+    {
+      "at": 460,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 261
+    },
+    {
+      "at": 461.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 76,
+      "volume": 32,
+      "id": 262
+    },
+    {
+      "at": 463,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 263
+    },
+    {
+      "at": 464,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 264
+    },
+    {
+      "at": 464,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 265
+    },
+    {
+      "at": 465,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 73,
+      "volume": 32,
+      "id": 266
+    },
+    {
+      "at": 466,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 267
+    },
+    {
+      "at": 468,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 268
+    },
+    {
+      "at": 469.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 76,
+      "volume": 32,
+      "id": 269
+    },
+    {
+      "at": 472,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 270
+    },
+    {
+      "at": 473,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 271
+    },
+    {
+      "at": 473,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 5,
+      "id": 272
+    },
+    {
+      "at": 474,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 273
+    },
+    {
+      "at": 476,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 274
+    },
+    {
+      "at": 477.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 69,
+      "volume": 32,
+      "id": 275
+    },
+    {
+      "at": 479,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 276
+    },
+    {
+      "at": 480,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 277
+    },
+    {
+      "at": 480,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 278
+    },
+    {
+      "at": 480,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 279
+    },
+    {
+      "at": 480,
+      "type": "sid",
+      "voice": 2,
+      "note": 56,
+      "gate": 28,
+      "id": 280
+    },
+    {
+      "at": 480,
+      "type": "sid",
+      "voice": 1,
+      "note": 40,
+      "gate": 25,
+      "id": 281
+    },
+    {
+      "at": 480,
+      "type": "sid",
+      "voice": 0,
+      "note": 68,
+      "gate": 6,
+      "id": 282
+    },
+    {
+      "at": 481,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 283
+    },
+    {
+      "at": 484,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 284
+    },
+    {
+      "at": 485.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 68,
+      "volume": 32,
+      "id": 285
+    },
+    {
+      "at": 488,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 286
+    },
+    {
+      "at": 489,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 71,
+      "volume": 32,
+      "id": 287
+    },
+    {
+      "at": 489,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 4,
+      "id": 288
+    },
+    {
+      "at": 490,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 289
+    },
+    {
+      "at": 492,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 290
+    },
+    {
+      "at": 493.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 78,
+      "volume": 32,
+      "id": 291
+    },
+    {
+      "at": 495,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 292
+    },
+    {
+      "at": 496,
+      "type": "tone",
+      "cutoff": 1520,
+      "paulaFilter": 60,
+      "id": 293
+    },
+    {
+      "at": 496,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 40,
+      "id": 294
+    },
+    {
+      "at": 496,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 7,
+      "id": 295
+    },
+    {
+      "at": 497,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 71,
+      "volume": 32,
+      "id": 296
+    },
+    {
+      "at": 500,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 297
+    },
+    {
+      "at": 501.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 78,
+      "volume": 32,
+      "id": 298
+    },
+    {
+      "at": 504,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 21,
+      "id": 299
+    },
+    {
+      "at": 505,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 64,
+      "volume": 32,
+      "id": 300
+    },
+    {
+      "at": 506,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 27,
+      "id": 301
+    },
+    {
+      "at": 506,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 302
+    },
+    {
+      "at": 508,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 303
+    },
+    {
+      "at": 509.2,
+      "type": "paula",
+      "voice": 1,
+      "sample": "epiano",
+      "note": 68,
+      "volume": 32,
+      "id": 304
+    },
+    {
+      "at": 511,
+      "type": "paula",
+      "voice": 2,
+      "sample": "shaker",
+      "note": 48,
+      "volume": 21,
+      "id": 305
+    },
+    {
+      "at": 512,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 306
+    },
+    {
+      "at": 512,
+      "type": "paula",
+      "voice": 3,
+      "sample": "choir",
+      "note": 66,
+      "volume": 27,
+      "id": 307
+    },
+    {
+      "at": 512,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 308
+    },
+    {
+      "at": 512,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 309
+    },
+    {
+      "at": 512,
+      "type": "sid",
+      "voice": 1,
+      "note": 42,
+      "gate": 25,
+      "id": 310
+    },
+    {
+      "at": 513,
+      "type": "sid",
+      "voice": 0,
+      "note": 85,
+      "gate": 4,
+      "id": 311
+    },
+    {
+      "at": 514,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 312
+    },
+    {
+      "at": 520,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 313
+    },
+    {
+      "at": 521,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 314
+    },
+    {
+      "at": 521,
+      "type": "sid",
+      "voice": 0,
+      "note": 88,
+      "gate": 4,
+      "id": 315
+    },
+    {
+      "at": 528,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 316
+    },
+    {
+      "at": 528,
+      "type": "sid",
+      "voice": 0,
+      "note": 92,
+      "gate": 4.800000000000001,
+      "id": 317
+    },
+    {
+      "at": 530,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 318
+    },
+    {
+      "at": 536,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 319
+    },
+    {
+      "at": 537,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 80,
+      "volume": 25,
+      "id": 320
+    },
+    {
+      "at": 538,
+      "type": "sid",
+      "voice": 0,
+      "note": 90,
+      "gate": 3.2,
+      "id": 321
+    },
+    {
+      "at": 544,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 322
+    },
+    {
+      "at": 544,
+      "type": "paula",
+      "voice": 3,
+      "sample": "choir",
+      "note": 66,
+      "volume": 27,
+      "id": 323
+    },
+    {
+      "at": 544,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 324
+    },
+    {
+      "at": 544,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 325
+    },
+    {
+      "at": 544,
+      "type": "sid",
+      "voice": 1,
+      "note": 38,
+      "gate": 25,
+      "id": 326
+    },
+    {
+      "at": 546,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 327
+    },
+    {
+      "at": 546,
+      "type": "sid",
+      "voice": 0,
+      "note": 90,
+      "gate": 4,
+      "id": 328
+    },
+    {
+      "at": 552,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 329
+    },
+    {
+      "at": 553,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 330
+    },
+    {
+      "at": 554,
+      "type": "sid",
+      "voice": 0,
+      "note": 88,
+      "gate": 3.2,
+      "id": 331
+    },
+    {
+      "at": 560,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 332
+    },
+    {
+      "at": 560,
+      "type": "sid",
+      "voice": 0,
+      "note": 85,
+      "gate": 6.4,
+      "id": 333
+    },
+    {
+      "at": 562,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 334
+    },
+    {
+      "at": 568,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 335
+    },
+    {
+      "at": 569,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 336
+    },
+    {
+      "at": 571,
+      "type": "sid",
+      "voice": 0,
+      "note": 81,
+      "gate": 2.4000000000000004,
+      "id": 337
+    },
+    {
+      "at": 576,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 338
+    },
+    {
+      "at": 576,
+      "type": "paula",
+      "voice": 3,
+      "sample": "choir",
+      "note": 64,
+      "volume": 27,
+      "id": 339
+    },
+    {
+      "at": 576,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 340
+    },
+    {
+      "at": 576,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 341
+    },
+    {
+      "at": 576,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 342
+    },
+    {
+      "at": 576,
+      "type": "sid",
+      "voice": 0,
+      "note": 88,
+      "gate": 4,
+      "id": 343
+    },
+    {
+      "at": 578,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 344
+    },
+    {
+      "at": 584,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 345
+    },
+    {
+      "at": 584,
+      "type": "sid",
+      "voice": 0,
+      "note": 85,
+      "gate": 4,
+      "id": 346
+    },
+    {
+      "at": 585,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 347
+    },
+    {
+      "at": 592,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 348
+    },
+    {
+      "at": 594,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 349
+    },
+    {
+      "at": 594,
+      "type": "sid",
+      "voice": 0,
+      "note": 83,
+      "gate": 3.2,
+      "id": 350
+    },
+    {
+      "at": 600,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 351
+    },
+    {
+      "at": 601,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 76,
+      "volume": 25,
+      "id": 352
+    },
+    {
+      "at": 601,
+      "type": "sid",
+      "voice": 0,
+      "note": 81,
+      "gate": 4,
+      "id": 353
+    },
+    {
+      "at": 608,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 354
+    },
+    {
+      "at": 608,
+      "type": "paula",
+      "voice": 3,
+      "sample": "choir",
+      "note": 64,
+      "volume": 27,
+      "id": 355
+    },
+    {
+      "at": 608,
+      "type": "paula",
+      "voice": 0,
+      "sample": "deep-kick",
+      "note": 43,
+      "volume": 30,
+      "id": 356
+    },
+    {
+      "at": 608,
+      "type": "sid",
+      "voice": 2,
+      "note": 56,
+      "gate": 28,
+      "id": 357
+    },
+    {
+      "at": 608,
+      "type": "sid",
+      "voice": 1,
+      "note": 40,
+      "gate": 25,
+      "id": 358
+    },
+    {
+      "at": 608,
+      "type": "sid",
+      "voice": 0,
+      "note": 80,
+      "gate": 4.800000000000001,
+      "id": 359
+    },
+    {
+      "at": 610,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 360
+    },
+    {
+      "at": 616,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 361
+    },
+    {
+      "at": 617,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 68,
+      "volume": 25,
+      "id": 362
+    },
+    {
+      "at": 617,
+      "type": "sid",
+      "voice": 0,
+      "note": 83,
+      "gate": 3.2,
+      "id": 363
+    },
+    {
+      "at": 624,
+      "type": "tone",
+      "cutoff": 1360,
+      "paulaFilter": 48,
+      "id": 364
+    },
+    {
+      "at": 624,
+      "type": "sid",
+      "voice": 0,
+      "note": 85,
+      "gate": 5.6000000000000005,
+      "id": 365
+    },
+    {
+      "at": 626,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 71,
+      "volume": 25,
+      "id": 366
+    },
+    {
+      "at": 632,
+      "type": "paula",
+      "voice": 2,
+      "sample": "rim",
+      "note": 43,
+      "volume": 16,
+      "id": 367
+    },
+    {
+      "at": 633,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 368
+    },
+    {
+      "at": 634,
+      "type": "sid",
+      "voice": 0,
+      "note": 88,
+      "gate": 4,
+      "id": 369
+    },
+    {
+      "at": 640,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 370
+    },
+    {
+      "at": 640,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 371
+    },
+    {
+      "at": 640,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 372
+    },
+    {
+      "at": 640,
+      "type": "sid",
+      "voice": 1,
+      "note": 42,
+      "gate": 25,
+      "id": 373
+    },
+    {
+      "at": 641,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 5,
+      "id": 374
+    },
+    {
+      "at": 641,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 6,
+      "id": 375
+    },
+    {
+      "at": 642,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 376
+    },
+    {
+      "at": 649,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 377
+    },
+    {
+      "at": 649,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 5,
+      "id": 378
+    },
+    {
+      "at": 650,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 379
+    },
+    {
+      "at": 656,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 380
+    },
+    {
+      "at": 656,
+      "type": "sid",
+      "voice": 0,
+      "note": 80,
+      "gate": 6,
+      "id": 381
+    },
+    {
+      "at": 657,
+      "type": "sid",
+      "voice": 0,
+      "note": 64,
+      "gate": 6,
+      "id": 382
+    },
+    {
+      "at": 658,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 383
+    },
+    {
+      "at": 665,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 80,
+      "volume": 25,
+      "id": 384
+    },
+    {
+      "at": 666,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 4,
+      "id": 385
+    },
+    {
+      "at": 666,
+      "type": "sid",
+      "voice": 0,
+      "note": 61,
+      "gate": 4,
+      "id": 386
+    },
+    {
+      "at": 672,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 387
+    },
+    {
+      "at": 672,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 66,
+      "volume": 27,
+      "id": 388
+    },
+    {
+      "at": 672,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 389
+    },
+    {
+      "at": 672,
+      "type": "sid",
+      "voice": 1,
+      "note": 38,
+      "gate": 25,
+      "id": 390
+    },
+    {
+      "at": 673,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 6,
+      "id": 391
+    },
+    {
+      "at": 674,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 66,
+      "volume": 25,
+      "id": 392
+    },
+    {
+      "at": 674,
+      "type": "sid",
+      "voice": 0,
+      "note": 78,
+      "gate": 5,
+      "id": 393
+    },
+    {
+      "at": 681,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 394
+    },
+    {
+      "at": 682,
+      "type": "sid",
+      "voice": 0,
+      "note": 76,
+      "gate": 4,
+      "id": 395
+    },
+    {
+      "at": 682,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 4,
+      "id": 396
+    },
+    {
+      "at": 688,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 397
+    },
+    {
+      "at": 688,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 8,
+      "id": 398
+    },
+    {
+      "at": 689,
+      "type": "sid",
+      "voice": 0,
+      "note": 64,
+      "gate": 6,
+      "id": 399
+    },
+    {
+      "at": 690,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 400
+    },
+    {
+      "at": 697,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 78,
+      "volume": 25,
+      "id": 401
+    },
+    {
+      "at": 698,
+      "type": "sid",
+      "voice": 0,
+      "note": 61,
+      "gate": 4,
+      "id": 402
+    },
+    {
+      "at": 699,
+      "type": "sid",
+      "voice": 0,
+      "note": 69,
+      "gate": 3,
+      "id": 403
+    },
+    {
+      "at": 704,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 404
+    },
+    {
+      "at": 704,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 405
+    },
+    {
+      "at": 704,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 406
+    },
+    {
+      "at": 704,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 407
+    },
+    {
+      "at": 704,
+      "type": "sid",
+      "voice": 0,
+      "note": 73,
+      "gate": 12,
+      "id": 408
+    },
+    {
+      "at": 706,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 64,
+      "volume": 25,
+      "id": 409
+    },
+    {
+      "at": 708,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 76,
+      "volume": 27,
+      "id": 410
+    },
+    {
+      "at": 713,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 69,
+      "volume": 25,
+      "id": 411
+    },
+    {
+      "at": 714,
+      "type": "paula",
+      "voice": 2,
+      "sample": "music-box",
+      "note": 83,
+      "volume": 19,
+      "id": 412
+    },
+    {
+      "at": 720,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 413
+    },
+    {
+      "at": 722,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 73,
+      "volume": 25,
+      "id": 414
+    },
+    {
+      "at": 729,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 76,
+      "volume": 25,
+      "id": 415
+    },
+    {
+      "at": 736,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 416
+    },
+    {
+      "at": 736,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 64,
+      "volume": 27,
+      "id": 417
+    },
+    {
+      "at": 736,
+      "type": "paula",
+      "voice": 3,
+      "sample": "warm-pad",
+      "note": 69,
+      "volume": 26,
+      "id": 418
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 2,
+      "note": 57,
+      "gate": 28,
+      "id": 419
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 25,
+      "id": 420
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 0,
+      "note": 71,
+      "gate": 14,
+      "id": 421
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 1,
+      "note": 45,
+      "gate": 27,
+      "id": 422
+    },
+    {
+      "at": 736,
+      "type": "sid",
+      "voice": 2,
+      "note": 61,
+      "gate": 27,
+      "id": 423
+    },
+    {
+      "at": 742,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 76,
+      "volume": 23,
+      "id": 424
+    },
+    {
+      "at": 752,
+      "type": "tone",
+      "cutoff": 1260,
+      "paulaFilter": 48,
+      "id": 425
+    },
+    {
+      "at": 752,
+      "type": "paula",
+      "voice": 1,
+      "sample": "glass",
+      "note": 81,
+      "volume": 21,
+      "id": 426
+    }
+  ]
+}

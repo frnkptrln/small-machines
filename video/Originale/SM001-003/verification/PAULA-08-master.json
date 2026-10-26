@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-08",
+  "album": "Diskettenblumen",
+  "track": 8,
+  "engine": "paula",
+  "title": "Bitte nicht ausschalten",
+  "duration_seconds": 311.15791383219954,
+  "bpm": 76,
+  "key": "F-Dur",
+  "wav_peak_dbfs": -8.25,
+  "mp3_lufs": "-18.27",
+  "mp3_true_peak_dbtp": "-8.47",
+  "mp3_lra": "3.30",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

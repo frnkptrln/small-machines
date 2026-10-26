@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-05",
+  "album": "Diskettenblumen",
+  "track": 5,
+  "engine": "paula",
+  "title": "Rasterklee",
+  "duration_seconds": 216.0,
+  "bpm": 120,
+  "key": "G-Dur",
+  "wav_peak_dbfs": -4.54,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-4.80",
+  "mp3_lra": "1.50",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "DUO-07",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 7,
+  "engine": "duo",
+  "title": "Kleine Welt bei Nacht",
+  "duration_seconds": 269.8181859410431,
+  "bpm": 88,
+  "key": "fis-Moll",
+  "wav_peak_dbfs": -7.56,
+  "mp3_lufs": "-18.26",
+  "mp3_true_peak_dbtp": "-7.83",
+  "mp3_lra": "3.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

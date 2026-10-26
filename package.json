@@ -1,0 +1,16 @@
+{
+  "name": "small-machines",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Original browser instruments, scores and reproducible music sessions.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "python3 serve.py",
+    "test": "node --test tests/*.test.mjs",
+    "render:ensemble": "node tools/render-ensemble.mjs",
+    "render:warm": "node tools/render-warm-session.mjs"
+  }
+}

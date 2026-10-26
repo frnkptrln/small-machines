@@ -1,0 +1,260 @@
+{
+  "format": "small-machines-warm",
+  "version": 1,
+  "name": "Die letzte Lampe",
+  "bpm": 72,
+  "params": {
+    "saw": 30,
+    "pulse": 76,
+    "sub": 22,
+    "noise": 1,
+    "pulseWidth": 34,
+    "pwm": 21,
+    "cutoff": 610,
+    "resonance": 15,
+    "env": 28,
+    "attack": 700,
+    "decay": 1600,
+    "sustain": 62,
+    "release": 2800,
+    "hpf": 28,
+    "chorus": 64,
+    "drift": 6,
+    "volume": 75,
+    "lfoRate": 0.18
+  },
+  "patterns": [
+    [
+      {
+        "notes": [
+          50,
+          69,
+          72
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          50,
+          69,
+          72
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          77
+        ],
+        "velocity": 0.46,
+        "length": 3.8
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          46,
+          65,
+          69
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          46,
+          65,
+          69
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          72
+        ],
+        "velocity": 0.46,
+        "length": 3.8
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          53,
+          72,
+          76
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          53,
+          72,
+          76
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          81
+        ],
+        "velocity": 0.46,
+        "length": 3.8
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          48,
+          67,
+          70
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          48,
+          67,
+          70
+        ],
+        "velocity": 0.7,
+        "length": 15.7
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          74
+        ],
+        "velocity": 0.46,
+        "length": 3.8
+      },
+      null,
+      null,
+      null
+    ]
+  ]
+}

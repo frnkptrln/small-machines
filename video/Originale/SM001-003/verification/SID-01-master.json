@@ -1,0 +1,15 @@
+{
+  "id": "SID-01",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 1,
+  "engine": "sid",
+  "title": "Stadt aus Strom",
+  "duration_seconds": 213.71428571428572,
+  "bpm": 112,
+  "key": "c-Dorisch",
+  "wav_peak_dbfs": -4.46,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-4.71",
+  "mp3_lra": "3.90",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

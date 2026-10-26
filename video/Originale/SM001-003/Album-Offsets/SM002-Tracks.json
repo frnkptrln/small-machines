@@ -1,0 +1,98 @@
+[
+  {
+    "id": "PAULA-01",
+    "number": 1,
+    "title": "Unter dem Ladekopf",
+    "bpm": 108,
+    "key": "d-Dorisch",
+    "seconds": 221.33333333333334,
+    "new": true,
+    "description": "Nylonsaiten aus acht Bit, Holzpercussion und eine kleine Orgel. Der Garten wird langsam eingeschaltet.",
+    "file": "audio/01-Unter-dem-Ladekopf.mp3",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "PAULA-02",
+    "number": 2,
+    "title": "Diskettenblumen",
+    "bpm": 132,
+    "key": "c-Moll",
+    "seconds": 123.36365079365079,
+    "new": false,
+    "description": "Ein lebhaftes Tracker-Stück: Marimba-Fragen, gläserne Antworten, ein beweglicher Samplebass und ein ruhiger Zwischenraum.",
+    "file": "audio/02-Diskettenblumen.mp3",
+    "start_seconds": 221.33333333333334
+  },
+  {
+    "id": "PAULA-03",
+    "number": 3,
+    "title": "Kupferregen",
+    "bpm": 142,
+    "key": "c-Moll",
+    "seconds": 197.29578231292518,
+    "new": true,
+    "description": "Ein lebhafter Vierkanal-Breakbeat. Elektrische Tasten fallen in kurzen Linien, während Marimba-Antworten dazwischenblitzen.",
+    "file": "audio/03-Kupferregen.mp3",
+    "start_seconds": 344.69698412698415
+  },
+  {
+    "id": "PAULA-04",
+    "number": 4,
+    "title": "Papiermond",
+    "bpm": 94,
+    "key": "f-Moll",
+    "seconds": 149.97873015873017,
+    "new": false,
+    "description": "Ein weicher Vierkanal-Groove mit elektrischen Tasten, gezupften Antworten und einem runden Bass. Der Mittelteil lässt Luft zwischen die Schläge.",
+    "file": "audio/04-Papiermond.mp3",
+    "start_seconds": 541.9927664399092
+  },
+  {
+    "id": "PAULA-05",
+    "number": 5,
+    "title": "Rasterklee",
+    "bpm": 120,
+    "key": "G-Dur",
+    "seconds": 216.0,
+    "new": true,
+    "description": "Eine helle Tracker-Miniatur mit einem längeren Weg durch den Mittelteil. Die Mallets springen über gläserne Gegenstimmen.",
+    "file": "audio/05-Rasterklee.mp3",
+    "start_seconds": 691.9714965986394
+  },
+  {
+    "id": "PAULA-06",
+    "number": 6,
+    "title": "Magnetischer Sommer",
+    "bpm": 128,
+    "key": "Es-Dur",
+    "seconds": 233.0,
+    "new": true,
+    "description": "Ein warmer, tanzender Sommertag aus E-Piano, Spieluhr und einem Vierkanalbass. Eine lange Öffnung führt zum zweiten Refrain.",
+    "file": "audio/06-Magnetischer-Sommer.mp3",
+    "start_seconds": 907.9714965986394
+  },
+  {
+    "id": "PAULA-07",
+    "number": 7,
+    "title": "Die letzte Diskette",
+    "bpm": 84,
+    "key": "h-Moll",
+    "seconds": 259.42857142857144,
+    "new": true,
+    "description": "Gläserne Töne und eine synthetische Vokalwolke. Die Percussion setzt aus, als würde das Laufwerk noch nach einer Erinnerung suchen.",
+    "file": "audio/07-Die-letzte-Diskette.mp3",
+    "start_seconds": 1140.9714965986395
+  },
+  {
+    "id": "PAULA-08",
+    "number": 8,
+    "title": "Bitte nicht ausschalten",
+    "bpm": 76,
+    "key": "F-Dur",
+    "seconds": 311.15791383219954,
+    "new": true,
+    "description": "Ein langsamer Abspann aus vier Samplekanälen. Die Melodie löst sich in einzelne Töne auf; die letzte Quinte bleibt offen.",
+    "file": "audio/08-Bitte-nicht-ausschalten.mp3",
+    "start_seconds": 1400.4000680272109
+  }
+]

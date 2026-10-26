@@ -1,0 +1,15 @@
+{
+  "id": "DUO-08",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 8,
+  "engine": "duo",
+  "title": "Es geht noch weiter",
+  "duration_seconds": 256.275873015873,
+  "bpm": 116,
+  "key": "D-Dur",
+  "wav_peak_dbfs": -4.86,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-5.10",
+  "mp3_lra": "4.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}
