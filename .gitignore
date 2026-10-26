@@ -28,3 +28,7 @@ music/**/work/
 music/**/audio/
 music/**/releases/
 **/.*.??????.*
+
+# Film renders: generated stills for „Was im Speicher bleibt“, locally supplied fonts
+video/filme/memories/
+video/filme/fonts/
