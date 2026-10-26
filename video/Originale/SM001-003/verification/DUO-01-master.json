@@ -1,0 +1,15 @@
+{
+  "id": "DUO-01",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 1,
+  "engine": "duo",
+  "title": "Zwei Fenster offen",
+  "duration_seconds": 238.4,
+  "bpm": 100,
+  "key": "C-Dur",
+  "wav_peak_dbfs": -3.22,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-3.48",
+  "mp3_lra": "4.60",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

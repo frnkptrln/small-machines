@@ -1,0 +1,10 @@
+{
+  "tracks": 24,
+  "seconds": 5096.387959183674,
+  "loudness_range_lufs": [
+    -18.27,
+    -16.27
+  ],
+  "highest_mp3_true_peak_dbtp": -1.7,
+  "full_duration_and_zero_final_wav_sample": "passed during mastering"
+}

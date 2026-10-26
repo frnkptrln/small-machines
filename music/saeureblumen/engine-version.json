@@ -1,0 +1,7 @@
+{
+  "site": "https://github.com/frnkptrln/small-machines",
+  "commit": "2b25842577f4f1bc3b3187da9ca5f77c299e836c",
+  "engines": ["acid.mjs", "paula.mjs"],
+  "fidelity": "Original acid-style monosynth plus bounded CPU-driven Paula model, not full hardware emulation",
+  "source_location": "Small Machines Site repository; engine sources are not duplicated in this composition archive"
+}

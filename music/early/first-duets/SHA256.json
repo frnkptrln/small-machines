@@ -1,0 +1,17 @@
+{
+  "README.txt": "a6de4c46c027419ec80e322927aed92eb37559ee5233dca2ce71640cf9cd7d15",
+  "Playlist.m3u": "0415dc80468dd93ee66f61bab6dc3f1af61e490ba22c12c8726a1acd895b6f51",
+  "audio-report.json": "92f1a065c4ad57bb53f5b0daae09d617c39c3315bdefcf90dafb691057881ed9",
+  "source/compose.mjs": "49a08ee462740a2a48216a833bfa54f64cfe16892cf33abc711f5b88bc0f284c",
+  "source/master.py": "f71ddf25cb41dba9dffd1ae73afa82d33b606a6b8392af1700cec0f163fa6e75",
+  "source/render.mjs": "d0bd3341e2532e9ddc7e6b65a71af3e437fbb4cdd22d8be2eeb739cc1e6291c1",
+  "scores/01-Fensterlicht-auf-Magnetband.json": "7e7bf5a276dd20018d6d955229983ebfa7f1cdc98602f436ecd8bf4202107313",
+  "scores/02-Zwischen-zwei-Takten.json": "309cdc1e84c8076e44bc5b942e448d768467a5f736b4b66fb0c721d9ab790844",
+  "scores/03-Was-im-Speicher-bleibt.json": "0cfdcd742f0575f90876ff69657d43928cc76a58deadbb76071ff28d24fb42d1",
+  "audio/01-Fensterlicht-auf-Magnetband.mp3": "871228512e588497ee8ea4ffd2039f46094f40f4169420d147803461c5b1d1b3",
+  "audio/01-Fensterlicht-auf-Magnetband.wav": "893d30c7502dec1eaa068c17208475fbc47af9a083fc54a175848f9ffe786341",
+  "audio/02-Zwischen-zwei-Takten.mp3": "81fe7776e8b13bcdb01f81f3bf49115ad898c41bd39e0e80ab7b48e56b5e8554",
+  "audio/02-Zwischen-zwei-Takten.wav": "b13c7a5cca13faec9e3509c75cbe93cc420824e903fae10f27e670e09b52bed7",
+  "audio/03-Was-im-Speicher-bleibt.mp3": "71797b5e31a17fa1b543bf97f482887ae0939587c9c7f1d9616884258cad633a",
+  "audio/03-Was-im-Speicher-bleibt.wav": "8ac6204e70ce4172751ec0c22d95aca925be8d85fca98b6e1fc3e966abb6a975"
+}

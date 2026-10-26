@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-04",
+  "album": "Diskettenblumen",
+  "track": 4,
+  "engine": "paula",
+  "title": "Papiermond",
+  "duration_seconds": 149.97873015873017,
+  "bpm": 94,
+  "key": "f-Moll",
+  "wav_peak_dbfs": -3.47,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-3.73",
+  "mp3_lra": "4.30",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

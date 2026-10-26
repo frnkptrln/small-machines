@@ -1,0 +1,5729 @@
+{
+  "format": "small-machines-album-composition",
+  "version": 1,
+  "engine": "paula",
+  "track": 8,
+  "id": "PAULA-08",
+  "album": "Diskettenblumen",
+  "title": "Bitte nicht ausschalten",
+  "bpm": 76,
+  "bars": 96,
+  "swing": 0.03,
+  "key": "F-Dur",
+  "description": "Ein langsamer Abspann aus vier Samplekanälen. Die Melodie löst sich in einzelne Töne auf; die letzte Quinte bleibt offen.",
+  "origin": "new composition",
+  "rate": 44100,
+  "tail": 8,
+  "recording_revision": 3,
+  "voices": [
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 3,
+      "decay": 10,
+      "sustain": 5,
+      "release": 9,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 16,
+      "pw": 50,
+      "attack": 0,
+      "decay": 6,
+      "sustain": 8,
+      "release": 4,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    },
+    {
+      "wave": 64,
+      "pw": 25,
+      "attack": 0,
+      "decay": 7,
+      "sustain": 0,
+      "release": 4,
+      "mute": false,
+      "ring": false,
+      "sync": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ankommen",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "name": "Erstes Thema",
+      "start": 8,
+      "end": 24
+    },
+    {
+      "name": "Bewegung",
+      "start": 24,
+      "end": 40
+    },
+    {
+      "name": "Zwischenraum",
+      "start": 40,
+      "end": 48
+    },
+    {
+      "name": "Zweites Thema",
+      "start": 48,
+      "end": 64
+    },
+    {
+      "name": "Wiederkehr",
+      "start": 64,
+      "end": 88
+    },
+    {
+      "name": "Nachklang",
+      "start": 88,
+      "end": 96
+    }
+  ],
+  "mix": {
+    "sid": 0,
+    "paula": 1.25,
+    "sidechain": 0,
+    "echo": 24,
+    "width": 78,
+    "reverb": 0.13,
+    "roomSeconds": 1.9,
+    "lufs": -18,
+    "fadeIn": 2.5,
+    "fadeOut": 6
+  },
+  "events": [
+    {
+      "at": 0,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 0
+    },
+    {
+      "type": "paula",
+      "at": 0,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 1
+    },
+    {
+      "type": "paula",
+      "at": 1,
+      "voice": 1,
+      "note": 77,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 2
+    },
+    {
+      "type": "paula",
+      "at": 9,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 3
+    },
+    {
+      "type": "paula",
+      "at": 10,
+      "voice": 1,
+      "note": 84,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 4
+    },
+    {
+      "at": 16,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 5
+    },
+    {
+      "type": "paula",
+      "at": 16,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 6
+    },
+    {
+      "type": "paula",
+      "at": 25,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 7
+    },
+    {
+      "at": 32,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 8
+    },
+    {
+      "type": "paula",
+      "at": 32,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 9
+    },
+    {
+      "type": "paula",
+      "at": 33,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 10
+    },
+    {
+      "type": "paula",
+      "at": 41,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 11
+    },
+    {
+      "type": "paula",
+      "at": 42,
+      "voice": 1,
+      "note": 86,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 12
+    },
+    {
+      "at": 48,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 13
+    },
+    {
+      "type": "paula",
+      "at": 48,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 14
+    },
+    {
+      "type": "paula",
+      "at": 57,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 15
+    },
+    {
+      "at": 64,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 16
+    },
+    {
+      "type": "paula",
+      "at": 64,
+      "voice": 0,
+      "note": 50,
+      "gate": 12,
+      "sample": "sub",
+      "volume": 32,
+      "id": 17
+    },
+    {
+      "type": "paula",
+      "at": 64,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 18
+    },
+    {
+      "type": "paula",
+      "at": 65,
+      "voice": 1,
+      "note": 86,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 19
+    },
+    {
+      "type": "paula",
+      "at": 73,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 20
+    },
+    {
+      "type": "paula",
+      "at": 74,
+      "voice": 1,
+      "note": 89,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 21
+    },
+    {
+      "at": 80,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 22
+    },
+    {
+      "type": "paula",
+      "at": 80,
+      "voice": 0,
+      "note": 50,
+      "gate": 12,
+      "sample": "sub",
+      "volume": 32,
+      "id": 23
+    },
+    {
+      "type": "paula",
+      "at": 80,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 24
+    },
+    {
+      "type": "paula",
+      "at": 89,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 25
+    },
+    {
+      "at": 96,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 26
+    },
+    {
+      "type": "paula",
+      "at": 96,
+      "voice": 0,
+      "note": 43,
+      "gate": 12,
+      "sample": "sub",
+      "volume": 32,
+      "id": 27
+    },
+    {
+      "type": "paula",
+      "at": 96,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 28
+    },
+    {
+      "type": "paula",
+      "at": 97,
+      "voice": 1,
+      "note": 79,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 29
+    },
+    {
+      "type": "paula",
+      "at": 105,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 30
+    },
+    {
+      "type": "paula",
+      "at": 106,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 31
+    },
+    {
+      "at": 112,
+      "type": "tone",
+      "cutoff": 1280,
+      "paulaFilter": 48,
+      "id": 32
+    },
+    {
+      "type": "paula",
+      "at": 112,
+      "voice": 0,
+      "note": 48,
+      "gate": 12,
+      "sample": "sub",
+      "volume": 32,
+      "id": 33
+    },
+    {
+      "type": "paula",
+      "at": 112,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 34
+    },
+    {
+      "type": "paula",
+      "at": 121,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 35
+    },
+    {
+      "at": 128,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 36
+    },
+    {
+      "type": "paula",
+      "at": 128,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 37
+    },
+    {
+      "type": "paula",
+      "at": 128,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 38
+    },
+    {
+      "type": "paula",
+      "at": 129,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 39
+    },
+    {
+      "type": "paula",
+      "at": 137,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 40
+    },
+    {
+      "type": "paula",
+      "at": 138,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 41
+    },
+    {
+      "type": "paula",
+      "at": 140,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 42
+    },
+    {
+      "at": 144,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 43
+    },
+    {
+      "type": "paula",
+      "at": 144,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 44
+    },
+    {
+      "type": "paula",
+      "at": 144,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 45
+    },
+    {
+      "type": "paula",
+      "at": 148,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 46
+    },
+    {
+      "type": "paula",
+      "at": 153,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 47
+    },
+    {
+      "type": "paula",
+      "at": 156,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 48
+    },
+    {
+      "at": 160,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 49
+    },
+    {
+      "type": "paula",
+      "at": 160,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 50
+    },
+    {
+      "type": "paula",
+      "at": 160,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 51
+    },
+    {
+      "type": "paula",
+      "at": 160,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 52
+    },
+    {
+      "type": "paula",
+      "at": 168,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 53
+    },
+    {
+      "type": "paula",
+      "at": 169,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 54
+    },
+    {
+      "type": "paula",
+      "at": 172,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 55
+    },
+    {
+      "at": 176,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 56
+    },
+    {
+      "type": "paula",
+      "at": 176,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 57
+    },
+    {
+      "type": "paula",
+      "at": 176,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 58
+    },
+    {
+      "type": "paula",
+      "at": 179,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 59
+    },
+    {
+      "type": "paula",
+      "at": 185,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 60
+    },
+    {
+      "type": "paula",
+      "at": 188,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 61
+    },
+    {
+      "type": "paula",
+      "at": 188,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 62
+    },
+    {
+      "at": 192,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 63
+    },
+    {
+      "type": "paula",
+      "at": 192,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 64
+    },
+    {
+      "type": "paula",
+      "at": 192,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 65
+    },
+    {
+      "type": "paula",
+      "at": 192,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 66
+    },
+    {
+      "type": "paula",
+      "at": 199,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 67
+    },
+    {
+      "type": "paula",
+      "at": 201,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 68
+    },
+    {
+      "type": "paula",
+      "at": 204,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 69
+    },
+    {
+      "at": 208,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 70
+    },
+    {
+      "type": "paula",
+      "at": 208,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 71
+    },
+    {
+      "type": "paula",
+      "at": 208,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 72
+    },
+    {
+      "type": "paula",
+      "at": 213,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 73
+    },
+    {
+      "type": "paula",
+      "at": 217,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 74
+    },
+    {
+      "type": "paula",
+      "at": 220,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 75
+    },
+    {
+      "at": 224,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 76
+    },
+    {
+      "type": "paula",
+      "at": 224,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 77
+    },
+    {
+      "type": "paula",
+      "at": 224,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 78
+    },
+    {
+      "type": "paula",
+      "at": 226,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 79
+    },
+    {
+      "type": "paula",
+      "at": 233,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 80
+    },
+    {
+      "type": "paula",
+      "at": 235,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 81
+    },
+    {
+      "type": "paula",
+      "at": 236,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 82
+    },
+    {
+      "at": 240,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 83
+    },
+    {
+      "type": "paula",
+      "at": 240,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 84
+    },
+    {
+      "type": "paula",
+      "at": 240,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 85
+    },
+    {
+      "type": "paula",
+      "at": 240,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 86
+    },
+    {
+      "type": "paula",
+      "at": 249,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 87
+    },
+    {
+      "type": "paula",
+      "at": 250,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 88
+    },
+    {
+      "type": "paula",
+      "at": 252,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 89
+    },
+    {
+      "at": 256,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 90
+    },
+    {
+      "type": "paula",
+      "at": 256,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 91
+    },
+    {
+      "type": "paula",
+      "at": 256,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 92
+    },
+    {
+      "type": "paula",
+      "at": 257,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 93
+    },
+    {
+      "type": "paula",
+      "at": 265,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 94
+    },
+    {
+      "type": "paula",
+      "at": 266,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 95
+    },
+    {
+      "type": "paula",
+      "at": 268,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 96
+    },
+    {
+      "at": 272,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 97
+    },
+    {
+      "type": "paula",
+      "at": 272,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 98
+    },
+    {
+      "type": "paula",
+      "at": 272,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 99
+    },
+    {
+      "type": "paula",
+      "at": 276,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 100
+    },
+    {
+      "type": "paula",
+      "at": 281,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 101
+    },
+    {
+      "type": "paula",
+      "at": 284,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 102
+    },
+    {
+      "at": 288,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 103
+    },
+    {
+      "type": "paula",
+      "at": 288,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 104
+    },
+    {
+      "type": "paula",
+      "at": 288,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 105
+    },
+    {
+      "type": "paula",
+      "at": 288,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 106
+    },
+    {
+      "type": "paula",
+      "at": 296,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 107
+    },
+    {
+      "type": "paula",
+      "at": 297,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 108
+    },
+    {
+      "type": "paula",
+      "at": 300,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 109
+    },
+    {
+      "at": 304,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 110
+    },
+    {
+      "type": "paula",
+      "at": 304,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 111
+    },
+    {
+      "type": "paula",
+      "at": 304,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 112
+    },
+    {
+      "type": "paula",
+      "at": 307,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 113
+    },
+    {
+      "type": "paula",
+      "at": 313,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 114
+    },
+    {
+      "type": "paula",
+      "at": 316,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 115
+    },
+    {
+      "type": "paula",
+      "at": 316,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 116
+    },
+    {
+      "at": 320,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 117
+    },
+    {
+      "type": "paula",
+      "at": 320,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 118
+    },
+    {
+      "type": "paula",
+      "at": 320,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 119
+    },
+    {
+      "type": "paula",
+      "at": 320,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 120
+    },
+    {
+      "type": "paula",
+      "at": 327,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 121
+    },
+    {
+      "type": "paula",
+      "at": 329,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 122
+    },
+    {
+      "type": "paula",
+      "at": 332,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 123
+    },
+    {
+      "at": 336,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 124
+    },
+    {
+      "type": "paula",
+      "at": 336,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 125
+    },
+    {
+      "type": "paula",
+      "at": 336,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 126
+    },
+    {
+      "type": "paula",
+      "at": 341,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 127
+    },
+    {
+      "type": "paula",
+      "at": 345,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 128
+    },
+    {
+      "type": "paula",
+      "at": 348,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 129
+    },
+    {
+      "at": 352,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 130
+    },
+    {
+      "type": "paula",
+      "at": 352,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 131
+    },
+    {
+      "type": "paula",
+      "at": 352,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 132
+    },
+    {
+      "type": "paula",
+      "at": 354,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 133
+    },
+    {
+      "type": "paula",
+      "at": 361,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 134
+    },
+    {
+      "type": "paula",
+      "at": 363,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 135
+    },
+    {
+      "type": "paula",
+      "at": 364,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 136
+    },
+    {
+      "at": 368,
+      "type": "tone",
+      "cutoff": 1302,
+      "paulaFilter": 50,
+      "id": 137
+    },
+    {
+      "type": "paula",
+      "at": 368,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 138
+    },
+    {
+      "type": "paula",
+      "at": 368,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 139
+    },
+    {
+      "type": "paula",
+      "at": 368,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 140
+    },
+    {
+      "type": "paula",
+      "at": 377,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 141
+    },
+    {
+      "type": "paula",
+      "at": 378,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 142
+    },
+    {
+      "type": "paula",
+      "at": 380,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 143
+    },
+    {
+      "at": 384,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 144
+    },
+    {
+      "type": "paula",
+      "at": 384,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 145
+    },
+    {
+      "type": "paula",
+      "at": 384,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 146
+    },
+    {
+      "type": "paula",
+      "at": 385,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 147
+    },
+    {
+      "type": "paula",
+      "at": 393,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 148
+    },
+    {
+      "type": "paula",
+      "at": 394,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 149
+    },
+    {
+      "type": "paula",
+      "at": 396,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 150
+    },
+    {
+      "at": 400,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 151
+    },
+    {
+      "type": "paula",
+      "at": 400,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 152
+    },
+    {
+      "type": "paula",
+      "at": 400,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 153
+    },
+    {
+      "type": "paula",
+      "at": 404,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 154
+    },
+    {
+      "type": "paula",
+      "at": 409,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 155
+    },
+    {
+      "type": "paula",
+      "at": 412,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 156
+    },
+    {
+      "at": 416,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 157
+    },
+    {
+      "type": "paula",
+      "at": 416,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 158
+    },
+    {
+      "type": "paula",
+      "at": 416,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 159
+    },
+    {
+      "type": "paula",
+      "at": 416,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 160
+    },
+    {
+      "type": "paula",
+      "at": 424,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 161
+    },
+    {
+      "type": "paula",
+      "at": 425,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 162
+    },
+    {
+      "type": "paula",
+      "at": 428,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 163
+    },
+    {
+      "at": 432,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 164
+    },
+    {
+      "type": "paula",
+      "at": 432,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 165
+    },
+    {
+      "type": "paula",
+      "at": 432,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 166
+    },
+    {
+      "type": "paula",
+      "at": 435,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 167
+    },
+    {
+      "type": "paula",
+      "at": 441,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 168
+    },
+    {
+      "type": "paula",
+      "at": 444,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 169
+    },
+    {
+      "type": "paula",
+      "at": 444,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 170
+    },
+    {
+      "at": 448,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 171
+    },
+    {
+      "type": "paula",
+      "at": 448,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 172
+    },
+    {
+      "type": "paula",
+      "at": 448,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 173
+    },
+    {
+      "type": "paula",
+      "at": 448,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 174
+    },
+    {
+      "type": "paula",
+      "at": 455,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 175
+    },
+    {
+      "type": "paula",
+      "at": 457,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 176
+    },
+    {
+      "type": "paula",
+      "at": 460,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 177
+    },
+    {
+      "at": 464,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 178
+    },
+    {
+      "type": "paula",
+      "at": 464,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 179
+    },
+    {
+      "type": "paula",
+      "at": 464,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 180
+    },
+    {
+      "type": "paula",
+      "at": 469,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 181
+    },
+    {
+      "type": "paula",
+      "at": 473,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 182
+    },
+    {
+      "type": "paula",
+      "at": 476,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 183
+    },
+    {
+      "at": 480,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 184
+    },
+    {
+      "type": "paula",
+      "at": 480,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 185
+    },
+    {
+      "type": "paula",
+      "at": 480,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 186
+    },
+    {
+      "type": "paula",
+      "at": 482,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 187
+    },
+    {
+      "type": "paula",
+      "at": 489,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 188
+    },
+    {
+      "type": "paula",
+      "at": 491,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 189
+    },
+    {
+      "type": "paula",
+      "at": 492,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 190
+    },
+    {
+      "at": 496,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 191
+    },
+    {
+      "type": "paula",
+      "at": 496,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 192
+    },
+    {
+      "type": "paula",
+      "at": 496,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 193
+    },
+    {
+      "type": "paula",
+      "at": 496,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 194
+    },
+    {
+      "type": "paula",
+      "at": 505,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 195
+    },
+    {
+      "type": "paula",
+      "at": 506,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 196
+    },
+    {
+      "type": "paula",
+      "at": 508,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 197
+    },
+    {
+      "at": 512,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 198
+    },
+    {
+      "type": "paula",
+      "at": 512,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 199
+    },
+    {
+      "type": "paula",
+      "at": 512,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 200
+    },
+    {
+      "type": "paula",
+      "at": 513,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 201
+    },
+    {
+      "type": "paula",
+      "at": 521,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 202
+    },
+    {
+      "type": "paula",
+      "at": 522,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 203
+    },
+    {
+      "type": "paula",
+      "at": 524,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 204
+    },
+    {
+      "at": 528,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 205
+    },
+    {
+      "type": "paula",
+      "at": 528,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 206
+    },
+    {
+      "type": "paula",
+      "at": 528,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 207
+    },
+    {
+      "type": "paula",
+      "at": 532,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 208
+    },
+    {
+      "type": "paula",
+      "at": 537,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 209
+    },
+    {
+      "type": "paula",
+      "at": 540,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 210
+    },
+    {
+      "at": 544,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 211
+    },
+    {
+      "type": "paula",
+      "at": 544,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 212
+    },
+    {
+      "type": "paula",
+      "at": 544,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 213
+    },
+    {
+      "type": "paula",
+      "at": 544,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 214
+    },
+    {
+      "type": "paula",
+      "at": 552,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 215
+    },
+    {
+      "type": "paula",
+      "at": 553,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 216
+    },
+    {
+      "type": "paula",
+      "at": 556,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 217
+    },
+    {
+      "at": 560,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 218
+    },
+    {
+      "type": "paula",
+      "at": 560,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 219
+    },
+    {
+      "type": "paula",
+      "at": 560,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 220
+    },
+    {
+      "type": "paula",
+      "at": 563,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 221
+    },
+    {
+      "type": "paula",
+      "at": 569,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 222
+    },
+    {
+      "type": "paula",
+      "at": 572,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 223
+    },
+    {
+      "type": "paula",
+      "at": 572,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 224
+    },
+    {
+      "at": 576,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 225
+    },
+    {
+      "type": "paula",
+      "at": 576,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 226
+    },
+    {
+      "type": "paula",
+      "at": 576,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 227
+    },
+    {
+      "type": "paula",
+      "at": 576,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 228
+    },
+    {
+      "type": "paula",
+      "at": 583,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 229
+    },
+    {
+      "type": "paula",
+      "at": 585,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 230
+    },
+    {
+      "type": "paula",
+      "at": 588,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 231
+    },
+    {
+      "at": 592,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 232
+    },
+    {
+      "type": "paula",
+      "at": 592,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 233
+    },
+    {
+      "type": "paula",
+      "at": 592,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 234
+    },
+    {
+      "type": "paula",
+      "at": 597,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 235
+    },
+    {
+      "type": "paula",
+      "at": 601,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 236
+    },
+    {
+      "type": "paula",
+      "at": 604,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 237
+    },
+    {
+      "at": 608,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 238
+    },
+    {
+      "type": "paula",
+      "at": 608,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 239
+    },
+    {
+      "type": "paula",
+      "at": 608,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 240
+    },
+    {
+      "type": "paula",
+      "at": 610,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 241
+    },
+    {
+      "type": "paula",
+      "at": 617,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 242
+    },
+    {
+      "type": "paula",
+      "at": 619,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 243
+    },
+    {
+      "type": "paula",
+      "at": 620,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 244
+    },
+    {
+      "at": 624,
+      "type": "tone",
+      "cutoff": 1324,
+      "paulaFilter": 52,
+      "id": 245
+    },
+    {
+      "type": "paula",
+      "at": 624,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 246
+    },
+    {
+      "type": "paula",
+      "at": 624,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 247
+    },
+    {
+      "type": "paula",
+      "at": 624,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 248
+    },
+    {
+      "type": "paula",
+      "at": 633,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 249
+    },
+    {
+      "type": "paula",
+      "at": 634,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 250
+    },
+    {
+      "type": "paula",
+      "at": 636,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 251
+    },
+    {
+      "at": 640,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 252
+    },
+    {
+      "type": "paula",
+      "at": 640,
+      "voice": 0,
+      "note": 45,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 253
+    },
+    {
+      "type": "paula",
+      "at": 640,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 254
+    },
+    {
+      "type": "paula",
+      "at": 641,
+      "voice": 1,
+      "note": 88,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 255
+    },
+    {
+      "type": "paula",
+      "at": 649,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 256
+    },
+    {
+      "type": "paula",
+      "at": 650,
+      "voice": 1,
+      "note": 84,
+      "sample": "glass",
+      "volume": 32,
+      "id": 257
+    },
+    {
+      "type": "paula",
+      "at": 652,
+      "voice": 0,
+      "note": 52,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 258
+    },
+    {
+      "at": 656,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 259
+    },
+    {
+      "type": "paula",
+      "at": 656,
+      "voice": 0,
+      "note": 45,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 260
+    },
+    {
+      "type": "paula",
+      "at": 656,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 261
+    },
+    {
+      "type": "paula",
+      "at": 657,
+      "voice": 1,
+      "note": 88,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 262
+    },
+    {
+      "type": "paula",
+      "at": 665,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 263
+    },
+    {
+      "type": "paula",
+      "at": 666,
+      "voice": 1,
+      "note": 84,
+      "sample": "glass",
+      "volume": 32,
+      "id": 264
+    },
+    {
+      "type": "paula",
+      "at": 668,
+      "voice": 0,
+      "note": 52,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 265
+    },
+    {
+      "at": 672,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 266
+    },
+    {
+      "type": "paula",
+      "at": 672,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 267
+    },
+    {
+      "type": "paula",
+      "at": 672,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 268
+    },
+    {
+      "type": "paula",
+      "at": 673,
+      "voice": 1,
+      "note": 93,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 269
+    },
+    {
+      "type": "paula",
+      "at": 681,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 270
+    },
+    {
+      "type": "paula",
+      "at": 682,
+      "voice": 1,
+      "note": 89,
+      "sample": "glass",
+      "volume": 32,
+      "id": 271
+    },
+    {
+      "type": "paula",
+      "at": 684,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 272
+    },
+    {
+      "at": 688,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 273
+    },
+    {
+      "type": "paula",
+      "at": 688,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 274
+    },
+    {
+      "type": "paula",
+      "at": 688,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 275
+    },
+    {
+      "type": "paula",
+      "at": 689,
+      "voice": 1,
+      "note": 93,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 276
+    },
+    {
+      "type": "paula",
+      "at": 697,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 277
+    },
+    {
+      "type": "paula",
+      "at": 698,
+      "voice": 1,
+      "note": 89,
+      "sample": "glass",
+      "volume": 32,
+      "id": 278
+    },
+    {
+      "type": "paula",
+      "at": 700,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 279
+    },
+    {
+      "at": 704,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 280
+    },
+    {
+      "type": "paula",
+      "at": 704,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 281
+    },
+    {
+      "type": "paula",
+      "at": 704,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 282
+    },
+    {
+      "type": "paula",
+      "at": 705,
+      "voice": 1,
+      "note": 89,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 283
+    },
+    {
+      "type": "paula",
+      "at": 713,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 284
+    },
+    {
+      "type": "paula",
+      "at": 714,
+      "voice": 1,
+      "note": 86,
+      "sample": "glass",
+      "volume": 32,
+      "id": 285
+    },
+    {
+      "type": "paula",
+      "at": 716,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 286
+    },
+    {
+      "at": 720,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 287
+    },
+    {
+      "type": "paula",
+      "at": 720,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 288
+    },
+    {
+      "type": "paula",
+      "at": 720,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 289
+    },
+    {
+      "type": "paula",
+      "at": 721,
+      "voice": 1,
+      "note": 89,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 290
+    },
+    {
+      "type": "paula",
+      "at": 729,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 291
+    },
+    {
+      "type": "paula",
+      "at": 730,
+      "voice": 1,
+      "note": 86,
+      "sample": "glass",
+      "volume": 32,
+      "id": 292
+    },
+    {
+      "type": "paula",
+      "at": 732,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 293
+    },
+    {
+      "at": 736,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 294
+    },
+    {
+      "type": "paula",
+      "at": 736,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 295
+    },
+    {
+      "type": "paula",
+      "at": 736,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 296
+    },
+    {
+      "type": "paula",
+      "at": 737,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 297
+    },
+    {
+      "type": "paula",
+      "at": 745,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 298
+    },
+    {
+      "type": "paula",
+      "at": 746,
+      "voice": 1,
+      "note": 81,
+      "sample": "glass",
+      "volume": 32,
+      "id": 299
+    },
+    {
+      "type": "paula",
+      "at": 748,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 300
+    },
+    {
+      "at": 752,
+      "type": "tone",
+      "cutoff": 1346,
+      "paulaFilter": 54,
+      "id": 301
+    },
+    {
+      "type": "paula",
+      "at": 752,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 302
+    },
+    {
+      "type": "paula",
+      "at": 752,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 303
+    },
+    {
+      "type": "paula",
+      "at": 753,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.5,
+      "sample": "glass",
+      "volume": 32,
+      "id": 304
+    },
+    {
+      "type": "paula",
+      "at": 761,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 305
+    },
+    {
+      "type": "paula",
+      "at": 762,
+      "voice": 1,
+      "note": 81,
+      "sample": "glass",
+      "volume": 32,
+      "id": 306
+    },
+    {
+      "type": "paula",
+      "at": 764,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 307
+    },
+    {
+      "at": 768,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 308
+    },
+    {
+      "type": "paula",
+      "at": 768,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 309
+    },
+    {
+      "type": "paula",
+      "at": 768,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 310
+    },
+    {
+      "type": "paula",
+      "at": 769,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 311
+    },
+    {
+      "type": "paula",
+      "at": 777,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 312
+    },
+    {
+      "type": "paula",
+      "at": 778,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 313
+    },
+    {
+      "type": "paula",
+      "at": 780,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 314
+    },
+    {
+      "at": 784,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 315
+    },
+    {
+      "type": "paula",
+      "at": 784,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 316
+    },
+    {
+      "type": "paula",
+      "at": 784,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 317
+    },
+    {
+      "type": "paula",
+      "at": 788,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 318
+    },
+    {
+      "type": "paula",
+      "at": 793,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 319
+    },
+    {
+      "type": "paula",
+      "at": 796,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 320
+    },
+    {
+      "at": 800,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 321
+    },
+    {
+      "type": "paula",
+      "at": 800,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 322
+    },
+    {
+      "type": "paula",
+      "at": 800,
+      "voice": 1,
+      "note": 94,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 323
+    },
+    {
+      "type": "paula",
+      "at": 800,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 324
+    },
+    {
+      "type": "paula",
+      "at": 808,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 325
+    },
+    {
+      "type": "paula",
+      "at": 809,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 326
+    },
+    {
+      "type": "paula",
+      "at": 812,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 327
+    },
+    {
+      "at": 816,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 328
+    },
+    {
+      "type": "paula",
+      "at": 816,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 329
+    },
+    {
+      "type": "paula",
+      "at": 816,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 330
+    },
+    {
+      "type": "paula",
+      "at": 819,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 331
+    },
+    {
+      "type": "paula",
+      "at": 825,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 332
+    },
+    {
+      "type": "paula",
+      "at": 828,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 333
+    },
+    {
+      "type": "paula",
+      "at": 828,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 334
+    },
+    {
+      "at": 832,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 335
+    },
+    {
+      "type": "paula",
+      "at": 832,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 336
+    },
+    {
+      "type": "paula",
+      "at": 832,
+      "voice": 1,
+      "note": 93,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 337
+    },
+    {
+      "type": "paula",
+      "at": 832,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 338
+    },
+    {
+      "type": "paula",
+      "at": 839,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 339
+    },
+    {
+      "type": "paula",
+      "at": 841,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 340
+    },
+    {
+      "type": "paula",
+      "at": 844,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 341
+    },
+    {
+      "at": 848,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 342
+    },
+    {
+      "type": "paula",
+      "at": 848,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 343
+    },
+    {
+      "type": "paula",
+      "at": 848,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 344
+    },
+    {
+      "type": "paula",
+      "at": 853,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 345
+    },
+    {
+      "type": "paula",
+      "at": 857,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 346
+    },
+    {
+      "type": "paula",
+      "at": 860,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 347
+    },
+    {
+      "at": 864,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 348
+    },
+    {
+      "type": "paula",
+      "at": 864,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 349
+    },
+    {
+      "type": "paula",
+      "at": 864,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 350
+    },
+    {
+      "type": "paula",
+      "at": 866,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 351
+    },
+    {
+      "type": "paula",
+      "at": 873,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 352
+    },
+    {
+      "type": "paula",
+      "at": 875,
+      "voice": 1,
+      "note": 79,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 353
+    },
+    {
+      "type": "paula",
+      "at": 876,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 354
+    },
+    {
+      "at": 880,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 355
+    },
+    {
+      "type": "paula",
+      "at": 880,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 356
+    },
+    {
+      "type": "paula",
+      "at": 880,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 357
+    },
+    {
+      "type": "paula",
+      "at": 880,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 358
+    },
+    {
+      "type": "paula",
+      "at": 889,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 359
+    },
+    {
+      "type": "paula",
+      "at": 890,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 360
+    },
+    {
+      "type": "paula",
+      "at": 892,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 361
+    },
+    {
+      "at": 896,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 362
+    },
+    {
+      "type": "paula",
+      "at": 896,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 363
+    },
+    {
+      "type": "paula",
+      "at": 896,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 364
+    },
+    {
+      "type": "paula",
+      "at": 897,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 365
+    },
+    {
+      "type": "paula",
+      "at": 905,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 366
+    },
+    {
+      "type": "paula",
+      "at": 906,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 367
+    },
+    {
+      "type": "paula",
+      "at": 908,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 368
+    },
+    {
+      "at": 912,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 369
+    },
+    {
+      "type": "paula",
+      "at": 912,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 370
+    },
+    {
+      "type": "paula",
+      "at": 912,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 371
+    },
+    {
+      "type": "paula",
+      "at": 916,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 372
+    },
+    {
+      "type": "paula",
+      "at": 921,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 373
+    },
+    {
+      "type": "paula",
+      "at": 924,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 374
+    },
+    {
+      "at": 928,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 375
+    },
+    {
+      "type": "paula",
+      "at": 928,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 376
+    },
+    {
+      "type": "paula",
+      "at": 928,
+      "voice": 1,
+      "note": 94,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 377
+    },
+    {
+      "type": "paula",
+      "at": 928,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 378
+    },
+    {
+      "type": "paula",
+      "at": 936,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 379
+    },
+    {
+      "type": "paula",
+      "at": 937,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 380
+    },
+    {
+      "type": "paula",
+      "at": 940,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 381
+    },
+    {
+      "at": 944,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 382
+    },
+    {
+      "type": "paula",
+      "at": 944,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 383
+    },
+    {
+      "type": "paula",
+      "at": 944,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 384
+    },
+    {
+      "type": "paula",
+      "at": 947,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 385
+    },
+    {
+      "type": "paula",
+      "at": 953,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 386
+    },
+    {
+      "type": "paula",
+      "at": 956,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 387
+    },
+    {
+      "type": "paula",
+      "at": 956,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 388
+    },
+    {
+      "at": 960,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 389
+    },
+    {
+      "type": "paula",
+      "at": 960,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 390
+    },
+    {
+      "type": "paula",
+      "at": 960,
+      "voice": 1,
+      "note": 93,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 391
+    },
+    {
+      "type": "paula",
+      "at": 960,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 392
+    },
+    {
+      "type": "paula",
+      "at": 967,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 393
+    },
+    {
+      "type": "paula",
+      "at": 969,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 394
+    },
+    {
+      "type": "paula",
+      "at": 972,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 395
+    },
+    {
+      "at": 976,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 396
+    },
+    {
+      "type": "paula",
+      "at": 976,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 397
+    },
+    {
+      "type": "paula",
+      "at": 976,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 398
+    },
+    {
+      "type": "paula",
+      "at": 981,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 399
+    },
+    {
+      "type": "paula",
+      "at": 985,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 400
+    },
+    {
+      "type": "paula",
+      "at": 988,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 401
+    },
+    {
+      "at": 992,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 402
+    },
+    {
+      "type": "paula",
+      "at": 992,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 403
+    },
+    {
+      "type": "paula",
+      "at": 992,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 404
+    },
+    {
+      "type": "paula",
+      "at": 994,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 405
+    },
+    {
+      "type": "paula",
+      "at": 1001,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 406
+    },
+    {
+      "type": "paula",
+      "at": 1003,
+      "voice": 1,
+      "note": 79,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 407
+    },
+    {
+      "type": "paula",
+      "at": 1004,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 408
+    },
+    {
+      "at": 1008,
+      "type": "tone",
+      "cutoff": 1368,
+      "paulaFilter": 56,
+      "id": 409
+    },
+    {
+      "type": "paula",
+      "at": 1008,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 410
+    },
+    {
+      "type": "paula",
+      "at": 1008,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 411
+    },
+    {
+      "type": "paula",
+      "at": 1008,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 412
+    },
+    {
+      "type": "paula",
+      "at": 1017,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 413
+    },
+    {
+      "type": "paula",
+      "at": 1018,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 414
+    },
+    {
+      "type": "paula",
+      "at": 1020,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 415
+    },
+    {
+      "at": 1024,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 416
+    },
+    {
+      "type": "paula",
+      "at": 1024,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 417
+    },
+    {
+      "type": "paula",
+      "at": 1024,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 418
+    },
+    {
+      "type": "paula",
+      "at": 1025,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 419
+    },
+    {
+      "type": "paula",
+      "at": 1033,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 420
+    },
+    {
+      "type": "paula",
+      "at": 1034,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 421
+    },
+    {
+      "type": "paula",
+      "at": 1036,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 422
+    },
+    {
+      "at": 1040,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 423
+    },
+    {
+      "type": "paula",
+      "at": 1040,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 424
+    },
+    {
+      "type": "paula",
+      "at": 1040,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 425
+    },
+    {
+      "type": "paula",
+      "at": 1044,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 426
+    },
+    {
+      "type": "paula",
+      "at": 1049,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 427
+    },
+    {
+      "type": "paula",
+      "at": 1052,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 428
+    },
+    {
+      "at": 1056,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 429
+    },
+    {
+      "type": "paula",
+      "at": 1056,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 430
+    },
+    {
+      "type": "paula",
+      "at": 1056,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 431
+    },
+    {
+      "type": "paula",
+      "at": 1056,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 432
+    },
+    {
+      "type": "paula",
+      "at": 1064,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 433
+    },
+    {
+      "type": "paula",
+      "at": 1065,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 434
+    },
+    {
+      "type": "paula",
+      "at": 1068,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 435
+    },
+    {
+      "at": 1072,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 436
+    },
+    {
+      "type": "paula",
+      "at": 1072,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 437
+    },
+    {
+      "type": "paula",
+      "at": 1072,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 438
+    },
+    {
+      "type": "paula",
+      "at": 1075,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 439
+    },
+    {
+      "type": "paula",
+      "at": 1081,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 440
+    },
+    {
+      "type": "paula",
+      "at": 1084,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 441
+    },
+    {
+      "type": "paula",
+      "at": 1084,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 442
+    },
+    {
+      "at": 1088,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 443
+    },
+    {
+      "type": "paula",
+      "at": 1088,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 444
+    },
+    {
+      "type": "paula",
+      "at": 1088,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 445
+    },
+    {
+      "type": "paula",
+      "at": 1088,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 446
+    },
+    {
+      "type": "paula",
+      "at": 1095,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 447
+    },
+    {
+      "type": "paula",
+      "at": 1097,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 448
+    },
+    {
+      "type": "paula",
+      "at": 1100,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 449
+    },
+    {
+      "at": 1104,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 450
+    },
+    {
+      "type": "paula",
+      "at": 1104,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 451
+    },
+    {
+      "type": "paula",
+      "at": 1104,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 452
+    },
+    {
+      "type": "paula",
+      "at": 1109,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 453
+    },
+    {
+      "type": "paula",
+      "at": 1113,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 454
+    },
+    {
+      "type": "paula",
+      "at": 1116,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 455
+    },
+    {
+      "at": 1120,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 456
+    },
+    {
+      "type": "paula",
+      "at": 1120,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 457
+    },
+    {
+      "type": "paula",
+      "at": 1120,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 458
+    },
+    {
+      "type": "paula",
+      "at": 1122,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 459
+    },
+    {
+      "type": "paula",
+      "at": 1129,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 460
+    },
+    {
+      "type": "paula",
+      "at": 1131,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 461
+    },
+    {
+      "type": "paula",
+      "at": 1132,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 462
+    },
+    {
+      "at": 1136,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 463
+    },
+    {
+      "type": "paula",
+      "at": 1136,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 464
+    },
+    {
+      "type": "paula",
+      "at": 1136,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 465
+    },
+    {
+      "type": "paula",
+      "at": 1136,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 466
+    },
+    {
+      "type": "paula",
+      "at": 1145,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 467
+    },
+    {
+      "type": "paula",
+      "at": 1146,
+      "voice": 1,
+      "note": 77,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 468
+    },
+    {
+      "type": "paula",
+      "at": 1148,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 469
+    },
+    {
+      "at": 1152,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 470
+    },
+    {
+      "type": "paula",
+      "at": 1152,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 471
+    },
+    {
+      "type": "paula",
+      "at": 1152,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 472
+    },
+    {
+      "type": "paula",
+      "at": 1153,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 473
+    },
+    {
+      "type": "paula",
+      "at": 1161,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 474
+    },
+    {
+      "type": "paula",
+      "at": 1162,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 475
+    },
+    {
+      "type": "paula",
+      "at": 1164,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 476
+    },
+    {
+      "at": 1168,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 477
+    },
+    {
+      "type": "paula",
+      "at": 1168,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 478
+    },
+    {
+      "type": "paula",
+      "at": 1168,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 479
+    },
+    {
+      "type": "paula",
+      "at": 1172,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 480
+    },
+    {
+      "type": "paula",
+      "at": 1177,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 481
+    },
+    {
+      "type": "paula",
+      "at": 1180,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 482
+    },
+    {
+      "at": 1184,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 483
+    },
+    {
+      "type": "paula",
+      "at": 1184,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 484
+    },
+    {
+      "type": "paula",
+      "at": 1184,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 485
+    },
+    {
+      "type": "paula",
+      "at": 1184,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 486
+    },
+    {
+      "type": "paula",
+      "at": 1192,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 487
+    },
+    {
+      "type": "paula",
+      "at": 1193,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 488
+    },
+    {
+      "type": "paula",
+      "at": 1196,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 489
+    },
+    {
+      "at": 1200,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 490
+    },
+    {
+      "type": "paula",
+      "at": 1200,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 491
+    },
+    {
+      "type": "paula",
+      "at": 1200,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 492
+    },
+    {
+      "type": "paula",
+      "at": 1203,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 493
+    },
+    {
+      "type": "paula",
+      "at": 1209,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 494
+    },
+    {
+      "type": "paula",
+      "at": 1212,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 495
+    },
+    {
+      "type": "paula",
+      "at": 1212,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 496
+    },
+    {
+      "at": 1216,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 497
+    },
+    {
+      "type": "paula",
+      "at": 1216,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 498
+    },
+    {
+      "type": "paula",
+      "at": 1216,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 499
+    },
+    {
+      "type": "paula",
+      "at": 1216,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 500
+    },
+    {
+      "type": "paula",
+      "at": 1223,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 501
+    },
+    {
+      "type": "paula",
+      "at": 1225,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 502
+    },
+    {
+      "type": "paula",
+      "at": 1228,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 503
+    },
+    {
+      "at": 1232,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 504
+    },
+    {
+      "type": "paula",
+      "at": 1232,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 505
+    },
+    {
+      "type": "paula",
+      "at": 1232,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 506
+    },
+    {
+      "type": "paula",
+      "at": 1237,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 507
+    },
+    {
+      "type": "paula",
+      "at": 1241,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 508
+    },
+    {
+      "type": "paula",
+      "at": 1244,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 509
+    },
+    {
+      "at": 1248,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 510
+    },
+    {
+      "type": "paula",
+      "at": 1248,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 511
+    },
+    {
+      "type": "paula",
+      "at": 1248,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 512
+    },
+    {
+      "type": "paula",
+      "at": 1250,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 513
+    },
+    {
+      "type": "paula",
+      "at": 1257,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 514
+    },
+    {
+      "type": "paula",
+      "at": 1259,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 515
+    },
+    {
+      "type": "paula",
+      "at": 1260,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 516
+    },
+    {
+      "at": 1264,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 517
+    },
+    {
+      "type": "paula",
+      "at": 1264,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 518
+    },
+    {
+      "type": "paula",
+      "at": 1264,
+      "voice": 1,
+      "note": 84,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 519
+    },
+    {
+      "type": "paula",
+      "at": 1264,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 520
+    },
+    {
+      "type": "paula",
+      "at": 1268,
+      "voice": 1,
+      "note": 81,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 521
+    },
+    {
+      "type": "paula",
+      "at": 1272,
+      "voice": 1,
+      "note": 79,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 522
+    },
+    {
+      "type": "paula",
+      "at": 1273,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 523
+    },
+    {
+      "type": "paula",
+      "at": 1276,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 524
+    },
+    {
+      "type": "paula",
+      "at": 1276,
+      "voice": 1,
+      "note": 77,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 525
+    },
+    {
+      "at": 1280,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 526
+    },
+    {
+      "type": "paula",
+      "at": 1280,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 527
+    },
+    {
+      "type": "paula",
+      "at": 1280,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 528
+    },
+    {
+      "type": "paula",
+      "at": 1281,
+      "voice": 1,
+      "note": 77,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 529
+    },
+    {
+      "type": "paula",
+      "at": 1289,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 530
+    },
+    {
+      "type": "paula",
+      "at": 1290,
+      "voice": 1,
+      "note": 84,
+      "gate": 5.65,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 531
+    },
+    {
+      "type": "paula",
+      "at": 1292,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 532
+    },
+    {
+      "at": 1296,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 533
+    },
+    {
+      "type": "paula",
+      "at": 1296,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 534
+    },
+    {
+      "type": "paula",
+      "at": 1296,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 535
+    },
+    {
+      "type": "paula",
+      "at": 1300,
+      "voice": 1,
+      "note": 81,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 536
+    },
+    {
+      "type": "paula",
+      "at": 1305,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 537
+    },
+    {
+      "type": "paula",
+      "at": 1308,
+      "voice": 0,
+      "note": 48,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 538
+    },
+    {
+      "at": 1312,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 539
+    },
+    {
+      "type": "paula",
+      "at": 1312,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 540
+    },
+    {
+      "type": "paula",
+      "at": 1312,
+      "voice": 1,
+      "note": 82,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 541
+    },
+    {
+      "type": "paula",
+      "at": 1312,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 542
+    },
+    {
+      "type": "paula",
+      "at": 1320,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 543
+    },
+    {
+      "type": "paula",
+      "at": 1321,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 544
+    },
+    {
+      "type": "paula",
+      "at": 1324,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 545
+    },
+    {
+      "at": 1328,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 546
+    },
+    {
+      "type": "paula",
+      "at": 1328,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 547
+    },
+    {
+      "type": "paula",
+      "at": 1328,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 548
+    },
+    {
+      "type": "paula",
+      "at": 1331,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 549
+    },
+    {
+      "type": "paula",
+      "at": 1337,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 550
+    },
+    {
+      "type": "paula",
+      "at": 1340,
+      "voice": 0,
+      "note": 53,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 551
+    },
+    {
+      "type": "paula",
+      "at": 1340,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 552
+    },
+    {
+      "at": 1344,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 553
+    },
+    {
+      "type": "paula",
+      "at": 1344,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 554
+    },
+    {
+      "type": "paula",
+      "at": 1344,
+      "voice": 1,
+      "note": 86,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 555
+    },
+    {
+      "type": "paula",
+      "at": 1344,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 556
+    },
+    {
+      "type": "paula",
+      "at": 1351,
+      "voice": 1,
+      "note": 89,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 557
+    },
+    {
+      "type": "paula",
+      "at": 1353,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 558
+    },
+    {
+      "type": "paula",
+      "at": 1356,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 559
+    },
+    {
+      "at": 1360,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 560
+    },
+    {
+      "type": "paula",
+      "at": 1360,
+      "voice": 0,
+      "note": 50,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 561
+    },
+    {
+      "type": "paula",
+      "at": 1360,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 562
+    },
+    {
+      "type": "paula",
+      "at": 1365,
+      "voice": 1,
+      "note": 84,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 563
+    },
+    {
+      "type": "paula",
+      "at": 1369,
+      "voice": 3,
+      "note": 81,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 564
+    },
+    {
+      "type": "paula",
+      "at": 1372,
+      "voice": 0,
+      "note": 57,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 565
+    },
+    {
+      "at": 1376,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 566
+    },
+    {
+      "type": "paula",
+      "at": 1376,
+      "voice": 0,
+      "note": 43,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 567
+    },
+    {
+      "type": "paula",
+      "at": 1376,
+      "voice": 3,
+      "note": 67,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 568
+    },
+    {
+      "type": "paula",
+      "at": 1378,
+      "voice": 1,
+      "note": 79,
+      "gate": 6,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 569
+    },
+    {
+      "type": "paula",
+      "at": 1385,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 570
+    },
+    {
+      "type": "paula",
+      "at": 1387,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 571
+    },
+    {
+      "type": "paula",
+      "at": 1388,
+      "voice": 0,
+      "note": 50,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 572
+    },
+    {
+      "at": 1392,
+      "type": "tone",
+      "cutoff": 1390,
+      "paulaFilter": 58,
+      "id": 573
+    },
+    {
+      "type": "paula",
+      "at": 1392,
+      "voice": 0,
+      "note": 48,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 574
+    },
+    {
+      "type": "paula",
+      "at": 1392,
+      "voice": 1,
+      "note": 84,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 575
+    },
+    {
+      "type": "paula",
+      "at": 1392,
+      "voice": 3,
+      "note": 76,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 576
+    },
+    {
+      "type": "paula",
+      "at": 1396,
+      "voice": 1,
+      "note": 81,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 577
+    },
+    {
+      "type": "paula",
+      "at": 1400,
+      "voice": 1,
+      "note": 79,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 578
+    },
+    {
+      "type": "paula",
+      "at": 1401,
+      "voice": 3,
+      "note": 79,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 579
+    },
+    {
+      "type": "paula",
+      "at": 1404,
+      "voice": 0,
+      "note": 55,
+      "gate": 3,
+      "sample": "sub",
+      "volume": 32,
+      "id": 580
+    },
+    {
+      "type": "paula",
+      "at": 1404,
+      "voice": 1,
+      "note": 77,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 581
+    },
+    {
+      "at": 1408,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 582
+    },
+    {
+      "type": "paula",
+      "at": 1408,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 583
+    },
+    {
+      "type": "paula",
+      "at": 1408,
+      "voice": 3,
+      "note": 65,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 584
+    },
+    {
+      "type": "paula",
+      "at": 1409,
+      "voice": 1,
+      "note": 77,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 585
+    },
+    {
+      "type": "paula",
+      "at": 1417,
+      "voice": 1,
+      "note": 84,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 586
+    },
+    {
+      "type": "paula",
+      "at": 1417,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 587
+    },
+    {
+      "at": 1424,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 588
+    },
+    {
+      "type": "paula",
+      "at": 1424,
+      "voice": 0,
+      "note": 41,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 589
+    },
+    {
+      "type": "paula",
+      "at": 1424,
+      "voice": 3,
+      "note": 69,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 590
+    },
+    {
+      "type": "paula",
+      "at": 1425,
+      "voice": 1,
+      "note": 81,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 591
+    },
+    {
+      "type": "paula",
+      "at": 1433,
+      "voice": 1,
+      "note": 81,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 592
+    },
+    {
+      "type": "paula",
+      "at": 1433,
+      "voice": 3,
+      "note": 72,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 593
+    },
+    {
+      "at": 1440,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 594
+    },
+    {
+      "type": "paula",
+      "at": 1440,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 595
+    },
+    {
+      "type": "paula",
+      "at": 1440,
+      "voice": 3,
+      "note": 70,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 596
+    },
+    {
+      "type": "paula",
+      "at": 1441,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 597
+    },
+    {
+      "type": "paula",
+      "at": 1449,
+      "voice": 1,
+      "note": 86,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 598
+    },
+    {
+      "type": "paula",
+      "at": 1449,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 599
+    },
+    {
+      "at": 1456,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 600
+    },
+    {
+      "type": "paula",
+      "at": 1456,
+      "voice": 0,
+      "note": 46,
+      "gate": 11,
+      "sample": "sub",
+      "volume": 32,
+      "id": 601
+    },
+    {
+      "type": "paula",
+      "at": 1456,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 602
+    },
+    {
+      "type": "paula",
+      "at": 1457,
+      "voice": 1,
+      "note": 84,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 603
+    },
+    {
+      "type": "paula",
+      "at": 1465,
+      "voice": 1,
+      "note": 82,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 604
+    },
+    {
+      "type": "paula",
+      "at": 1465,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 605
+    },
+    {
+      "at": 1472,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 606
+    },
+    {
+      "type": "paula",
+      "at": 1472,
+      "voice": 0,
+      "note": 41,
+      "gate": 45,
+      "sample": "sub",
+      "volume": 32,
+      "id": 607
+    },
+    {
+      "type": "paula",
+      "at": 1472,
+      "voice": 1,
+      "note": 77,
+      "gate": 23,
+      "sample": "epiano",
+      "volume": 32,
+      "id": 608
+    },
+    {
+      "type": "paula",
+      "at": 1472,
+      "voice": 3,
+      "note": 74,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 609
+    },
+    {
+      "type": "paula",
+      "at": 1481,
+      "voice": 3,
+      "note": 77,
+      "sample": "warm-pad",
+      "volume": 23,
+      "id": 610
+    },
+    {
+      "at": 1488,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 611
+    },
+    {
+      "at": 1504,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 612
+    },
+    {
+      "type": "paula",
+      "at": 1504,
+      "voice": 3,
+      "note": 84,
+      "sample": "glass",
+      "volume": 19,
+      "id": 613
+    },
+    {
+      "at": 1520,
+      "type": "tone",
+      "cutoff": 1412,
+      "paulaFilter": 60,
+      "id": 614
+    }
+  ]
+}

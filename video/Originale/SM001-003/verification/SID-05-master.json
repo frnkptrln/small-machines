@@ -1,0 +1,15 @@
+{
+  "id": "SID-05",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 5,
+  "engine": "sid",
+  "title": "Nachtbus 03:17",
+  "duration_seconds": 264.0,
+  "bpm": 90,
+  "key": "e-Moll",
+  "wav_peak_dbfs": -6.38,
+  "mp3_lufs": "-16.76",
+  "mp3_true_peak_dbtp": "-6.56",
+  "mp3_lra": "4.30",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

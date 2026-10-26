@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Fensterlicht auf Magnetband",
+    "duration_seconds": 173.9565306122449,
+    "bpm": 92,
+    "key": "d-Moll",
+    "wav_peak_dbfs": -3.98,
+    "mp3_lufs": "-16.00",
+    "mp3_true_peak_dbtp": "-3.98",
+    "mp3_lra": "4.50",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  },
+  {
+    "title": "Zwischen zwei Takten",
+    "duration_seconds": 128.9047619047619,
+    "bpm": 126,
+    "key": "e-Moll",
+    "wav_peak_dbfs": -1.49,
+    "mp3_lufs": "-15.52",
+    "mp3_true_peak_dbtp": "-1.43",
+    "mp3_lra": "5.40",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  },
+  {
+    "title": "Was im Speicher bleibt",
+    "duration_seconds": 167.0,
+    "bpm": 72,
+    "key": "fis-Moll / A-Dur",
+    "wav_peak_dbfs": -4.67,
+    "mp3_lufs": "-18.00",
+    "mp3_true_peak_dbtp": "-4.68",
+    "mp3_lra": "6.30",
+    "format": "WAV 44.1 kHz / 16-bit stereo; MP3 256 kbps stereo"
+  }
+]

@@ -1,0 +1,64 @@
+LICHT IM HINTERHOF
+Small Machines Sessions 001
+SID/65 × PAULA/68 × ACID/16 × DRUM/08
+
+15:04 Minuten · 128 BPM · acht Szenen
+Eine neue Originalkomposition aus vier virtuellen Maschinen.
+
+SPIELEN UND WEITERBAUEN
+Studio: https://github.com/frnkptrln/small-machines
+Oben ENSEMBLE/04 wählen.
+1. „Set laden“ anklicken und Licht-im-Hinterhof-Ensemble.json öffnen.
+2. „Einschalten & spielen“ startet die ausgewählte Szene.
+3. Mit „Set-Ablauf“ läuft das ganze Set. Ohne Häkchen wiederholt sich die Szene.
+4. Die acht Szenenknöpfe wechseln beim Spielen am nächsten Taktanfang.
+5. Fader, Mute, Solo und Acid-Filter formen das gemeinsame Spiel.
+6. DRUM/08 hat acht Pads. Im Raster schaltet ein Klick zwischen aus, leise und betont.
+7. REC nimmt den tatsächlichen Ausgang auf, einschließlich deiner Eingriffe.
+   REC erneut beendet den Take. Dann den sichtbaren Download-Link anklicken.
+   Maximum: 20 Minuten; der automatische Set-Abschluss lässt vier Sekunden Ausklang.
+8. „Set + Szenen“ speichert deine Änderungen als neue JSON-Datei.
+
+Tasten 1–8 wählen Szenen, die Leertaste startet/stoppt, Escape schaltet sofort stumm.
+Bei fokussierten Eingabefeldern bleiben Zahlentasten und Leertaste für die Eingabe frei.
+„Von vorn“ beginnt wieder mit der ersten Szene.
+
+DIE NACHT
+00:00  Die ersten Fenster
+01:00  Diskettengarten
+03:00  Kupferregen
+05:00  Säureblumen bei Nacht
+07:00  Der stille Innenhof
+09:00  Laternenfieber
+11:00  Alle Fenster offen
+13:00  Morgen auf dem Balkon
+15:00  Ausklang
+15:04  Ende
+
+AUFNAHME
+Die separat angebotenen MP3- und WAV-Dateien enthalten das vollständige Set.
+WAV: Stereo, 44.1 kHz, 16 Bit. MP3: 192 kbit/s.
+Das Hörzimmer im Studio enthält dieselbe Hörfassung als AAC/M4A.
+Die Hörfassung nutzt einen 24-Hz-Hochpass, feste Pegelanhebung und Schlussblende.
+Die Dynamik zwischen den Szenen bleibt erhalten. Der Live-Ausgang wird nicht
+nachträglich auf dieselbe Lautheit angehoben.
+Gemessen: keine übersteuerten PCM-Samples; MP3 True Peak -2.4 dBFS,
+integrierte Lautheit -18.0 LUFS. Die Messberichte liegen bei.
+
+ZUM CHARAKTER DER MASCHINEN
+Die Synthesizer und Samples sind eigene Implementierungen und Klänge.
+DRUM/08 ist von klassischen 808-Drumcomputern inspiriert, kein originalgetreuer
+Nachbau der analogen Schaltung. SID und Paula sind vereinfachte Klangmodelle
+mit echten, begrenzten CPU-Ausführungskernen, keine vollständigen C64/Amiga.
+Paula wird im Ensemble interpoliert und an Sprungstellen geglättet.
+
+PRÜFSTAND
+58 automatisierte Testgruppen bestanden. Gesamtes Set durch die gemeinsame
+Audio-Engine gerendert und gemessen. Browseroberfläche, Szenenauswahl,
+Bühnenansicht, gespeicherte Drum-Änderungen und Acht-Takte-WAV-Export geprüft.
+Die interne HTTP-Vorschau erlaubt keinen AudioWorklet-Start. Live-Audio über
+die veröffentlichte HTTPS-Seite, iPhone und längere Auftritte bitte vor einem
+Einsatz auf dem tatsächlichen Gerät prüfen. Lange Takes benötigen Browserspeicher.
+
+Das Studio bleibt unter seiner bisherigen Zugriffsfreigabe erreichbar.
+Die Audiodateien kannst du unabhängig vom Studio abspielen.

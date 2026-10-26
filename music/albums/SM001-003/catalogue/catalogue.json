@@ -1,0 +1,272 @@
+{
+  "series": "Small Machines",
+  "edition": 1,
+  "date": "2026-10-19",
+  "albums": [
+    {
+      "catalogue_number": "SM001",
+      "engine": "sid",
+      "title": "Drei Stimmen, eine Stadt",
+      "seconds": 1681.9109265609763,
+      "tracks": [
+        {
+          "id": "SID-01",
+          "number": 1,
+          "title": "Stadt aus Strom",
+          "bpm": 112,
+          "key": "c-Dorisch",
+          "seconds": 213.71428571428572,
+          "new": true,
+          "description": "Eine kleine Stadtrundfahrt: federnder Puls, Dreieckskick und ein heller dorischer Refrain."
+        },
+        {
+          "id": "SID-02",
+          "number": 2,
+          "title": "Drei Stimmen im Neon",
+          "bpm": 118,
+          "key": "a-Moll",
+          "seconds": 137.16949152542372,
+          "new": false,
+          "description": "Drei Stimmen bauen eine kleine Nachtmaschine: Pulsmelodie, Sägezahnbass und Schlagzeug aus Rauschen und Dreiecken."
+        },
+        {
+          "id": "SID-03",
+          "number": 3,
+          "title": "Lötzinnlibellen",
+          "bpm": 128,
+          "key": "D-Dur",
+          "seconds": 218.0,
+          "new": true,
+          "description": "Drei ineinandergreifende Stimmen: ein heller Kanon, dessen Antworten immer einen Moment später auftauchen."
+        },
+        {
+          "id": "SID-04",
+          "number": 4,
+          "title": "Ein Bit von dir",
+          "bpm": 80,
+          "key": "h-Moll / D-Dur",
+          "seconds": 151.0,
+          "new": false,
+          "description": "Ein stilles Trio: eine Dreiecksmelodie, tiefe gehaltene Töne und kleine Pulse, die sich im Mittelteil zu einer zweiten Melodie öffnen."
+        },
+        {
+          "id": "SID-05",
+          "number": 5,
+          "title": "Nachtbus 03:17",
+          "bpm": 90,
+          "key": "e-Moll",
+          "seconds": 264.0,
+          "new": true,
+          "description": "Ein langsamer, synkopierter Nachtgroove. Im Mittelteil bleibt die Melodie kurz allein an der Haltestelle."
+        },
+        {
+          "id": "SID-06",
+          "number": 6,
+          "title": "Fenster ohne Schlaf",
+          "bpm": 136,
+          "key": "a-Moll",
+          "seconds": 177.41176470588235,
+          "new": true,
+          "description": "Die schnellste SID-Seite: ein unruhiger Sägezahn und kleine Rauschfahnen zwischen den Bassnoten."
+        },
+        {
+          "id": "SID-07",
+          "number": 7,
+          "title": "Wir bleiben kurz",
+          "bpm": 78,
+          "key": "F-Dur",
+          "seconds": 254.15384615384616,
+          "new": true,
+          "description": "Ein ruhiges Dreieckstrio. Lange Atemzüge und eine zweite Stimme, die erst spät zu einer eigenen Melodie wird."
+        },
+        {
+          "id": "SID-08",
+          "number": 8,
+          "title": "Morgen im RAM",
+          "bpm": 104,
+          "key": "d-Dorisch",
+          "seconds": 266.46153846153845,
+          "new": true,
+          "description": "Die Stadt wird heller. Aus kurzen Impulsen entsteht ein offener Schluss mit Orgelpulsen und einer wiederkehrenden Dreiecksantwort."
+        }
+      ]
+    },
+    {
+      "catalogue_number": "SM002",
+      "engine": "paula",
+      "title": "Diskettenblumen",
+      "seconds": 1711.5579339145258,
+      "tracks": [
+        {
+          "id": "PAULA-01",
+          "number": 1,
+          "title": "Unter dem Ladekopf",
+          "bpm": 108,
+          "key": "d-Dorisch",
+          "seconds": 221.33333333333334,
+          "new": true,
+          "description": "Nylonsaiten aus acht Bit, Holzpercussion und eine kleine Orgel. Der Garten wird langsam eingeschaltet."
+        },
+        {
+          "id": "PAULA-02",
+          "number": 2,
+          "title": "Diskettenblumen",
+          "bpm": 132,
+          "key": "c-Moll",
+          "seconds": 123.36363636363636,
+          "new": false,
+          "description": "Ein lebhaftes Tracker-Stück: Marimba-Fragen, gläserne Antworten, ein beweglicher Samplebass und ein ruhiger Zwischenraum."
+        },
+        {
+          "id": "PAULA-03",
+          "number": 3,
+          "title": "Kupferregen",
+          "bpm": 142,
+          "key": "c-Moll",
+          "seconds": 197.29577464788733,
+          "new": true,
+          "description": "Ein lebhafter Vierkanal-Breakbeat. Elektrische Tasten fallen in kurzen Linien, während Marimba-Antworten dazwischenblitzen."
+        },
+        {
+          "id": "PAULA-04",
+          "number": 4,
+          "title": "Papiermond",
+          "bpm": 94,
+          "key": "f-Moll",
+          "seconds": 149.9787234042553,
+          "new": false,
+          "description": "Ein weicher Vierkanal-Groove mit elektrischen Tasten, gezupften Antworten und einem runden Bass. Der Mittelteil lässt Luft zwischen die Schläge."
+        },
+        {
+          "id": "PAULA-05",
+          "number": 5,
+          "title": "Rasterklee",
+          "bpm": 120,
+          "key": "G-Dur",
+          "seconds": 216.0,
+          "new": true,
+          "description": "Eine helle Tracker-Miniatur mit einem längeren Weg durch den Mittelteil. Die Mallets springen über gläserne Gegenstimmen."
+        },
+        {
+          "id": "PAULA-06",
+          "number": 6,
+          "title": "Magnetischer Sommer",
+          "bpm": 128,
+          "key": "Es-Dur",
+          "seconds": 233.0,
+          "new": true,
+          "description": "Ein warmer, tanzender Sommertag aus E-Piano, Spieluhr und einem Vierkanalbass. Eine lange Öffnung führt zum zweiten Refrain."
+        },
+        {
+          "id": "PAULA-07",
+          "number": 7,
+          "title": "Die letzte Diskette",
+          "bpm": 84,
+          "key": "h-Moll",
+          "seconds": 259.42857142857144,
+          "new": true,
+          "description": "Gläserne Töne und eine synthetische Vokalwolke. Die Percussion setzt aus, als würde das Laufwerk noch nach einer Erinnerung suchen."
+        },
+        {
+          "id": "PAULA-08",
+          "number": 8,
+          "title": "Bitte nicht ausschalten",
+          "bpm": 76,
+          "key": "F-Dur",
+          "seconds": 311.1578947368421,
+          "new": true,
+          "description": "Ein langsamer Abspann aus vier Samplekanälen. Die Melodie löst sich in einzelne Töne auf; die letzte Quinte bleibt offen."
+        }
+      ]
+    },
+    {
+      "catalogue_number": "SM003",
+      "engine": "duo",
+      "title": "Wo die Maschinen sich treffen",
+      "seconds": 1702.9189947636373,
+      "tracks": [
+        {
+          "id": "DUO-01",
+          "number": 1,
+          "title": "Zwei Fenster offen",
+          "bpm": 100,
+          "key": "C-Dur",
+          "seconds": 238.4,
+          "new": true,
+          "description": "SID öffnet das erste Fenster, Paula das zweite. Die beiden Themen antworten sich und treffen sich erst später im selben Refrain."
+        },
+        {
+          "id": "DUO-02",
+          "number": 2,
+          "title": "Fensterlicht auf Magnetband",
+          "bpm": 92,
+          "key": "d-Moll",
+          "seconds": 173.95652173913044,
+          "new": false,
+          "description": "Ein warmer Groove, der sich aus elektrischen Tasten und einem einzelnen Bass aufbaut. Die Pulsmelodie kehrt nach einem offenen Mittelteil heller zurück."
+        },
+        {
+          "id": "DUO-03",
+          "number": 3,
+          "title": "Zwischen zwei Takten",
+          "bpm": 126,
+          "key": "e-Moll",
+          "seconds": 128.9047619047619,
+          "new": false,
+          "description": "Ein kleiner Maschinenclub: knappe Bassfiguren, eine Frage aus Pulsen, eine Antwort aus Marimba und ein Mittelteil im halben Tempo."
+        },
+        {
+          "id": "DUO-04",
+          "number": 4,
+          "title": "Die Maschinen besuchen sich",
+          "bpm": 124,
+          "key": "d-Moll",
+          "seconds": 224.7741935483871,
+          "new": true,
+          "description": "Ein Instrumententausch: dieselbe Frage wandert zwischen Pulston und Marimba. Beide behalten ihre eigene Art zu antworten."
+        },
+        {
+          "id": "DUO-05",
+          "number": 5,
+          "title": "Gemeinsam um drei",
+          "bpm": 114,
+          "key": "a-Dorisch",
+          "seconds": 243.78947368421052,
+          "new": true,
+          "description": "Eine gemeinsame Clubseite. Der SID trägt Bass und Melodie; Paula antwortet mit Tasten, Luft und einem geraden Puls."
+        },
+        {
+          "id": "DUO-06",
+          "number": 6,
+          "title": "Was im Speicher bleibt",
+          "bpm": 72,
+          "key": "fis-Moll / A-Dur",
+          "seconds": 167.0,
+          "new": false,
+          "description": "Ein ruhiger Dialog aus Dreiecken und gläsernen Tasten. Die Mitte verdichtet sich, am Ende bleibt ein heller Akkord mit einer offenen None."
+        },
+        {
+          "id": "DUO-07",
+          "number": 7,
+          "title": "Kleine Welt bei Nacht",
+          "bpm": 88,
+          "key": "fis-Moll",
+          "seconds": 269.8181818181818,
+          "new": true,
+          "description": "Ein Nachtstück mit viel Raum zwischen den Stimmen. Kleine gläserne Antworten bewegen sich um einen langsamen Dreieckston."
+        },
+        {
+          "id": "DUO-08",
+          "number": 8,
+          "title": "Es geht noch weiter",
+          "bpm": 116,
+          "key": "D-Dur",
+          "seconds": 256.2758620689655,
+          "new": true,
+          "description": "Ein offenes Finale. Die Melodie aus dem ersten Fenster wächst weiter, bis beide Maschinen nur noch leise aufeinander antworten."
+        }
+      ]
+    }
+  ],
+  "future_guests_status": "planned, not rendered"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "DUO-04",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 4,
+  "engine": "duo",
+  "title": "Die Maschinen besuchen sich",
+  "duration_seconds": 224.77419501133787,
+  "bpm": 124,
+  "key": "d-Moll",
+  "wav_peak_dbfs": -2.99,
+  "mp3_lufs": "-16.76",
+  "mp3_true_peak_dbtp": "-3.23",
+  "mp3_lra": "4.20",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

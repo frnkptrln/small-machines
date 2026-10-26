@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:137,Small Machines - Drei Stimmen im Neon [SID]
+Solo/audio/SID-01-Drei-Stimmen-im-Neon.mp3
+#EXTINF:151,Small Machines - Ein Bit von dir [SID]
+Solo/audio/SID-02-Ein-Bit-von-dir.mp3
+#EXTINF:150,Small Machines - Papiermond [Paula]
+Solo/audio/PAULA-01-Papiermond.mp3
+#EXTINF:123,Small Machines - Diskettenblumen [Paula]
+Solo/audio/PAULA-02-Diskettenblumen.mp3
+#EXTINF:174,Small Machines - Fensterlicht auf Magnetband [SID + Paula]
+Duo/audio/01-Fensterlicht-auf-Magnetband.mp3
+#EXTINF:129,Small Machines - Zwischen zwei Takten [SID + Paula]
+Duo/audio/02-Zwischen-zwei-Takten.mp3
+#EXTINF:167,Small Machines - Was im Speicher bleibt [SID + Paula]
+Duo/audio/03-Was-im-Speicher-bleibt.mp3

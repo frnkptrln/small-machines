@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-06",
+  "album": "Diskettenblumen",
+  "track": 6,
+  "engine": "paula",
+  "title": "Magnetischer Sommer",
+  "duration_seconds": 233.0,
+  "bpm": 128,
+  "key": "Es-Dur",
+  "wav_peak_dbfs": -2.87,
+  "mp3_lufs": "-16.76",
+  "mp3_true_peak_dbtp": "-3.13",
+  "mp3_lra": "1.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

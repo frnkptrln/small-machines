@@ -1,0 +1,15 @@
+{
+  "id": "SID-07",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 7,
+  "engine": "sid",
+  "title": "Wir bleiben kurz",
+  "duration_seconds": 254.15385487528346,
+  "bpm": 78,
+  "key": "F-Dur",
+  "wav_peak_dbfs": -5.86,
+  "mp3_lufs": "-18.27",
+  "mp3_true_peak_dbtp": "-6.11",
+  "mp3_lra": "3.40",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

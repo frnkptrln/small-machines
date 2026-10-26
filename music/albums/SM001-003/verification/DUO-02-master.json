@@ -1,0 +1,15 @@
+{
+  "id": "DUO-02",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 2,
+  "engine": "duo",
+  "title": "Fensterlicht auf Magnetband",
+  "duration_seconds": 173.9565306122449,
+  "bpm": 92,
+  "key": "d-Moll",
+  "wav_peak_dbfs": -4.22,
+  "mp3_lufs": "-17.27",
+  "mp3_true_peak_dbtp": "-4.50",
+  "mp3_lra": "5.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

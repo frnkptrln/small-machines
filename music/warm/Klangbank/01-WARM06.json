@@ -1,0 +1,244 @@
+{
+  "format": "small-machines-warm",
+  "version": 1,
+  "name": "Bernsteinfenster",
+  "bpm": 92,
+  "params": {
+    "saw": 68,
+    "pulse": 36,
+    "sub": 20,
+    "noise": 1,
+    "pulseWidth": 46,
+    "pwm": 27,
+    "cutoff": 1050,
+    "resonance": 18,
+    "env": 26,
+    "attack": 450,
+    "decay": 1100,
+    "sustain": 76,
+    "release": 1900,
+    "hpf": 35,
+    "chorus": 66,
+    "drift": 4,
+    "volume": 75,
+    "lfoRate": 0.24
+  },
+  "patterns": [
+    [
+      {
+        "notes": [
+          50,
+          57,
+          60,
+          65
+        ],
+        "velocity": 0.78,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          50,
+          57,
+          60,
+          65
+        ],
+        "velocity": 0.67,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          46,
+          53,
+          57,
+          60
+        ],
+        "velocity": 0.78,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          46,
+          53,
+          57,
+          60
+        ],
+        "velocity": 0.67,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          53,
+          60,
+          64,
+          69
+        ],
+        "velocity": 0.78,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          53,
+          60,
+          64,
+          69
+        ],
+        "velocity": 0.67,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          48,
+          55,
+          58,
+          62
+        ],
+        "velocity": 0.78,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          48,
+          55,
+          58,
+          62
+        ],
+        "velocity": 0.67,
+        "length": 15.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

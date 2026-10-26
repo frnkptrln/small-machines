@@ -1,0 +1,13 @@
+{
+  "project": "Small Machines / SID-65 + PAULA-68",
+  "commit": "1ec90acd0afdf02d58260ef9ff5c5ea02993b5d7",
+  "files": {
+    "machine.mjs": "398e9378cc5e307374c4ce811358224af07884dd2716e6769f0d812282e89e28",
+    "cpu.mjs": "dcfdc5f33347ec5031eaa0029e8379509ef05d9f70b6e04f2526f0b8cd701feb",
+    "assembler.mjs": "4c22912361a76f937b5ef477de8d9774fb362c9d4791840763c167604e7233d8",
+    "paula.mjs": "a4b32cad7ebc9a13ddb7645bbb0e9485beb2b9405c7f8de31853a5fd330a3def",
+    "m68k.mjs": "c17119d04970a5a110f9a6a5ad0631efc5ff7e46e4eddc93d2f00b62acfa1828",
+    "sound-bank.mjs": "b1656762cec65e07b2e7e3cfd85beb920fbef64607d49a2c1e8b476faa2bf120"
+  },
+  "source_url": "https://github.com/frnkptrln/small-machines"
+}

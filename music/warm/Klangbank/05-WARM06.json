@@ -1,0 +1,364 @@
+{
+  "format": "small-machines-warm",
+  "version": 1,
+  "name": "Kassettenherz",
+  "bpm": 108,
+  "params": {
+    "saw": 76,
+    "pulse": 18,
+    "sub": 18,
+    "noise": 0,
+    "pulseWidth": 46,
+    "pwm": 12,
+    "cutoff": 1700,
+    "resonance": 26,
+    "env": 35,
+    "attack": 30,
+    "decay": 760,
+    "sustain": 34,
+    "release": 850,
+    "hpf": 50,
+    "chorus": 48,
+    "drift": 5,
+    "volume": 75,
+    "lfoRate": 0.24
+  },
+  "patterns": [
+    [
+      {
+        "notes": [
+          57,
+          72,
+          77
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          57,
+          72,
+          77
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          57,
+          72,
+          77
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          57,
+          72,
+          77
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          57,
+          72,
+          77
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          57,
+          72,
+          77
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          53,
+          69,
+          72
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          53,
+          69,
+          72
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          53,
+          69,
+          72
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          53,
+          69,
+          72
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          53,
+          69,
+          72
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          53,
+          69,
+          72
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          60,
+          76,
+          81
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          60,
+          76,
+          81
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          60,
+          76,
+          81
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          60,
+          76,
+          81
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          60,
+          76,
+          81
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          60,
+          76,
+          81
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          55,
+          70,
+          74
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          55,
+          70,
+          74
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          55,
+          70,
+          74
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "notes": [
+          55,
+          70,
+          74
+        ],
+        "velocity": 0.75,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          55,
+          70,
+          74
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "notes": [
+          55,
+          70,
+          74
+        ],
+        "velocity": 0.58,
+        "length": 3.5
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "DUO-06",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 6,
+  "engine": "duo",
+  "title": "Was im Speicher bleibt",
+  "duration_seconds": 167.0,
+  "bpm": 72,
+  "key": "fis-Moll / A-Dur",
+  "wav_peak_dbfs": -4.24,
+  "mp3_lufs": "-17.26",
+  "mp3_true_peak_dbtp": "-4.49",
+  "mp3_lra": "5.20",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

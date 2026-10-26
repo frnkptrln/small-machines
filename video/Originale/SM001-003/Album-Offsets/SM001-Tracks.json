@@ -1,0 +1,98 @@
+[
+  {
+    "id": "SID-01",
+    "number": 1,
+    "title": "Stadt aus Strom",
+    "bpm": 112,
+    "key": "c-Dorisch",
+    "seconds": 213.71428571428572,
+    "new": true,
+    "description": "Eine kleine Stadtrundfahrt: federnder Puls, Dreieckskick und ein heller dorischer Refrain.",
+    "file": "audio/01-Stadt-aus-Strom.mp3",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "SID-02",
+    "number": 2,
+    "title": "Drei Stimmen im Neon",
+    "bpm": 118,
+    "key": "a-Moll",
+    "seconds": 137.16950113378684,
+    "new": false,
+    "description": "Drei Stimmen bauen eine kleine Nachtmaschine: Pulsmelodie, Sägezahnbass und Schlagzeug aus Rauschen und Dreiecken.",
+    "file": "audio/02-Drei-Stimmen-im-Neon.mp3",
+    "start_seconds": 213.71428571428572
+  },
+  {
+    "id": "SID-03",
+    "number": 3,
+    "title": "Lötzinnlibellen",
+    "bpm": 128,
+    "key": "D-Dur",
+    "seconds": 218.0,
+    "new": true,
+    "description": "Drei ineinandergreifende Stimmen: ein heller Kanon, dessen Antworten immer einen Moment später auftauchen.",
+    "file": "audio/03-Loetzinnlibellen.mp3",
+    "start_seconds": 350.8837868480726
+  },
+  {
+    "id": "SID-04",
+    "number": 4,
+    "title": "Ein Bit von dir",
+    "bpm": 80,
+    "key": "h-Moll / D-Dur",
+    "seconds": 151.0,
+    "new": false,
+    "description": "Ein stilles Trio: eine Dreiecksmelodie, tiefe gehaltene Töne und kleine Pulse, die sich im Mittelteil zu einer zweiten Melodie öffnen.",
+    "file": "audio/04-Ein-Bit-von-dir.mp3",
+    "start_seconds": 568.8837868480725
+  },
+  {
+    "id": "SID-05",
+    "number": 5,
+    "title": "Nachtbus 03:17",
+    "bpm": 90,
+    "key": "e-Moll",
+    "seconds": 264.0,
+    "new": true,
+    "description": "Ein langsamer, synkopierter Nachtgroove. Im Mittelteil bleibt die Melodie kurz allein an der Haltestelle.",
+    "file": "audio/05-Nachtbus-03-17.mp3",
+    "start_seconds": 719.8837868480725
+  },
+  {
+    "id": "SID-06",
+    "number": 6,
+    "title": "Fenster ohne Schlaf",
+    "bpm": 136,
+    "key": "a-Moll",
+    "seconds": 177.411768707483,
+    "new": true,
+    "description": "Die schnellste SID-Seite: ein unruhiger Sägezahn und kleine Rauschfahnen zwischen den Bassnoten.",
+    "file": "audio/06-Fenster-ohne-Schlaf.mp3",
+    "start_seconds": 983.8837868480725
+  },
+  {
+    "id": "SID-07",
+    "number": 7,
+    "title": "Wir bleiben kurz",
+    "bpm": 78,
+    "key": "F-Dur",
+    "seconds": 254.15385487528346,
+    "new": true,
+    "description": "Ein ruhiges Dreieckstrio. Lange Atemzüge und eine zweite Stimme, die erst spät zu einer eigenen Melodie wird.",
+    "file": "audio/07-Wir-bleiben-kurz.mp3",
+    "start_seconds": 1161.2955555555557
+  },
+  {
+    "id": "SID-08",
+    "number": 8,
+    "title": "Morgen im RAM",
+    "bpm": 104,
+    "key": "d-Dorisch",
+    "seconds": 266.46154195011337,
+    "new": true,
+    "description": "Die Stadt wird heller. Aus kurzen Impulsen entsteht ein offener Schluss mit Orgelpulsen und einer wiederkehrenden Dreiecksantwort.",
+    "file": "audio/08-Morgen-im-RAM.mp3",
+    "start_seconds": 1415.449410430839
+  }
+]

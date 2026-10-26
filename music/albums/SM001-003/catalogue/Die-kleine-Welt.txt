@@ -1,0 +1,71 @@
+SMALL MACHINES
+Drei erste Alben · 19. Oktober 2026
+
+Es beginnt mit drei Stimmen und vier Samplekanälen. Daraus werden Zimmer,
+Straßen, Gärten und kleine Geschichten. Jede Maschine kann allein eine Platte
+tragen. Wenn sie sich besuchen, verändern sie die Musik der anderen.
+
+SM001 — DREI STIMMEN, EINE STADT
+SID / 8 Stücke
+Eine Stadt zwischen Strom, Nachtbus und Morgenlicht. Rhythmus entsteht aus
+denselben drei Stimmen wie Bass und Melodie. Das Album wechselt zwischen
+knappen Pulsen, einem kleinen Kanon und ruhigen Dreieckstrios.
+
+SM002 — DISKETTENBLUMEN
+PAULA / 8 Stücke
+Ein Garten aus acht Bit. Die vier Stimmen teilen sich Bass, Melodie, Percussion
+und Antworten. Holz, Glas, elektrische Tasten und synthetische Vokale wachsen
+nebeneinander. Das Titelstück ist der vertraute Mittelpunkt; die Reise beginnt
+unter dem Ladekopf und endet mit „Bitte nicht ausschalten“.
+
+SM003 — WO DIE MASCHINEN SICH TREFFEN
+SID + PAULA / 8 Stücke
+Die Maschinen öffnen zwei Fenster. Im vierten Stück wandert die Melodie
+zwischen SID und Marimba. Später treffen sie sich auf einer kleinen Tanzfläche
+und gehen mit einem offenen Finale wieder auseinander.
+
+WIE DIESE WELT WEITERWACHSEN KANN
+
+Ein Soloalbum zeigt die Eigenheiten einer Maschine. Eine gemeinsame Platte
+braucht einen musikalischen Grund: Motive tauschen, Rollen wechseln, einen
+Rhythmus neu beleuchten oder ein älteres Stück aus anderer Sicht erzählen.
+Ein Gast muss nicht in jedem Takt spielen. Manchmal genügt eine Antwort.
+
+Mögliche nächste Kapitel — Entwürfe, noch keine fertigen Instrumente oder Songs:
+
+• „Säureblumen“: ein eigener Bass-Synth mit Slide und Akzenten, angeregt von
+  der TB-303, besucht Paula. Basslinien werden Gegenstimmen zu den Mallets.
+• „Asphalt und Sternenstaub“: eigene Drum-Synthese im Umfeld von TR-808/909,
+  gemeinsam mit SID. Der SID bekommt seine dritte Stimme zum Singen zurück.
+• „Chlorophyll bei Nacht“: ein eigener polyphoner Synth mit schwebendem Chorus,
+  angeregt von der Juno-Familie, trifft die trockenen Tracker-Tasten.
+• „Ein Motiv, viele Wohnungen“: dasselbe kurze Thema erscheint auf Solo- und
+  gemeinsamen Platten, mit anderer Harmonie, anderem Rhythmus und anderer Rolle.
+
+Roland bezeichnet dabei eine Familie unterschiedlicher Instrumente. Für diese
+zukünftigen Kapitel werden eigene Klänge entwickelt. In den vorliegenden drei
+Alben spielen ausschließlich unsere bisherigen virtuellen SID-/Paula-Modelle;
+es sind keine Roland-Aufnahmen oder Roland-Emulationen enthalten.
+
+Quellen zur Gerätefamilie (Hersteller; abgerufen 19.10.2026):
+https://www.roland.com/global/promos/roland_tr-808/
+https://www.roland.com/RolandComSite/media/global/release/pdf/2019/20190303_1_RolandCloud_TB-303.pdf
+https://support.roland.com/hc/en-us/articles/201966419-JUNO-106-Technical-Specifications
+
+ZUR ARBEITSWEISE
+
+17 neue Kompositionen ergänzen die sieben bisherigen Stücke. Alle 24 Partituren
+sind gespeichert. Melodien und Formen sind festgelegt; nur die synthetischen
+Rauschklänge und die Raumantwort verwenden fest gesetzte Zufallszahlen.
+
+Die SID-Solos nutzen drei SID-Stimmen. Paula-Solos nutzen vier PCM-Kanäle mit
+selbst erzeugten 8-Bit-Samples. Im Duo spielen beide Modelle. Hall und Echo
+gehören zur Aufnahmeproduktion. Die Modelle sind musikalische Annäherungen,
+keine zyklusgenaue Hardwareemulation. Paula wird für die Aufnahme interpoliert;
+abrupte Kanalwechsel werden über drei Millisekunden geglättet.
+
+Diese Sammlung ist eine erste Albumfassung zum gemeinsamen Hören und
+Weiterentwickeln. Geprüft wurden Quellen, Dauer, Enden und digitale Pegel.
+Eine Hörprüfung auf verschiedenen Lautsprechern und Kopfhörern steht noch aus.
+
+Entstanden im gemeinsamen Musikprojekt von Frank und ChatGPT.

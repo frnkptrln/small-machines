@@ -1,0 +1,15 @@
+{
+  "id": "SID-03",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 3,
+  "engine": "sid",
+  "title": "Lötzinnlibellen",
+  "duration_seconds": 218.0,
+  "bpm": 128,
+  "key": "D-Dur",
+  "wav_peak_dbfs": -7.0,
+  "mp3_lufs": "-16.77",
+  "mp3_true_peak_dbtp": "-7.26",
+  "mp3_lra": "4.00",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "DUO-03",
+  "album": "Wo die Maschinen sich treffen",
+  "track": 3,
+  "engine": "duo",
+  "title": "Zwischen zwei Takten",
+  "duration_seconds": 128.9047619047619,
+  "bpm": 126,
+  "key": "e-Moll",
+  "wav_peak_dbfs": -1.5,
+  "mp3_lufs": "-17.34",
+  "mp3_true_peak_dbtp": "-1.70",
+  "mp3_lra": "5.80",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

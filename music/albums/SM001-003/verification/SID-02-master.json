@@ -1,0 +1,15 @@
+{
+  "id": "SID-02",
+  "album": "Drei Stimmen, eine Stadt",
+  "track": 2,
+  "engine": "sid",
+  "title": "Drei Stimmen im Neon",
+  "duration_seconds": 137.16950113378684,
+  "bpm": 118,
+  "key": "a-Moll",
+  "wav_peak_dbfs": -3.88,
+  "mp3_lufs": "-16.27",
+  "mp3_true_peak_dbtp": "-4.13",
+  "mp3_lra": "4.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

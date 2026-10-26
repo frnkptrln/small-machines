@@ -1,0 +1,15 @@
+{
+  "id": "PAULA-07",
+  "album": "Diskettenblumen",
+  "track": 7,
+  "engine": "paula",
+  "title": "Die letzte Diskette",
+  "duration_seconds": 259.42857142857144,
+  "bpm": 84,
+  "key": "h-Moll",
+  "wav_peak_dbfs": -6.6,
+  "mp3_lufs": "-18.27",
+  "mp3_true_peak_dbtp": "-6.87",
+  "mp3_lra": "3.10",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

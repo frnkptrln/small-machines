@@ -1,0 +1,77 @@
+{
+  "title": "Bernsteinfenster \u00b7 Besuch im Hinterhof",
+  "seconds": 106.85714285714286,
+  "sourceAnalysis": {
+    "input_i": "-23.51",
+    "input_tp": "-7.84",
+    "input_lra": "10.90",
+    "input_thresh": "-33.89",
+    "output_i": "-16.35",
+    "output_tp": "-2.00",
+    "output_lra": "10.50",
+    "output_thresh": "-26.82",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.65"
+  },
+  "fixedGainDb": 5.510000000000002,
+  "processing": "24 Hz highpass, fixed gain, final 2 s fade; no dynamic loudness compression",
+  "pcmSamplePeakDbfs": -2.4087647076324705,
+  "pcmRmsDbfs": -19.34149354203028,
+  "clippedSamples": 0,
+  "firstStereoFrame": [
+    0,
+    0
+  ],
+  "lastStereoFrame": [
+    0,
+    0
+  ],
+  "mp3LoudnessAndTruePeak": "Summary:\n\n  Integrated loudness:\n    I:         -18.2 LUFS\n    Threshold: -28.6 LUFS\n\n  Loudness range:\n    LRA:        11.3 LU\n    Threshold: -38.6 LUFS\n    LRA low:   -26.1 LUFS\n    LRA high:  -14.9 LUFS\n\n  True peak:\n    Peak:       -2.7 dBFS\n",
+  "formats": [
+    {
+      "file": "Bernsteinfenster-Besuch-im-Hinterhof.wav",
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "106.857143",
+        "size": "18849822"
+      }
+    },
+    {
+      "file": "Bernsteinfenster-Besuch-im-Hinterhof.mp3",
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "106.893061",
+        "size": "2566259"
+      }
+    },
+    {
+      "file": "bernsteinfenster-besuch.m4a",
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "106.857007",
+        "size": "2674413"
+      }
+    }
+  ]
+}

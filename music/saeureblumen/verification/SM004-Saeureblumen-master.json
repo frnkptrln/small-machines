@@ -1,0 +1,15 @@
+{
+  "id": "SM004-Saeureblumen",
+  "album": "Small Machines — Erste Begegnungen",
+  "track": 1,
+  "engine": "acid-paula",
+  "title": "Säureblumen",
+  "duration_seconds": 190.806462585034,
+  "bpm": 124,
+  "key": "D minor",
+  "wav_peak_dbfs": -2.29,
+  "mp3_lufs": "-17.27",
+  "mp3_true_peak_dbtp": "-2.56",
+  "mp3_lra": "6.20",
+  "format": "WAV 44.1 kHz / 16-bit stereo; MP3 192 kbps stereo"
+}

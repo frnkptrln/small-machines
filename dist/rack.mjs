@@ -1,0 +1,25 @@
+import {Machine,freshProject,validateProject} from './machine.mjs';
+import {PaulaMachine,freshPaula,validatePaula} from './paula.mjs';
+export const freshSet=()=>({kind:'small-machines',version:2,bpm:112,sid:freshProject(),paula:freshPaula(),mix:{crossfade:1,master:.8,tone:85}});
+export function validateSet(s){if(!s||s.kind!=='small-machines'||s.version!==2)throw Error('Keine Small-Machines-Setdatei.');validateProject(s.sid);validatePaula(s.paula);if(!Number.isFinite(s.bpm)||s.bpm<40||s.bpm>220)throw Error('Ungültiges Set-Tempo.');if(!s.mix)throw Error('Mixer fehlt.');for(const [k,min,max]of [['crossfade',0,1],['master',0,1],['tone',0,100]])if(!Number.isFinite(s.mix[k])||s.mix[k]<min||s.mix[k]>max)throw Error('Ungültiger Mixerwert: '+k);return s;}
+export class Rack {
+ constructor(rate=44100,set=freshSet()){validateSet(set);this.rate=rate;this.playing=false;this.position=-1;this.bar=0;this.until=0;this.gate=0;this.pending=null;this.sceneId=null;this.error=null;this.old=null;this.fade=0;this.mixed=new Float64Array(2);this.toneState=[0,0];this.install(this.prepare(set));}
+ prepare(set){const data=JSON.parse(JSON.stringify(validateSet(set)));data.sid.bpm=data.paula.bpm=data.bpm;return {data,sid:new Machine(this.rate,data.sid),paula:new PaulaMachine(this.rate,data.paula)};}
+ install(built){this.data=built.data;this.sid=built.sid;this.paula=built.paula;this.setMix(this.data.mix);}
+ setMix(patch){Object.assign(this.data.mix,patch);this.targetSid=this.data.mix.crossfade===1?0:Math.cos(this.data.mix.crossfade*Math.PI/2);this.targetPaula=this.data.mix.crossfade===0?0:Math.sin(this.data.mix.crossfade*Math.PI/2);this.sidGain??=this.targetSid;this.paulaGain??=this.targetPaula;this.master??=this.data.mix.master;this.alpha=1-Math.exp(-2*Math.PI*(120*Math.pow(140,this.data.mix.tone/100))/this.rate);}
+ setTempo(bpm){this.data.bpm=bpm;this.sid.project.bpm=bpm;this.paula.project.bpm=bpm;this.data.sid.bpm=bpm;this.data.paula.bpm=bpm;this.paula.updateFX();}
+ queue(set,id){this.pending={built:this.prepare(set),id};if(!this.playing)this.applyPending();}
+ applyPending(){if(!this.pending)return;this.old={sid:this.sid,paula:this.paula,sidGain:this.sidGain,paulaGain:this.paulaGain,master:this.master};this.fade=Math.round(this.rate*.012);const p=this.pending;this.install(p.built);this.sceneId=p.id;this.pending=null;}
+ start(){this.position=-1;this.bar=0;this.until=0;this.gate=0;this.sid.mem[2]=0;this.sid.cpu.sp=0xfd;this.paula.cpu.a[7]=0xff00;this.playing=true;this.error=null;}
+ stop(){this.playing=false;this.sid.stop();this.paula.stop();this.pending=null;}
+ panic(){this.playing=false;this.pending=null;this.old=null;this.install(this.prepare(this.exportSet()));this.toneState=[0,0];this.position=-1;}
+ exportSet(){return {kind:'small-machines',version:2,bpm:this.data.bpm,mix:{...this.data.mix},sid:JSON.parse(JSON.stringify(this.sid.project)),paula:JSON.parse(JSON.stringify(this.paula.project))};}
+ step(){this.position=(this.position+1)&15;if(this.position===0){this.bar++;this.applyPending();}this.sid.mem[2]=this.position;this.sid.tick();this.paula.row(this.position);this.until+=this.rate*60/this.data.bpm/4;this.gate=this.until*.77;}
+ sample(){try{if(this.playing){if(this.until<=0)this.step();this.until--;if(this.gate>0&&--this.gate<=0)this.sid.immediate([0,1,2].filter(i=>!this.sid.manual.has(i)).map(i=>[0xd404+i*7,this.sid.sid.reg[4+i*7]&~1]));}
+ const sid=this.sid.sample(),paula=this.paula.sample();this.sidGain+=(this.targetSid-this.sidGain)*.003;this.paulaGain+=(this.targetPaula-this.paulaGain)*.003;this.master+=(this.data.mix.master-this.master)*.003;
+ let oldSid=0,oldPaula=null,fade=1;if(this.old&&this.fade>0){oldSid=this.old.sid.sample();oldPaula=this.old.paula.sample();fade=1-this.fade/Math.round(this.rate*.012);this.fade--;}
+ for(let i=0;i<2;i++){let v=(sid*this.sidGain+paula[i]*this.paulaGain)*this.master;if(oldPaula)v=v*fade+(oldSid*this.old.sidGain+oldPaula[i]*this.old.paulaGain)*this.old.master*(1-fade);this.toneState[i]+=this.alpha*(v-this.toneState[i]);this.mixed[i]=Math.tanh(this.toneState[i]);}if(this.old&&!this.fade)this.old=null;
+ }catch(e){this.error=e.message;this.playing=false;this.mixed.fill(0);this.sid.sid.reg.fill(0);this.paula.paula.channels.forEach(c=>c.active=false);}return this.mixed;}
+ snapshot(){return {playing:this.playing,position:this.position,bar:this.bar,bpm:this.data.bpm,sceneId:this.sceneId,pending:this.pending?.id??null,paula:this.paula.snapshot(),sid:this.sid.snapshot(),error:this.error};}
+}
+export function encodeStereoWav(chunks,rate){let frames=0;for(const c of chunks)frames+=c.length/2;const buf=new ArrayBuffer(44+frames*4),v=new DataView(buf),str=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i));};str(0,'RIFF');v.setUint32(4,36+frames*4,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,2,true);v.setUint32(24,rate,true);v.setUint32(28,rate*4,true);v.setUint16(32,4,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,frames*4,true);let off=44;for(const c of chunks)for(const x of c){v.setInt16(off,Math.round(Math.max(-1,Math.min(1,x))*32767),true);off+=2;}return buf;}
