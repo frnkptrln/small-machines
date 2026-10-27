@@ -57,3 +57,11 @@ The suite covers the processors, synthesis, timing, project validation, recordin
 
 These are original, simplified instruments, not complete C64/Amiga emulators or licensed Roland products. Browser storage belongs to each origin: export your JSON projects before moving between hosted and local studios. Physical MIDI, iPhone behavior and sustained live performance still need testing on the target devices.
 
+
+## Licence
+
+The code — the instruments, the studio, the renderers, the tools and the tests — is released under the MIT License ([`LICENSE`](LICENSE)).
+
+Everything else is released under CC BY-NC 4.0 ([`LICENSES/CC-BY-NC-4.0.txt`](LICENSES/CC-BY-NC-4.0.txt)): the music in whatever form it takes, the recordings, the album and video material, and the texts. The music includes the scripts that compose or encode a piece and the songs and patterns built into the instruments, for example everything in `music/`, `video/` and `dist/sets/`, as well as `dist/ensemble-score.mjs` and `tools/warm-score.mjs`. The MIT License does not cover the music, even where it is written as code. Credit it as Small Machines, with the title of the piece.
+
+© 2026 Frank Peterlein (Small Machines)
