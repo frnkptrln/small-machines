@@ -57,8 +57,7 @@ The suite covers the processors, synthesis, timing, project validation, recordin
 
 These are original, simplified instruments, not complete C64/Amiga emulators or licensed Roland products. Browser storage belongs to each origin: export your JSON projects before moving between hosted and local studios. Physical MIDI, iPhone behavior and sustained live performance still need testing on the target devices.
 
-
-## Licence
+## License
 
 The code — the instruments, the studio, the renderers, the tools and the tests — is released under the MIT License ([`LICENSE`](LICENSE)).
 
