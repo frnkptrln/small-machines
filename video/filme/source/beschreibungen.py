@@ -58,11 +58,7 @@ FILME = [
      "„Nachglühen“: die Säure wird abgespült, die Platte eingefärbt. „Letzte Blüten“: der Abzug."),
 ]
 
-MITWIRKENDE = ("Musik und Instrumente: Small Machines – Frank mit ChatGPT (die Maschinen SID/65, PAULA/68, "
-               "ACID/16 und DRUM/08 sind virtuelle Chip-Instrumente; Quellen, Partituren und Studio: github.com/frnkptrln/small-machines).\n"
-               "Bild: Frank mit Claude. Der Film reagiert nicht auf das Audiosignal, er ist aus der Partitur "
-               "gerechnet – aus jeder Note, jedem Sample, jeder Hüllkurve –, deshalb sitzt jedes Bildereignis "
-               "auf dem Sechzehntel, an dem es in der Musik steht.")
+QUELLEN = "Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines"
 
 
 # Welche Aufnahme der Film trägt (seit 27.10.2026 die Albumfassungen; Säureblumen: die Single)
@@ -129,11 +125,7 @@ TEXT_EN = {
         "press. “Nachglühen”: the acid is rinsed off and the plate inked. “Letzte Blüten”: the print.",
 }
 
-CONTRIB_EN = ("Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 "
-              "are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).\n"
-              "Images: Frank with Claude. The film does not react to the audio signal; it is computed from the "
-              "score – every note, every sample, every envelope – so each visual event lands on the sixteenth "
-              "where it sits in the music.")
+SOURCES_EN = "Sources, scores and studio: https://github.com/frnkptrln/small-machines"
 
 RECORDING_EN = {
     'Drei-Stimmen-im-Neon': 'Recording: SM001 “Drei Stimmen, eine Stadt”, track 2',
@@ -153,11 +145,11 @@ PLAYLIST = {
     'de': ("Sieben Stücke von Small Machines in drei Kapiteln – SID allein, Paula allein, zusammen. Jeder Film ist "
            "aus der Partitur seines Stücks gerechnet: Jede Note, jedes Sample, jeder Abschnitt wird zu einem "
            "Bildereignis auf dem Sechzehntel, an dem es in der Musik steht. SID ist Linie und Licht, Paula ist "
-           "Ding.\n\nPartituren und Quellen: github.com/frnkptrln/small-machines"),
+           "Ding.\n\nPartituren und Quellen: https://github.com/frnkptrln/small-machines"),
     'en': ("Seven pieces by Small Machines in three chapters – SID alone, Paula alone, together. Each film is "
            "computed from the score of its piece: every note, every sample, every section becomes a visual event "
            "on the sixteenth where it sits in the music. SID is line and light; Paula is a thing.\n\n"
-           "Scores and sources: github.com/frnkptrln/small-machines"),
+           "Scores and sources: https://github.com/frnkptrln/small-machines"),
 }
 
 
@@ -190,12 +182,14 @@ def main(out_path, lang='de'):
         L.append('')
         if en:
             L.append(f'Small Machines · Lineup: {bes} · {RECORDING_EN[fn]} · {s.bpm} BPM · {KEY_EN.get(key, key)}')
-            L.append(CONTRIB_EN)
+            L.append('')
+            L.append(SOURCES_EN)
             L.append('')
             L.append('Chapters:')
         else:
             L.append(f'Small Machines · Besetzung: {bes} · {AUFNAHME[fn]} · {s.bpm} BPM · {key}')
-            L.append(MITWIRKENDE)
+            L.append('')
+            L.append(QUELLEN)
             L.append('')
             L.append('Kapitel:')
         for name, a, b, ba, bb in s.sections:
@@ -211,7 +205,8 @@ def main(out_path, lang='de'):
                  "“Was im Speicher bleibt”.")
         L.append('')
         L.append('Small Machines · Lineup: SID/65 · PAULA/68 · Audio: the album versions (SM001–SM003)')
-        L.append(CONTRIB_EN)
+        L.append('')
+        L.append(SOURCES_EN)
         L.append('')
         L.append('Cuts:')
     else:
@@ -220,7 +215,8 @@ def main(out_path, lang='de'):
                  "am Ende der letzte Akkord von „Was im Speicher bleibt“.")
         L.append('')
         L.append('Small Machines · Besetzung: SID/65 · PAULA/68 · Ton: die Albumfassungen (SM001–SM003)')
-        L.append(MITWIRKENDE)
+        L.append('')
+        L.append(QUELLEN)
         L.append('')
         L.append('Schnitte:')
     t = 0.0

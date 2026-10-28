@@ -43,8 +43,9 @@ MITWIRKENDE
 Small Machines ist der gemeinsame Name, unter dem alles erscheint; die Maschinen sind die
 Besetzung – in diesem Zyklus SID/65 und PAULA/68, in „Säureblumen" ACID/16 und PAULA/68,
 weitere kommen. Im Abspann der Filme stehen deshalb nur Titel, Small Machines und Besetzung
-(Beschluss vom 25.10.2026). Wer dahinter gearbeitet hat, steht hier und in den
-Videobeschreibungen:
+(Beschluss vom 25.10.2026). Wer dahinter gearbeitet hat, steht hier und in CREDITS.md des
+Repositorys; die Videobeschreibungen verweisen mit ihrer Quellenzeile darauf (Fassung vom
+28.10.2026):
   Musik und Instrumente   Frank mit ChatGPT. Die Maschinen SID/65, PAULA/68, ACID/16 und
                           DRUM/08 sind die Instrumente dieses Repositorys (dist/); die
                           Stücke liegen als Partituren und Quellen in music/.
