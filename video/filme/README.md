@@ -12,13 +12,15 @@ Seven films for the seven pieces of **Allein und zusammen**, an eighth for the s
 | <img src="vorschau/Zwischen-zwei-Takten.jpg" width="320" alt=""> | **Zwischen zwei Takten** | SID/65 × PAULA/68 | 2:09 |
 | <img src="vorschau/Was-im-Speicher-bleibt.jpg" width="320" alt=""> | **Was im Speicher bleibt** | SID/65 × PAULA/68 | 2:47 |
 | <img src="vorschau/Saeureblumen.jpg" width="320" alt=""> | **Säureblumen** | ACID/16 × PAULA/68 | 3:11 |
+| <img src="vorschau/Trailer-Allein-und-zusammen.jpg" width="320" alt=""> | **Trailer** · Allein und zusammen | SID/65 · PAULA/68 | 0:32 |
 
-The rendered films (1920 × 1080, 30 fps, about 0.9 GB together) are not stored in Git. This folder holds what produces them:
+The rendered films (1920 × 1080, 30 fps, about 0.9 GB together) are not stored in Git. This folder holds what they are made from and what goes with them when they are published:
 
 - [`Liesmich.txt`](Liesmich.txt) — the images piece by piece, the trailer's cut list, credits and how to re-render (German).
 - [`Videobeschreibungen.txt`](Videobeschreibungen.txt) and [`Videobeschreibungen.en.txt`](Videobeschreibungen.en.txt) — descriptions, credits and chapter marks for publishing each film and the playlist, in German and English.
+- [`vorschau/`](vorschau/) — the thumbnails, 1280 × 720: a still from each film, for the trailer its title card.
 - [`source/`](source/) — the Python renderer (numpy, OpenCV, Pillow, ffmpeg). `python3 render.py <film> <out.mp4>` reads the score from [`music/`](../../music/).
 
-The scores in `music/early/seven-pieces/` and `music/saeureblumen/` are byte-identical to the ones the films were computed from. The same seven pieces appear on SM001–SM003 with identical events, mix levels, lengths and timing. Since 27 October 2026 the films carry these album recordings — chosen after a level-matched listening comparison with the EP — so the picture did not need to be re-rendered. The album masters can be rebuilt from `music/albums/SM001-003/` with the repository's `dist/`.
+The scores in `music/early/seven-pieces/` and `music/saeureblumen/` are byte-identical to the ones the films were computed from. The same seven pieces appear on SM001–SM003 with identical events, mix levels, lengths and timing. Since 27 October 2026 the films carry these album recordings — chosen after a level-matched listening comparison with the EP — so the picture did not need to be re-rendered; laid under the same picture, the EP recordings give the earlier version back. The album masters can be rebuilt from `music/albums/SM001-003/` with the repository's `dist/`.
 
 End cards name the piece, Small Machines and the instruments heard. Music and instruments: Frank with ChatGPT. Images: Frank with Claude. See [CREDITS.md](../../CREDITS.md).

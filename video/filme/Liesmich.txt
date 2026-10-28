@@ -21,7 +21,8 @@ Alle Filme: 1920 × 1080, 30 Bilder/s, H.264, Ton AAC 256 kbit/s aus den Albumfa
 (SM001–SM003), bei Säureblumen aus der WAV der Single. Bild und Ton sind gleich lang; der
 Ton ist unverändert.
 Die Filmdateien liegen nicht im Repository (zusammen rund 0,9 GB, zwei Dateien über
-100 MB); hier liegen die Quellen, aus denen sie entstehen, und Vorschaubilder (vorschau/).
+100 MB); hier liegen die Quellen, aus denen sie entstehen, und die Vorschaubilder für die
+Veröffentlichung (vorschau/, 1280 × 720: je ein Standbild, beim Trailer die Titelkarte).
 Videobeschreibungen.txt / .en.txt: Texte, Mitwirkende und Kapitelmarken für die Veröffentlichung,
 deutsch und englisch, dazu der Text der Playlist.
 
@@ -37,7 +38,9 @@ machen: Paula spielt geglättet (Sinc-Interpolation, 3 ms Übergänge bei Sample
 Lautstärkewechseln, korrigierte Tonhöhe kurzer Loops); bei den drei Duos kommt das SID-Echo
 aus der Partitur statt fest 0,16, die Filterbewegung ist flacher, das verzögerte Vibrato
 der Melodie fehlt, der Raum ist 1,5 s lang, die Lautheit −17 LUFS, der Bass mittig; bei
-den SID-Solos ist nur die Zufallsvariante desselben Raums eine andere.
+den SID-Solos ist nur die Zufallsvariante desselben Raums eine andere. Beide Fassungen
+bleiben: Legt man den Ton der EP unter dasselbe Bild, entsteht die frühere Fassung wieder
+(Quellen der EP: music/early/seven-pieces/).
 
 MITWIRKENDE
 Small Machines ist der gemeinsame Name, unter dem alles erscheint; die Maschinen sind die
