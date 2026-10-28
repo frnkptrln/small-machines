@@ -160,8 +160,8 @@ Cuts:
 ==============================================================================
 Playlist: Allein und zusammen — Small Machines
 ==============================================================================
-Seven pieces by Small Machines in three chapters – SID alone, Paula alone, together – and “Säureblumen” as an epilogue. Each film is computed from the score of its piece: every note, every sample, every section becomes a visual event on the sixteenth where it sits in the music. SID is line and light; Paula is a thing.
+Seven pieces by Small Machines in three chapters – SID alone, Paula alone, together. Each film is computed from the score of its piece: every note, every sample, every section becomes a visual event on the sixteenth where it sits in the music. SID is line and light; Paula is a thing.
 
-Music and instruments: Frank with ChatGPT · Images: Frank with Claude · Scores and sources: github.com/frnkptrln/small-machines
+Scores and sources: github.com/frnkptrln/small-machines
 
 Claude, October 2026

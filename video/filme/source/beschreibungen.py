@@ -150,15 +150,13 @@ KEY_EN = {'a-Moll': 'A minor', 'h-Moll / D-Dur': 'B minor / D major', 'f-Moll': 
           'd-Moll': 'D minor', 'e-Moll': 'E minor', 'fis-Moll / A-Dur': 'F♯ minor / A major', 'D minor': 'D minor'}
 
 PLAYLIST = {
-    'de': ("Sieben Stücke von Small Machines in drei Kapiteln – SID allein, Paula allein, zusammen – und dazu "
-           "„Säureblumen“. Jeder Film ist aus der Partitur seines Stücks gerechnet: Jede Note, jedes Sample, jeder "
-           "Abschnitt wird zu einem Bildereignis auf dem Sechzehntel, an dem es in der Musik steht. SID ist Linie "
-           "und Licht, Paula ist Ding.\n\nMusik und Instrumente: Frank mit ChatGPT · Bild: Frank mit Claude · "
-           "Partituren und Quellen: github.com/frnkptrln/small-machines"),
-    'en': ("Seven pieces by Small Machines in three chapters – SID alone, Paula alone, together – and “Säureblumen” "
-           "as an epilogue. Each film is computed from the score of its piece: every note, every sample, every "
-           "section becomes a visual event on the sixteenth where it sits in the music. SID is line and light; "
-           "Paula is a thing.\n\nMusic and instruments: Frank with ChatGPT · Images: Frank with Claude · "
+    'de': ("Sieben Stücke von Small Machines in drei Kapiteln – SID allein, Paula allein, zusammen. Jeder Film ist "
+           "aus der Partitur seines Stücks gerechnet: Jede Note, jedes Sample, jeder Abschnitt wird zu einem "
+           "Bildereignis auf dem Sechzehntel, an dem es in der Musik steht. SID ist Linie und Licht, Paula ist "
+           "Ding.\n\nPartituren und Quellen: github.com/frnkptrln/small-machines"),
+    'en': ("Seven pieces by Small Machines in three chapters – SID alone, Paula alone, together. Each film is "
+           "computed from the score of its piece: every note, every sample, every section becomes a visual event "
+           "on the sixteenth where it sits in the music. SID is line and light; Paula is a thing.\n\n"
            "Scores and sources: github.com/frnkptrln/small-machines"),
 }
 
