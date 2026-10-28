@@ -59,8 +59,8 @@ These are original, simplified instruments, not complete C64/Amiga emulators or 
 
 ## License
 
-The code — the instruments, the studio, the renderers, the tools and the tests — is released under the MIT License ([`LICENSE`](LICENSE)).
+The code — the instruments, the studio, the renderers, the tools and the tests — is released under the MIT License ([`LICENSE`](LICENSE)). That includes the machinery of the film renderer: `video/filme/source/engine.py`, `render.py` and `retail.py`.
 
-Everything else is released under CC BY-NC 4.0 ([`LICENSES/CC-BY-NC-4.0.txt`](LICENSES/CC-BY-NC-4.0.txt)): the music in whatever form it takes, the recordings, the album and video material, and the texts. The music includes the scripts that compose or encode a piece and the songs and patterns built into the instruments, for example everything in `music/`, `video/` and `dist/sets/`, as well as `dist/ensemble-score.mjs` and `tools/warm-score.mjs`. The MIT License does not cover the music, even where it is written as code. Credit it as Small Machines, with the title of the piece.
+Everything else is released under CC BY-NC 4.0 ([`LICENSES/CC-BY-NC-4.0.txt`](LICENSES/CC-BY-NC-4.0.txt)): the music in whatever form it takes, the recordings, the album and video material, and the texts. The music includes the scripts that compose or encode a piece and the songs and patterns built into the instruments, for example everything in `music/`, `video/` (apart from the three files above) and `dist/sets/`, as well as `dist/ensemble-score.mjs` and `tools/warm-score.mjs`. In the same way the films include the scripts that encode them: the film modules `video/filme/source/film_*.py`, the trailer's cut list `trailer.py` and the descriptions `beschreibungen.py`. The MIT License covers neither the music nor the films, even where they are written as code. Credit them as Small Machines, with the title of the piece.
 
 © 2026 Frank Peterlein (Small Machines)

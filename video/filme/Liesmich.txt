@@ -65,6 +65,13 @@ Entstanden vom 23. bis 25. Oktober 2026: die Pakete der EP mit den vollständige
 Partituren waren der Anlass, die Filme aus der Partitur zu rechnen statt aus dem
 Audiosignal; Säureblumen kam am zweiten Tag dazu, der Trailer am dritten.
 
+LIZENZ
+Die Maschinerie des Renderers – source/engine.py, render.py und retail.py – steht wie der
+übrige Code des Repositorys unter der MIT-Lizenz. Was die Filme selbst festhält – die
+Filmmodule (film_*.py), die Schnittliste des Trailers (trailer.py), die Texte
+(beschreibungen.py, diese Datei, die Videobeschreibungen) und die Vorschaubilder – steht wie
+die Musik unter CC BY-NC 4.0 (README des Repositorys, Abschnitt License).
+
 DAS PRINZIP
 Die Filme reagieren nicht auf das Audiosignal. Sie werden aus den Partituren gerechnet:
 aus jeder Note, jedem Sample, jeder Hüllkurve und jedem Formabschnitt. Dadurch sitzt
