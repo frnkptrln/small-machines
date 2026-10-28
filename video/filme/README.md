@@ -24,3 +24,5 @@ The rendered films (1920 × 1080, 30 fps, about 0.9 GB together) are not stored 
 The scores in `music/early/seven-pieces/` and `music/saeureblumen/` are byte-identical to the ones the films were computed from. The same seven pieces appear on SM001–SM003 with identical events, mix levels, lengths and timing. Since 27 October 2026 the films carry these album recordings — chosen after a level-matched listening comparison with the EP — so the picture did not need to be re-rendered; laid under the same picture, the EP recordings give the earlier version back. The album masters can be rebuilt from `music/albums/SM001-003/` with the repository's `dist/`.
 
 End cards name the piece, Small Machines and the instruments heard. Music and instruments: Frank with ChatGPT. Images: Frank with Claude. See [CREDITS.md](../../CREDITS.md).
+
+License: the renderer's machinery (`source/engine.py`, `render.py`, `retail.py`) is MIT. The film modules, the trailer's cut list, the texts and the thumbnails hold the films themselves and are CC BY-NC 4.0, like the music — see [License](../../README.md#license).
