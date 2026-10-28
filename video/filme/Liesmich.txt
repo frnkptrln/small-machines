@@ -22,7 +22,8 @@ Alle Filme: 1920 × 1080, 30 Bilder/s, H.264, Ton AAC 256 kbit/s aus den Albumfa
 Ton ist unverändert.
 Die Filmdateien liegen nicht im Repository (zusammen rund 0,9 GB, zwei Dateien über
 100 MB); hier liegen die Quellen, aus denen sie entstehen, und Vorschaubilder (vorschau/).
-Videobeschreibungen.txt: Texte, Mitwirkende und Kapitelmarken für die Veröffentlichung.
+Videobeschreibungen.txt / .en.txt: Texte, Mitwirkende und Kapitelmarken für die Veröffentlichung,
+deutsch und englisch, dazu der Text der Playlist.
 
 DER TON
 Die sieben Stücke erschienen zuerst auf der EP und stehen auch auf den Alben – SM001:
@@ -187,7 +188,8 @@ rechnet ab dem letzten Keyframe vor dem Musikende neu und setzt es ohne Neukodie
 vorhandenen Film an (preset wie beim Master: medium für die vier Solo-Filme, fast für die übrigen).
 So wurde am 25.10.2026 der Abspann aller acht Filme auf Titel · Small Machines · Besetzung
 umgestellt; Bild und Ton vor der Naht sind bitgleich mit der ersten Fassung.
-Videobeschreibungen.txt entsteht mit: python3 beschreibungen.py ../Videobeschreibungen.txt
+Die Videobeschreibungen entstehen mit: python3 beschreibungen.py ../Videobeschreibungen.txt de
+(englisch: ../Videobeschreibungen.en.txt en)
 Rechenzeit auf zwei Kernen: etwa zwei bis drei Bilder pro Sekunde, also 10–20 Minuten
 je Stück; zwei Bereiche parallel und anschließend zusammenfügen (ffmpeg concat) geht.
 

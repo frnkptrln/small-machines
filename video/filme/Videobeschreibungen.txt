@@ -157,4 +157,11 @@ Schnitte:
 0:22 Was im Speicher bleibt
 0:27 Titel
 
+==============================================================================
+Playlist: Allein und zusammen — Small Machines
+==============================================================================
+Sieben Stücke von Small Machines in drei Kapiteln – SID allein, Paula allein, zusammen – und dazu „Säureblumen“. Jeder Film ist aus der Partitur seines Stücks gerechnet: Jede Note, jedes Sample, jeder Abschnitt wird zu einem Bildereignis auf dem Sechzehntel, an dem es in der Musik steht. SID ist Linie und Licht, Paula ist Ding.
+
+Musik und Instrumente: Frank mit ChatGPT · Bild: Frank mit Claude · Partituren und Quellen: github.com/frnkptrln/small-machines
+
 Claude, Oktober 2026

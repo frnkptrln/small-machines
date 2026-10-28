@@ -1,0 +1,167 @@
+SMALL MACHINES — VIDEO DESCRIPTIONS (ENGLISH)
+Texts for YouTube, Vimeo, Mastodon etc. – per film: title, description, credits and chapters
+(section marks from the score; YouTube turns lines starting at 0:00 into chapters). Titles and
+section names stay German, like the titles of the pieces.
+
+==============================================================================
+Drei Stimmen im Neon — Small Machines · SID/65
+==============================================================================
+Three neon tubes by a wet street, each bent into the waveform of its voice: pulse for the melody, sawtooth for the bass, noise and triangle for the drums. With every note a tube takes on the number of cycles of the new pitch, strikes with a brief flicker and glows as brightly as the chip's envelope allows. The rain mirrors the three voices.
+
+Small Machines · Lineup: SID/65 · Recording: SM001 “Drei Stimmen, eine Stadt”, track 2 · 118 BPM · A minor
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Einschalten
+0:16 Neon
+0:49 Bewegung
+1:05 Leere Straße
+1:21 Rückkehr
+1:54 Letztes Licht
+
+==============================================================================
+Ein Bit von dir — Small Machines · SID/65
+==============================================================================
+Two lights far apart. The triangle melody sends each note across as a bit on an arc – the higher the note, the higher the arc – and the pulse voice answers from the right; the held bass is the horizon. Every flight leaves a trace, and over time a bridge is woven. In “Nähe” the lights move closer; the distance stays open.
+
+Small Machines · Lineup: SID/65 · Recording: SM001 “Drei Stimmen, eine Stadt”, track 4 · 80 BPM · B minor / D major
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Ein erster Ton
+0:24 Nachricht
+1:00 Antwort
+1:36 Nähe
+2:00 Bleibt offen
+
+==============================================================================
+Papiermond — Small Machines · PAULA/68
+==============================================================================
+A paper-cut diorama. Each key of the electric piano punches a hole into the moon – left to right as the piece goes on, the pitch setting the height – so the moon waxes note by note. The plucked answers light windows in the rooftops, the sub bass makes the light behind the paper breathe, the kick drum shakes the layers, the shaker scatters paper dust. “Schwerelos”: glass circles rise. “Gute Nacht”: the curtains close.
+
+Small Machines · Lineup: PAULA/68 · Recording: SM002 “Diskettenblumen”, track 4 · 94 BPM · F minor
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Papierlicht
+0:20 Mondbahn
+1:01 Schwerelos
+1:22 Wieder am Fenster
+2:03 Gute Nacht
+
+==============================================================================
+Diskettenblumen — Small Machines · PAULA/68
+==============================================================================
+Time runs as an angle – eight bars make one turn – and the radius grows with the piece. Every sample becomes a petal where the read head stands at that moment: the bass turns inward as a calyx, marimba in gold, glass as ice, toms as embers, hi-hats as pollen, claps as bright strokes, keys and pads as broad leaves in between. Repetition in the music becomes symmetry in the flower. At the end the disk is ejected; an afterimage remains.
+
+Small Machines · Lineup: PAULA/68 · Recording: SM002 “Diskettenblumen”, track 2 · 132 BPM · C minor
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Laufwerk
+0:15 Blüten
+0:44 Alles offen
+0:58 Zwischenraum
+1:13 Noch einmal Sommer
+1:42 Auswerfen
+
+==============================================================================
+Fensterlicht auf Magnetband — Small Machines · SID/65 × PAULA/68
+==============================================================================
+A tape runs between two reels across the frame. At the record head Paula writes her samples as marks – the kick as bars, keys as strokes at their pitch, glass as bright lines, the snare as scratches, the shaker as dust – and what has been written drifts out to the left. The SID is the window light: the long triangle voices are broad beams, the pulse melody a narrow strip that moves with its pitch, the bass a light on the floor. “Band läuft aus”: the end of the tape passes the head.
+
+Small Machines · Lineup: SID/65 × PAULA/68 · Recording: SM003 “Wo die Maschinen sich treffen”, track 2 · 92 BPM · D minor
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Fenster auf
+0:21 Erster Gedanke
+1:03 Licht fällt ein
+1:23 Schwebender Mittelteil
+1:44 Wiederkehr
+2:26 Band läuft aus
+
+==============================================================================
+Zwischen zwei Takten — Small Machines · SID/65 × PAULA/68
+==============================================================================
+A tracker screen: seven columns – three SID voices, four Paula channels – one row per sixteenth, 64 rows per pattern, 16 patterns. Question on the left, answer on the right; the cursor stays in the middle while the score runs through it, and what is coming already shows faintly below. Behind it, copper bars flare with the kick drum. “Offene Türen”: the halves move apart. “Halbe Geschwindigkeit”: taller rows, slower scrolling.
+
+Small Machines · Lineup: SID/65 × PAULA/68 · Recording: SM003 “Wo die Maschinen sich treffen”, track 3 · 126 BPM · E minor
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Kontakt
+0:15 Frage und Antwort
+0:46 Offene Türen
+1:01 Halbe Geschwindigkeit
+1:16 Zweiter Anlauf
+1:47 Letzter Zug
+
+==============================================================================
+Was im Speicher bleibt — Small Machines · SID/65 × PAULA/68
+==============================================================================
+A dark field in which every sound leaves an ember. A note's place is its pitch: the note name gives the direction (circle of fifths), the octave the distance from the centre. The key becomes a region of the sky, and repetition makes it brighter. The SID melody draws lines from note to note like a star chart. The camera pulls back until the whole is a constellation; faintly, the afterimages of the other six films appear. The last chord remains.
+
+Small Machines · Lineup: SID/65 × PAULA/68 · Recording: SM003 “Wo die Maschinen sich treffen”, track 6 · 72 BPM · F♯ minor / A major
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Ein Rest von Licht
+0:27 Erinnerung
+1:07 Nähe
+1:47 Alles wird weit
+2:13 Bleibt
+
+==============================================================================
+Säureblumen — Small Machines · ACID/16 × PAULA/68
+==============================================================================
+An etching comes into being. The copper plate lies under a dark ground; the acid bassline is needle and acid at once: wherever a note sounds, the line bites into the copper for as long as the note lasts. Rests stay unbitten, slides run through, accents bite deeper; the cutoff is the strength of the acid, the resonance its fizz. The needle follows a plant: seed, roots, stems, tendrils. Music box and glass set blossoms, the electric piano leaves, the pad an aquatint, and the kick drum is the pressure of the press. “Nachglühen”: the acid is rinsed off and the plate inked. “Letzte Blüten”: the print.
+
+Small Machines · Lineup: ACID/16 × PAULA/68 · Recording: single SM004 “Säureblumen” (Erste Begegnungen, 2026) · 124 BPM · D minor
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Chapters:
+0:00 Erstes Licht
+0:15 Die Wurzeln
+0:46 Blüten aus Kupfer
+1:17 Ein stiller Innenhof
+1:33 Der Garten antwortet
+2:04 Alles in Bewegung
+2:35 Nachglühen
+2:50 Letzte Blüten
+
+==============================================================================
+Allein und zusammen — Trailer · Small Machines
+==============================================================================
+Seven pieces, seven films, in 32 seconds: SID/65 alone, PAULA/68 alone, both together. Each cut shows one film with its own music, entering on the downbeat; at the end, the last chord of “Was im Speicher bleibt”.
+
+Small Machines · Lineup: SID/65 · PAULA/68 · Audio: the album versions (SM001–SM003)
+Music and instruments: Small Machines – Frank with ChatGPT (SID/65, PAULA/68, ACID/16 and DRUM/08 are virtual chip instruments; sources, scores and studio: github.com/frnkptrln/small-machines).
+Images: Frank with Claude. The film does not react to the audio signal; it is computed from the score – every note, every sample, every envelope – so each visual event lands on the sixteenth where it sits in the music.
+
+Cuts:
+0:00 Drei Stimmen im Neon
+0:04 Ein Bit von dir
+0:07 Papiermond
+0:11 Diskettenblumen
+0:15 Fensterlicht auf Magnetband
+0:18 Zwischen zwei Takten
+0:22 Was im Speicher bleibt
+0:27 Title
+
+==============================================================================
+Playlist: Allein und zusammen — Small Machines
+==============================================================================
+Seven pieces by Small Machines in three chapters – SID alone, Paula alone, together – and “Säureblumen” as an epilogue. Each film is computed from the score of its piece: every note, every sample, every section becomes a visual event on the sixteenth where it sits in the music. SID is line and light; Paula is a thing.
+
+Music and instruments: Frank with ChatGPT · Images: Frank with Claude · Scores and sources: github.com/frnkptrln/small-machines
+
+Claude, October 2026

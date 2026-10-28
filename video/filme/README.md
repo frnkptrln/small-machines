@@ -16,7 +16,7 @@ Seven films for the seven pieces of **Allein und zusammen**, an eighth for the s
 The rendered films (1920 × 1080, 30 fps, about 0.9 GB together) are not stored in Git. This folder holds what produces them:
 
 - [`Liesmich.txt`](Liesmich.txt) — the images piece by piece, the trailer's cut list, credits and how to re-render (German).
-- [`Videobeschreibungen.txt`](Videobeschreibungen.txt) — descriptions, credits and chapter marks for publishing each film.
+- [`Videobeschreibungen.txt`](Videobeschreibungen.txt) and [`Videobeschreibungen.en.txt`](Videobeschreibungen.en.txt) — descriptions, credits and chapter marks for publishing each film and the playlist, in German and English.
 - [`source/`](source/) — the Python renderer (numpy, OpenCV, Pillow, ffmpeg). `python3 render.py <film> <out.mp4>` reads the score from [`music/`](../../music/).
 
 The scores in `music/early/seven-pieces/` and `music/saeureblumen/` are byte-identical to the ones the films were computed from. The same seven pieces appear on SM001–SM003 with identical events, mix levels, lengths and timing. Since 27 October 2026 the films carry these album recordings — chosen after a level-matched listening comparison with the EP — so the picture did not need to be re-rendered. The album masters can be rebuilt from `music/albums/SM001-003/` with the repository's `dist/`.
