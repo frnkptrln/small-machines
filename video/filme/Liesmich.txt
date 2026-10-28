@@ -1,0 +1,210 @@
+SMALL MACHINES — ALLEIN UND ZUSAMMEN · DIE FILME
+Sieben Filme zu den sieben Stücken, dazu ein achter zur Single „Säureblumen"
+Small Machines · Besetzung SID/65 und PAULA/68, in „Säureblumen" ACID/16 × PAULA/68 · Berlin, Oktober 2026
+
+I.   SID ALLEIN
+     Drei-Stimmen-im-Neon.mp4        2:17
+     Ein-Bit-von-dir.mp4             2:31
+II.  PAULA ALLEIN
+     Papiermond.mp4                  2:30
+     Diskettenblumen.mp4             2:03
+III. ZUSAMMEN
+     Fensterlicht-auf-Magnetband.mp4 2:54
+     Zwischen-zwei-Takten.mp4        2:09
+     Was-im-Speicher-bleibt.mp4      2:47
+DAZU (Erste Begegnungen, SM004)
+     Saeureblumen.mp4                3:11
+TRAILER
+     Trailer-Allein-und-zusammen.mp4 0:32
+
+Alle Filme: 1920 × 1080, 30 Bilder/s, H.264, Ton AAC 256 kbit/s aus den Albumfassungen
+(SM001–SM003), bei Säureblumen aus der WAV der Single. Bild und Ton sind gleich lang; der
+Ton ist unverändert.
+Die Filmdateien liegen nicht im Repository (zusammen rund 0,9 GB, zwei Dateien über
+100 MB); hier liegen die Quellen, aus denen sie entstehen, und die Vorschaubilder für die
+Veröffentlichung (vorschau/, 1280 × 720: je ein Standbild, beim Trailer die Titelkarte).
+Videobeschreibungen.txt / .en.txt: Texte, Mitwirkende und Kapitelmarken für die Veröffentlichung,
+deutsch und englisch, dazu der Text der Playlist.
+
+DER TON
+Die sieben Stücke erschienen zuerst auf der EP und stehen auch auf den Alben – SM001:
+SID-02, SID-04; SM002: PAULA-02, PAULA-04; SM003: DUO-02, DUO-03, DUO-06. Die Filme tragen
+seit dem 27.10.2026 die Albumfassungen; bis dahin trugen sie die Aufnahmen der EP.
+Entschieden nach einem Hörvergleich (beide Fassungen sample-genau übereinander, gleiche
+MP3-Stufe, gleiche Lautheit, blind umschaltbar): das Album klingt sauberer gemastert.
+Partituren, Mischpegel, Länge und Timing sind bei beiden gleich (Versatz unter 0,2 ms
+gemessen), das Bild musste deshalb nicht neu gerechnet werden. Was die Albumaufnahmen anders
+machen: Paula spielt geglättet (Sinc-Interpolation, 3 ms Übergänge bei Sample- und
+Lautstärkewechseln, korrigierte Tonhöhe kurzer Loops); bei den drei Duos kommt das SID-Echo
+aus der Partitur statt fest 0,16, die Filterbewegung ist flacher, das verzögerte Vibrato
+der Melodie fehlt, der Raum ist 1,5 s lang, die Lautheit −17 LUFS, der Bass mittig; bei
+den SID-Solos ist nur die Zufallsvariante desselben Raums eine andere. Beide Fassungen
+bleiben: Legt man den Ton der EP unter dasselbe Bild, entsteht die frühere Fassung wieder
+(Quellen der EP: music/early/seven-pieces/).
+
+MITWIRKENDE
+Small Machines ist der gemeinsame Name, unter dem alles erscheint; die Maschinen sind die
+Besetzung – in diesem Zyklus SID/65 und PAULA/68, in „Säureblumen" ACID/16 und PAULA/68,
+weitere kommen. Im Abspann der Filme stehen deshalb nur Titel, Small Machines und Besetzung
+(Beschluss vom 25.10.2026). Wer dahinter gearbeitet hat, steht hier und in CREDITS.md des
+Repositorys; die Videobeschreibungen verweisen mit ihrer Quellenzeile darauf (Fassung vom
+28.10.2026):
+  Musik und Instrumente   Frank mit ChatGPT. Die Maschinen SID/65, PAULA/68, ACID/16 und
+                          DRUM/08 sind die Instrumente dieses Repositorys (dist/); die
+                          Stücke liegen als Partituren und Quellen in music/.
+  Bild                    Frank mit Claude. Claude hat die gemeinsame Grammatik des Zyklus
+                          vorgeschlagen, die acht Bildideen entworfen und die Engine
+                          (source/) geschrieben, mit der die Filme aus den Partituren
+                          gerechnet werden. Frank hat das Material gegeben, die Richtung
+                          bestimmt und entschieden: die Filme bleiben, wie sie sind, ohne
+                          zweiten Durchgang; „Säureblumen" als eigene Bildidee freigegeben;
+                          für den Trailer eine Stilreferenz (harte Schnitte, je ein
+                          freigestelltes Ding) gesetzt; den Abspann auf Small Machines
+                          festgelegt.
+Entstanden vom 23. bis 25. Oktober 2026: die Pakete der EP mit den vollständigen
+Partituren waren der Anlass, die Filme aus der Partitur zu rechnen statt aus dem
+Audiosignal; Säureblumen kam am zweiten Tag dazu, der Trailer am dritten.
+
+DAS PRINZIP
+Die Filme reagieren nicht auf das Audiosignal. Sie werden aus den Partituren gerechnet:
+aus jeder Note, jedem Sample, jeder Hüllkurve und jedem Formabschnitt. Dadurch sitzt
+jedes Bildereignis auf dem Sechzehntel, an dem es in der Musik steht, und derselbe Score
+ergibt immer denselben Film.
+
+Zwei Regeln gelten in allen sieben Filmen:
+  SID ist Synthese, also Linie und Licht – Wellenformen, Lichtbahnen, Bögen.
+  Paula ist Sample, also Ding – Blütenblatt, Loch im Papier, Spur auf dem Band.
+Was gerade klingt, leuchtet warm. Was vorbei ist, bleibt – als blasser Rest.
+Die Abschnittsnamen der Komposition erscheinen als kleine Kapitelmarken.
+
+DIE SIEBEN BILDER
+Drei Stimmen im Neon — Drei Neonröhren an einer nassen Straße, jede zur Wellenform
+  ihrer Stimme gebogen: Puls (Melodie), Sägezahn (Bass), Rauschen und Dreieck
+  (Schlagwerk). Mit jeder Note bekommt die Röhre die Zyklenzahl der neuen Tonhöhe,
+  zündet mit kurzem Flackern und leuchtet so hell, wie die ADSR-Hüllkurve des Chips
+  es vorgibt. Der Regen spiegelt die drei Stimmen.
+Ein Bit von dir — Zwei Lichter weit auseinander. Die Dreiecksmelodie schickt jede Note
+  als Bit auf einem Bogen hinüber (Tonhöhe = Bogenhöhe), die Pulsstimme antwortet von
+  rechts. Der gehaltene Bass ist der Horizont. Jeder Flug lässt eine Spur zurück; mit
+  der Zeit webt sich eine Brücke. In „Nähe" rücken die Lichter zusammen, der Abstand
+  bleibt offen.
+Papiermond — Scherenschnitt-Diorama. Jede Taste (epiano) stanzt ein Loch in den Mond:
+  links nach rechts im Lauf des Stücks, Tonhöhe = Höhe im Mond; so nimmt der Mond aus
+  Noten zu. Die gezupften Antworten (pluck) zünden Fenster in der Dächersilhouette,
+  der Subbass lässt das Licht hinter dem Papier atmen, die Bassdrum rüttelt an den
+  Schichten, der Shaker streut Papierstaub. „Schwerelos": gläserne Kreise steigen.
+  „Gute Nacht": die Vorhänge schließen sich.
+Diskettenblumen — Zeit läuft als Winkel (acht Takte = eine Umdrehung), der Radius wächst
+  mit dem Stück. Jedes Sample wird ein Blatt an der Stelle, an der der Lesekopf gerade
+  steht: Bass nach innen als Kelch, Marimba (Fragen) Gold, Glas (Antworten) Eis, Toms
+  Glut, Hats Pollen, Claps helle Striche, Tasten und Fläche breite Blätter im
+  Zwischenraum. Wiederholung in der Musik wird Symmetrie in der Blume. Am Ende wird die
+  Diskette ausgeworfen; ein Nachbild bleibt.
+Fensterlicht auf Magnetband — Ein Tonband läuft zwischen zwei Spulen durchs Bild. Am
+  Aufnahmekopf schreibt Paula ihre Samples als Spuren (Bassdrum Balken, Tasten Striche
+  in Tonhöhe, Glas helle Striche, Snare Kratzer, Shaker Staub); das Geschriebene wandert
+  nach links hinaus. Der SID ist das Fensterlicht: die langen Dreiecksstimmen breite
+  Lichtbahnen, die Pulsmelodie ein schmaler Streifen, der mit der Tonhöhe wandert, der
+  Bass ein Bodenlicht. Im Licht schwebt Staub. „Band läuft aus": das Ende passiert den
+  Kopf.
+Zwischen zwei Takten — Ein Tracker-Bildschirm: sieben Spalten (drei SID-Stimmen, vier
+  Paula-Kanäle), eine Zeile je Sechzehntel, 64 Zeilen je Pattern, 16 Patterns. Frage
+  links, Antwort rechts; der Cursor bleibt in der Mitte, die Partitur läuft hindurch,
+  was kommt, steht schon dünn darunter. Dahinter Copper-Bars, die die Bassdrum
+  aufleuchten lässt. „Offene Türen": die Hälften rücken auseinander. „Halbe
+  Geschwindigkeit": höhere Zeilen, langsamerer Lauf.
+Was im Speicher bleibt — Ein dunkles Feld, in dem jeder Klang eine Glut hinterlässt.
+  Der Ort einer Note ist ihre Tonhöhe: Tonname = Richtung (Quintenzirkel), Oktave =
+  Abstand von der Mitte. So wird die Tonart zu einer Gegend am Himmel, Wiederholung
+  macht sie heller. Die SID-Melodie zieht Linien von Note zu Note wie in einer
+  Sternkarte. Die Kamera zieht sich zurück, bis das Ganze ein Sternbild ist; ganz
+  schwach erscheinen die Nachbilder der anderen sechs Filme. Der letzte Akkord bleibt.
+
+Säureblumen — Eine Radierung entsteht. Die Kupferplatte liegt unter dunklem Ätzgrund; die
+  Acid-Bassline ist Nadel und Säure zugleich: Wo eine Note klingt, beißt sich die Linie ins
+  Kupfer, solange die Note dauert. Pausen bleiben ungeätzt, Slides laufen durch, Akzente
+  beißen tiefer. Der Cutoff ist die Stärke der Säure (Breite, Helligkeit), die Resonanz ihr
+  Brodeln. Die Nadel folgt einer Pflanze, Abschnitt für Abschnitt: Same, drei Wurzeln,
+  Stängel mit Zweigen, zweiter Stängel und Spross (Der Garten antwortet), Ranken (Alles in
+  Bewegung). Spieluhr und Glas setzen Blüten (jede Note ein Blatt, Tonhöhe = Richtung),
+  das E-Piano Blätter (eins je Akkord), die Fläche Aquatinta-Punktwolken, Hats und Snare
+  punktieren und schraffieren, die Bassdrum ist der Druck der Presse. „Nachglühen": die
+  Säure wird abgespült, die Platte eingefärbt und gewischt, die Nadel läuft die Kante ab.
+  „Letzte Blüten": der Abzug – das Papier legt sich über die Platte, der Druck erscheint,
+  darunter die Bleistiftzeile.
+
+DER TRAILER
+Sieben Schnitte, jeder Film als eine Form mit seiner eigenen Musik, harte Schnitte auf dem
+Taktanfang, am Ende die Titelkarte. Die Bilder sind aus den Partituren gerechnet wie die Filme
+(ohne deren Kapitelmarken; im Tracker ersetzt die Beschriftung die Fußzeile), die Tonspur ist aus
+den Albumfassungen geschnitten: Einstieg exakt auf dem Taktanfang, Länge in ganzen oder halben
+Takten, 4 ms Flanken, Pegel unverändert; der letzte Akkord klingt unter der Titelkarte aus.
+Taktzahlen wie in den Partituren (ab 0 gezählt):
+  Drei Stimmen im Neon      Takt 24–26  (Bewegung)            4,07 s
+  Ein Bit von dir           Takt 34–35  (Nähe)                3,00 s
+  Papiermond                Takt 40–41½ (Wieder am Fenster)   3,83 s
+  Diskettenblumen           Takt 52–54  (Noch einmal Sommer)  3,63 s
+  Fensterlicht auf Magnetband Takt 44–45½ (Wiederkehr)        3,90 s
+  Zwischen zwei Takten      Takt 22–24  (vor Offene Türen)    3,80 s
+  Was im Speicher bleibt    Takt 46–47½ (Bleibt, der letzte Akkord) 5,00 s + Titel 5,00 s
+Schnittliste und Titelkarte: source/trailer.py (SHOTS); ein achter Schnitt für Säureblumen lässt
+sich dort eintragen.
+
+NEU RENDERN
+Benötigt: Python 3 mit numpy, opencv-python (cv2) und Pillow; ffmpeg; die Schriften
+Liberation Mono, DejaVu Sans, DejaVu Sans Mono, DejaVu Serif und Unifont (Debian/Ubuntu:
+fonts-liberation, fonts-dejavu-core, fonts-unifont) – oder dieselben Dateien in video/filme/fonts/.
+Fehlt eine, bricht der Renderer mit ihrem Namen ab, statt still eine andere zu nehmen.
+
+  cd video/filme/source
+  python3 render.py memories                 einmal: die sechs Nachbilder für „Was im Speicher
+                                             bleibt" (nach video/filme/memories/, nicht im Git)
+  python3 render.py <film> <bild.mp4>        die Partitur wird aus music/ genommen
+  ffmpeg -i <bild.mp4> -i <ID>.wav -c:v copy -c:a aac -b:a 256k -ar 44100 <film>.mp4
+
+<film> und Partitur:
+  neon             music/early/seven-pieces/Solo/scores/SID-01-Drei-Stimmen-im-Neon.json
+  bit              music/early/seven-pieces/Solo/scores/SID-02-Ein-Bit-von-dir.json
+  papiermond       music/early/seven-pieces/Solo/scores/PAULA-01-Papiermond.json
+  diskettenblumen  music/early/seven-pieces/Solo/scores/PAULA-02-Diskettenblumen.json
+  magnetband       music/early/seven-pieces/Duo/scores/01-Fensterlicht-auf-Magnetband.json
+  takte            music/early/seven-pieces/Duo/scores/02-Zwischen-zwei-Takten.json
+  speicher         music/early/seven-pieces/Duo/scores/03-Was-im-Speicher-bleibt.json
+  saeureblumen     music/saeureblumen/scores/SM004-Saeureblumen.json
+Eine andere Partitur: python3 render.py <film> <partitur.json> <bild.mp4>.
+Teilbereiche: --range <von>,<bis> (Bildnummern); Standbilder: --stills 10,42.5 --stills-dir bilder
+Den Ton rechnet die Albumwerkstatt in diesem Repository selbst – am besten in einer Kopie
+von music/albums/SM001-003, weil master.py die Prüfberichte in verification/ neu schreibt:
+  SMALL_MACHINES_ENGINE=<repo>/dist node source/render.mjs SID-02
+  python3 source/master.py SID-02                          -> audio/SID-02.wav
+Zuordnung: neon SID-02, bit SID-04, papiermond PAULA-04, diskettenblumen PAULA-02,
+magnetband DUO-02, takte DUO-03, speicher DUO-06. Am 27.10.2026 geprüft: die Renderberichte
+gleichen den originalen bis auf die letzte Gleitkommastelle, und gegen die veröffentlichten
+Album-MP3s weichen die WAVs genau um das ab, was eine MP3-Stufe ausmacht (−30 dB). Für
+Säureblumen die WAV der Single (Archiv, archive/RELEASES.md).
+
+Trailer:  python3 trailer.py render <bild.mp4>
+          python3 trailer.py audio <wav-ordner> .wav <trailer.mp4> <bild.mp4>   (gibt den ffmpeg-Befehl aus)
+Die WAVs heißen wie in der Albumwerkstatt (SID-02.wav, PAULA-04.wav, DUO-02.wav …).
+
+Nur das Ende eines Films neu (z. B. Abspann): python3 retail.py <film> <Partitur> <bild.mp4> <ordner> <preset>
+rechnet ab dem letzten Keyframe vor dem Musikende neu und setzt es ohne Neukodierung an den
+vorhandenen Film an (preset wie beim Master: medium für die vier Solo-Filme, fast für die übrigen).
+So wurde am 25.10.2026 der Abspann aller acht Filme auf Titel · Small Machines · Besetzung
+umgestellt; Bild und Ton vor der Naht sind bitgleich mit der ersten Fassung.
+Die Videobeschreibungen entstehen mit: python3 beschreibungen.py ../Videobeschreibungen.txt de
+(englisch: ../Videobeschreibungen.en.txt en)
+Rechenzeit auf zwei Kernen: etwa zwei bis drei Bilder pro Sekunde, also 10–20 Minuten
+je Stück; zwei Bereiche parallel und anschließend zusammenfügen (ffmpeg concat) geht.
+
+Das Zeitraster ist das des Renderers der EP (Sechzehntel ab Stückanfang, Swing wie in
+render.mjs, Paula-Kanäle monophon: das nächste Ereignis beendet den Klang). Für Samples
+ohne Gate sind nominale Klanglängen hinterlegt (engine.py, SAMPLE_LEN).
+
+Die Partituren in music/ sind byte-gleich mit denen aus den Paketen der EP und der Single,
+aus denen die Filme gerechnet wurden (SHA-256 geprüft am 26.10.2026). Bilder aus diesen
+Quellen sind bitgleich mit denen, die beim Rechnen der Filme entstanden (Stichprobe: die
+sechs Nachbilder und vier weitere Bilder); gegen die kodierten Filme liegt die Abweichung
+bei rund 40 dB PSNR, also im Rahmen der H.264-Kodierung.
+
+Claude, Oktober 2026

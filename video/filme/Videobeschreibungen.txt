@@ -1,0 +1,167 @@
+SMALL MACHINES — VIDEOBESCHREIBUNGEN
+Texte zum Einfügen bei YouTube, Vimeo, Mastodon usw. – je Film Titel, Beschreibung, Mitwirkende,
+Kapitel (Zeitmarken der Abschnitte, aus der Partitur). Die Kapitelzeilen im YouTube-Format
+(erste Marke 0:00) übernimmt YouTube automatisch als Kapitel.
+
+==============================================================================
+Drei Stimmen im Neon — Small Machines · SID/65
+==============================================================================
+Drei Neonröhren an einer nassen Straße, jede zur Wellenform ihrer Stimme gebogen: Puls für die Melodie, Sägezahn für den Bass, Rauschen und Dreieck für das Schlagwerk. Mit jeder Note bekommt die Röhre die Zyklenzahl der neuen Tonhöhe, zündet mit kurzem Flackern und leuchtet so hell, wie die Hüllkurve des Chips es vorgibt. Der Regen spiegelt die drei Stimmen.
+
+Small Machines · Besetzung: SID/65 · Aufnahme: SM001 „Drei Stimmen, eine Stadt“, Titel 2 · 118 BPM · a-Moll
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Einschalten
+0:16 Neon
+0:49 Bewegung
+1:05 Leere Straße
+1:21 Rückkehr
+1:54 Letztes Licht
+
+==============================================================================
+Ein Bit von dir — Small Machines · SID/65
+==============================================================================
+Zwei Lichter weit auseinander. Die Dreiecksmelodie schickt jede Note als Bit auf einem Bogen hinüber – die Tonhöhe ist die Höhe des Bogens –, die Pulsstimme antwortet von rechts, der gehaltene Bass ist der Horizont. Jeder Flug lässt eine Spur zurück; mit der Zeit webt sich eine Brücke. In „Nähe“ rücken die Lichter zusammen, der Abstand bleibt offen.
+
+Small Machines · Besetzung: SID/65 · Aufnahme: SM001 „Drei Stimmen, eine Stadt“, Titel 4 · 80 BPM · h-Moll / D-Dur
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Ein erster Ton
+0:24 Nachricht
+1:00 Antwort
+1:36 Nähe
+2:00 Bleibt offen
+
+==============================================================================
+Papiermond — Small Machines · PAULA/68
+==============================================================================
+Ein Scherenschnitt-Diorama. Jede Taste des E-Pianos stanzt ein Loch in den Mond, von links nach rechts im Lauf des Stücks, die Tonhöhe bestimmt die Höhe im Mond – so nimmt der Mond aus Noten zu. Die gezupften Antworten zünden Fenster in der Dächersilhouette, der Subbass lässt das Licht hinter dem Papier atmen, die Bassdrum rüttelt an den Schichten, der Shaker streut Papierstaub. „Schwerelos“: gläserne Kreise steigen. „Gute Nacht“: die Vorhänge schließen sich.
+
+Small Machines · Besetzung: PAULA/68 · Aufnahme: SM002 „Diskettenblumen“, Titel 4 · 94 BPM · f-Moll
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Papierlicht
+0:20 Mondbahn
+1:01 Schwerelos
+1:22 Wieder am Fenster
+2:03 Gute Nacht
+
+==============================================================================
+Diskettenblumen — Small Machines · PAULA/68
+==============================================================================
+Die Zeit läuft als Winkel – acht Takte sind eine Umdrehung –, der Radius wächst mit dem Stück. Jedes Sample wird ein Blatt an der Stelle, an der der Lesekopf gerade steht: Bass nach innen als Kelch, Marimba Gold, Glas Eis, Toms Glut, Hats Pollen, Claps helle Striche, Tasten und Fläche breite Blätter im Zwischenraum. Wiederholung in der Musik wird Symmetrie in der Blume. Am Ende wird die Diskette ausgeworfen; ein Nachbild bleibt.
+
+Small Machines · Besetzung: PAULA/68 · Aufnahme: SM002 „Diskettenblumen“, Titel 2 · 132 BPM · c-Moll
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Laufwerk
+0:15 Blüten
+0:44 Alles offen
+0:58 Zwischenraum
+1:13 Noch einmal Sommer
+1:42 Auswerfen
+
+==============================================================================
+Fensterlicht auf Magnetband — Small Machines · SID/65 × PAULA/68
+==============================================================================
+Ein Tonband läuft zwischen zwei Spulen durchs Bild. Am Aufnahmekopf schreibt Paula ihre Samples als Spuren – Bassdrum als Balken, Tasten als Striche in Tonhöhe, Glas hell, Snare als Kratzer, Shaker als Staub –, und das Geschriebene wandert nach links hinaus. Der SID ist das Fensterlicht: die langen Dreiecksstimmen breite Lichtbahnen, die Pulsmelodie ein schmaler Streifen, der mit der Tonhöhe wandert, der Bass ein Bodenlicht. „Band läuft aus“: das Ende passiert den Kopf.
+
+Small Machines · Besetzung: SID/65 × PAULA/68 · Aufnahme: SM003 „Wo die Maschinen sich treffen“, Titel 2 · 92 BPM · d-Moll
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Fenster auf
+0:21 Erster Gedanke
+1:03 Licht fällt ein
+1:23 Schwebender Mittelteil
+1:44 Wiederkehr
+2:26 Band läuft aus
+
+==============================================================================
+Zwischen zwei Takten — Small Machines · SID/65 × PAULA/68
+==============================================================================
+Ein Tracker-Bildschirm: sieben Spalten – drei SID-Stimmen, vier Paula-Kanäle –, eine Zeile je Sechzehntel, 64 Zeilen je Pattern, 16 Patterns. Frage links, Antwort rechts; der Cursor bleibt in der Mitte, die Partitur läuft hindurch, was kommt, steht schon dünn darunter. Dahinter Copper-Bars, die die Bassdrum aufleuchten lässt. „Offene Türen“: die Hälften rücken auseinander. „Halbe Geschwindigkeit“: höhere Zeilen, langsamerer Lauf.
+
+Small Machines · Besetzung: SID/65 × PAULA/68 · Aufnahme: SM003 „Wo die Maschinen sich treffen“, Titel 3 · 126 BPM · e-Moll
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Kontakt
+0:15 Frage und Antwort
+0:46 Offene Türen
+1:01 Halbe Geschwindigkeit
+1:16 Zweiter Anlauf
+1:47 Letzter Zug
+
+==============================================================================
+Was im Speicher bleibt — Small Machines · SID/65 × PAULA/68
+==============================================================================
+Ein dunkles Feld, in dem jeder Klang eine Glut hinterlässt. Der Ort einer Note ist ihre Tonhöhe: der Tonname ist die Richtung (Quintenzirkel), die Oktave der Abstand von der Mitte. So wird die Tonart zu einer Gegend am Himmel, Wiederholung macht sie heller. Die SID-Melodie zieht Linien von Note zu Note wie in einer Sternkarte. Die Kamera zieht sich zurück, bis das Ganze ein Sternbild ist; ganz schwach erscheinen die Nachbilder der anderen sechs Filme. Der letzte Akkord bleibt.
+
+Small Machines · Besetzung: SID/65 × PAULA/68 · Aufnahme: SM003 „Wo die Maschinen sich treffen“, Titel 6 · 72 BPM · fis-Moll / A-Dur
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Ein Rest von Licht
+0:27 Erinnerung
+1:07 Nähe
+1:47 Alles wird weit
+2:13 Bleibt
+
+==============================================================================
+Säureblumen — Small Machines · ACID/16 × PAULA/68
+==============================================================================
+Eine Radierung entsteht. Die Kupferplatte liegt unter dunklem Ätzgrund; die Acid-Bassline ist Nadel und Säure zugleich: Wo eine Note klingt, beißt sich die Linie ins Kupfer, solange die Note dauert. Pausen bleiben ungeätzt, Slides laufen durch, Akzente beißen tiefer; der Cutoff ist die Stärke der Säure, die Resonanz ihr Brodeln. Die Nadel folgt einer Pflanze: Same, Wurzeln, Stängel, Ranken. Spieluhr und Glas setzen Blüten, das E-Piano Blätter, die Fläche Aquatinta, die Bassdrum ist der Druck der Presse. „Nachglühen“: die Säure wird abgespült, die Platte eingefärbt. „Letzte Blüten“: der Abzug.
+
+Small Machines · Besetzung: ACID/16 × PAULA/68 · Aufnahme: Single SM004 „Säureblumen“ (Erste Begegnungen, 2026) · 124 BPM · d-Moll
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Kapitel:
+0:00 Erstes Licht
+0:15 Die Wurzeln
+0:46 Blüten aus Kupfer
+1:17 Ein stiller Innenhof
+1:33 Der Garten antwortet
+2:04 Alles in Bewegung
+2:35 Nachglühen
+2:50 Letzte Blüten
+
+==============================================================================
+Allein und zusammen — Trailer · Small Machines
+==============================================================================
+Sieben Stücke, sieben Filme, in 32 Sekunden: SID/65 allein, PAULA/68 allein, beide zusammen. Jeder Schnitt zeigt einen Film mit seiner eigenen Musik, der Einstieg liegt auf dem Taktanfang; am Ende der letzte Akkord von „Was im Speicher bleibt“.
+
+Small Machines · Besetzung: SID/65 · PAULA/68 · Ton: die Albumfassungen (SM001–SM003)
+
+Quellen, Partituren und Studio: https://github.com/frnkptrln/small-machines
+
+Schnitte:
+0:00 Drei Stimmen im Neon
+0:04 Ein Bit von dir
+0:07 Papiermond
+0:11 Diskettenblumen
+0:15 Fensterlicht auf Magnetband
+0:18 Zwischen zwei Takten
+0:22 Was im Speicher bleibt
+0:27 Titel
+
+==============================================================================
+Playlist: Allein und zusammen — Small Machines
+==============================================================================
+Sieben Stücke von Small Machines in drei Kapiteln – SID allein, Paula allein, zusammen. Jeder Film ist aus der Partitur seines Stücks gerechnet: Jede Note, jedes Sample, jeder Abschnitt wird zu einem Bildereignis auf dem Sechzehntel, an dem es in der Musik steht. SID ist Linie und Licht, Paula ist Ding.
+
+Partituren und Quellen: https://github.com/frnkptrln/small-machines
+
+Claude, Oktober 2026

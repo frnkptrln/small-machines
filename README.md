@@ -48,7 +48,7 @@ Node.js 24 or later runs the tests and offline renderers:
 npm test
 ```
 
-The suite covers the processors, synthesis, timing, project validation, recording and export. See [the production guide](docs/PRODUCTION.md) to turn a score into audio, and [the video handoff](video/) for score-derived cues.
+The suite covers the processors, synthesis, timing, project validation, recording and export. See [the production guide](docs/PRODUCTION.md) to turn a score into audio, [the video handoff](video/) for score-derived cues, and [the films](video/filme/) computed from the scores.
 
 - [Project direction and next chapters](docs/PROJECT.md)
 - [Credits and collaboration](CREDITS.md)
