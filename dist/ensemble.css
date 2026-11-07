@@ -7,3 +7,16 @@
 .ensemble-page nav{flex-wrap:wrap;gap:15px}.ensemble-page .deck-top b{font-size:19px}@media(min-width:761px) and (max-width:1100px){.ensemble-decks{grid-template-columns:repeat(3,1fr)}}
 
 @media(max-width:760px){.ensemble-page header{height:auto;min-height:0;padding-bottom:18px}}
+
+.set-workshop{padding:18px 0 20px;border-bottom:1px solid #b9bdae}
+.set-workshop summary{cursor:pointer;font:11px var(--mono);color:#425035;letter-spacing:.5px}
+.set-workshop summary span{margin-left:12px;font:12px var(--sans);letter-spacing:0;color:#69735e}
+.set-library,.set-title-form{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:16px}
+.set-library label,.set-title-form label{min-width:110px;font:9px var(--mono);color:#58684b}
+.set-library select{flex:1;min-width:230px;max-width:420px}
+.set-title-form input{flex:1;min-width:180px;max-width:420px;padding:9px;border:1px solid #a8b29a;border-radius:3px;background:#e5e5d8;font:12px var(--mono);color:#37452e}
+.workshop-note{font:11px/1.6 var(--sans);color:#65725a;margin:10px 0 0}
+.scene-copy{display:flex;gap:9px;align-items:center;flex-wrap:wrap;padding:0 0 20px}
+.scene-copy span{flex:1;min-width:180px;font:10px/1.6 var(--mono);color:#58684b}
+.scene-copy button{font-size:9px}
+@media(max-width:600px){.set-workshop summary span{display:block;margin:8px 0 0}.set-library label,.set-title-form label{width:100%}.set-library select,.set-title-form input{width:100%;max-width:none;min-width:0;flex:auto}.scene-copy span{flex-basis:100%}}

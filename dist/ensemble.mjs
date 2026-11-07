@@ -6,6 +6,7 @@ import {freshEnsemble,DECKS} from './ensemble-score.mjs';
 import {smoothPaula} from './paula-smooth.mjs';
 import {WarmMachine,validateWarm} from './warm.mjs';
 import {ENSEMBLE_DECKS,upgradeEnsemble,warmScene} from './warm-ensemble.mjs';
+import {cloneData} from './clone-data.mjs';
 const num=(x,a,b)=>Number.isFinite(x)&&x>=a&&x<=b;
 const notes=(rows,count)=>Array.isArray(rows)&&rows.length===count&&rows.every(r=>Array.isArray(r)&&r.length===16&&r.every(n=>n===null||Number.isInteger(n)&&n>=24&&n<=96));
 export function validateScene(s){
@@ -26,7 +27,7 @@ export class Ensemble{
   const s=this.data.scenes[0];this.sid=new Machine(rate,s.sid);this.paula=new PaulaMachine(rate,s.paula);this.clean=smoothPaula(this.paula.paula);this.acid=new AcidMachine(rate,s.acid);this.drums=new DrumMachine(rate,s.drums);this.warm=new WarmMachine(rate,s.warm);this.applyScene(0);
  }
  applyScene(index){const s=this.data.scenes[index];this.sid.stop();this.paula.stop();this.acid.stop();this.warm.stop();this.gates.fill(-1);this.tied=false;this.sceneIndex=index;this.sceneBar=-1;this.pending=null;
-  this.sid.setProject({...s.sid,bpm:this.data.bpm});this.sid.load(s.sid.source);this.paula.setProject({...s.paula,bpm:this.data.bpm},true);this.paula.load(s.paula.source);this.acid.setProject({...s.acid,bpm:this.data.bpm});this.drums.project=structuredClone(s.drums);this.warm.setProject({...s.warm,bpm:this.data.bpm});
+  this.sid.setProject({...s.sid,bpm:this.data.bpm});this.sid.load(s.sid.source);this.paula.setProject({...s.paula,bpm:this.data.bpm},true);this.paula.load(s.paula.source);this.acid.setProject({...s.acid,bpm:this.data.bpm});this.drums.project=cloneData(s.drums);this.warm.setProject({...s.warm,bpm:this.data.bpm});
   this.sceneChanges.push({scene:index,frame:this.frames});if(this.sceneChanges.length>64)this.sceneChanges.shift();
  }
  queue(index){if(!Number.isInteger(index)||index<0||index>7)throw Error('Unknown scene');if(this.playing)this.pending=index;else{this.applyScene(index);this.stepIndex=-1;}}
@@ -38,7 +39,7 @@ export class Ensemble{
  replaceScene(index,scene){if(!Number.isInteger(index)||index<0||index>7)throw Error('Unknown scene');validateScene(scene);this.data.scenes[index]=warmScene(scene);if(index===this.sceneIndex){if(this.playing)this.pending=index;else this.applyScene(index);}}
  drumEdit(index,bar,voice,step,value){if(!Number.isInteger(index)||index<0||index>7||!Number.isInteger(bar)||bar<0||bar>7||!Number.isInteger(voice)||voice<0||voice>7||!Number.isInteger(step)||step<0||step>15||!num(value,0,1))throw Error('Invalid drum edit');this.data.scenes[index].patterns[bar].drums[voice][step]=value;}
  pad(voice){this.drums.trigger(voice,1);this.audition=this.rate*3;}
- drumVoice(index,voice,key,value){const s=this.data.scenes[index],p=structuredClone(s.drums);p.voices[voice][key]=value;validateDrum(p);s.drums=p;if(index===this.sceneIndex)this.drums.project.voices[voice]={...p.voices[voice]};}
+ drumVoice(index,voice,key,value){const s=this.data.scenes[index],p=cloneData(s.drums);p.voices[voice][key]=value;validateDrum(p);s.drums=p;if(index===this.sceneIndex)this.drums.project.voices[voice]={...p.voices[voice]};}
  tick(){
   this.stepIndex=(this.stepIndex+1)%16;
   if(this.stepIndex===0){

@@ -1,4 +1,5 @@
 // Original Small Machines monosynth; no ROMs, samples or proprietary circuit model.
+import {cloneData} from './clone-data.mjs';
 export const PARAMS={cutoff:[70,6000],resonance:[0,100],env:[0,100],decay:[60,1200],accent:[0,100],glide:[20,180],echo:[0,60],volume:[0,100],gate:[30,95]};
 const clamp=(x,a,b)=>Math.min(b,Math.max(a,x));
 const defaults={cutoff:280,resonance:68,env:62,decay:260,accent:65,glide:65,echo:18,volume:78,gate:62};
@@ -10,7 +11,7 @@ export const ACID_PRESETS=[
  {name:'Balkonacid',bpm:118,wave:'square',params:{...defaults,cutoff:420,resonance:55,env:57,decay:330,echo:23},steps:phrase([36,null,43,48,39,36,null,46,43,null,39,43,48,46,39,38],[0,4,7,12],[2,10,12,14])},
  {name:'Leeres Blatt',bpm:124,wave:'saw',params:defaults,steps:phrase(Array(16).fill(null))}
 ];
-export function freshAcid(index=0){const p=ACID_PRESETS[index]??ACID_PRESETS[0];return structuredClone({format:'small-machines-acid',version:1,...p});}
+export function freshAcid(index=0){const p=ACID_PRESETS[index]??ACID_PRESETS[0];return cloneData({format:'small-machines-acid',version:1,...p});}
 export function validateAcid(p){
  if(!p||p.format!=='small-machines-acid'||p.version!==1||typeof p.name!=='string'||p.name.length>80)throw Error('Kein gültiges ACID/16-Set.');
  if(!Number.isFinite(p.bpm)||p.bpm<40||p.bpm>220||!['saw','square'].includes(p.wave))throw Error('Tempo oder Wellenform ungültig.');

@@ -1,4 +1,5 @@
-import {setSeconds} from './ensemble-score.mjs';
+import {freshEnsemble,setSeconds} from './ensemble-score.mjs';
+import {renameSet,copyScene,pasteScene} from './ensemble-edit.mjs';
 import {freshWarmEnsemble,ENSEMBLE_DECKS as DECKS,upgradeEnsemble} from './warm-ensemble.mjs';
 import {validateWarm} from './warm.mjs';
 import {validateEnsemble,validateScene,wavHeader} from './ensemble.mjs';
@@ -8,10 +9,84 @@ import {validatePaula} from './paula.mjs';
 import {validateAcid} from './acid.mjs';
 const $=id=>document.getElementById(id),key='small-machines-ensemble-v2',copy=x=>structuredClone(x);
 let data=freshWarmEnsemble(),ctx,node,initializing,playing=false,recording=false,selected=0,editBar=0,drumVoice=0,queued=null,state={scene:0,bar:-1,step:-1,meters:[0,0,0,0,0]},recordChunks=[],recordSeconds=0,takeURL,worker,exportChunks=[],intent=0,saveTimer,importTarget;
+let previousSet=null,sceneClipboard=null,sceneUndo=null,loadingSet=false,editRevision=0;
 const tell=(text,error=false)=>{$('status').textContent=text;$('status').dataset.error=String(error);};
 try{const raw=localStorage.getItem(key)||localStorage.getItem('small-machines-ensemble-v1');if(raw)data=upgradeEnsemble(validateEnsemble(JSON.parse(raw)));}catch{tell('Das gespeicherte Set konnte nicht geladen werden. Das Originalset ist bereit.',true);}
 const send=d=>node?.port.postMessage(d),time=s=>`${String(Math.floor(s/60)).padStart(2,'0')}:${String(Math.floor(s%60)).padStart(2,'0')}`;
-function save(){clearTimeout(saveTimer);saveTimer=setTimeout(()=>{try{localStorage.setItem(key,JSON.stringify(data));$('save-status').textContent='Set und Szenen auf diesem Gerät gespeichert.';}catch{$('save-status').textContent='Speicher voll oder nicht verfügbar. Bitte Set herunterladen.';}},200);}
+function save(){editRevision++;if(sceneUndo&&JSON.stringify(data.scenes[sceneUndo.index])!==sceneUndo.inserted)sceneUndo=null;paintWorkshop();clearTimeout(saveTimer);saveTimer=setTimeout(()=>{try{localStorage.setItem(key,JSON.stringify(data));$('save-status').textContent='Set und Szenen auf diesem Gerät gespeichert.';}catch{$('save-status').textContent='Speicher voll oder nicht verfügbar. Bitte Set herunterladen.';}},200);}
+// A delayed file/factory load must not replace changes made while it was loading.
+document.addEventListener('input',()=>{editRevision++;},true);
+document.addEventListener('change',()=>{editRevision++;},true);
+const workshopBusy=()=>playing||recording||!!initializing||!!worker;
+function paintWorkshop(){
+ const busy=workshopBusy()||loadingSet;
+ $('load-factory').disabled=busy;
+ $('restore-set').disabled=busy||!previousSet;
+ $('restore-set').title=previousSet?`Zurück zu „${previousSet.name}“`:'';
+ $('paste-scene').disabled=busy||!sceneClipboard;
+ $('undo-scene').disabled=busy||!sceneUndo;
+ $('undo-scene').textContent=sceneUndo?`Szene ${sceneUndo.index+1}: Einsetzen rückgängig`:'Einsetzen rückgängig';
+ $('save-set-name').disabled=recording||!!worker||loadingSet||!!initializing;
+ $('edit-set-name').disabled=$('save-set-name').disabled;
+ $('scene-clipboard').textContent=sceneClipboard?`Kopiert: ${sceneClipboard.name}. Zielszene wählen und im Stopp einsetzen.`:'Alle fünf Klänge und acht Pattern-Takte mitnehmen.';
+}
+function replaceSet(next){
+ next=upgradeEnsemble(validateEnsemble(next));
+ previousSet=copy(data);sceneUndo=null;intent++;send({type:'panic'});
+ data=next;selected=0;editBar=0;queued=null;playing=false;
+ state={scene:0,bar:-1,step:-1,meters:[0,0,0,0,0]};
+ send({type:'load',data});$('edit-bar').value='0';
+ for(const el of sceneEls)el.querySelector('.scene-progress').style.width='0%';
+ paintAll();save();
+}
+const factoryDescriptions={
+ quartet:'15:00 · 128 BPM · Originalquartett: SID, Paula, Acid und Drums. WARM bleibt still.',
+ quintet:'15:00 · 128 BPM · SID, Paula, Acid, Drums und WARM.',
+ visit:'1:42 · 112 BPM · Ein kurzer Besuch mit allen fünf Maschinen, acht Szenen und 48 Takten.'
+};
+$('factory-set').onchange=()=>{$('factory-description').textContent=factoryDescriptions[$('factory-set').value];};
+$('load-factory').onclick=async()=>{
+ if(workshopBusy()||loadingSet)return;
+ const choice=$('factory-set').value,revision=editRevision,token=intent;
+ loadingSet=true;paintWorkshop();tell('Vorlage wird geladen …');
+ try{
+  let next;
+  if(choice==='quartet')next=freshEnsemble();
+  else if(choice==='quintet')next=freshWarmEnsemble();
+  else {
+   const response=await fetch('./sets/Bernsteinfenster-Besuch-Ensemble.json');
+   if(!response.ok)throw Error('Die Vorlage konnte nicht geladen werden. Bitte erneut versuchen.');
+   next=await response.json();
+  }
+  if(revision!==editRevision||token!==intent||workshopBusy())throw Error('Inzwischen wurde weitergearbeitet. Bitte die Vorlage erneut laden, wenn du bereit bist.');
+  replaceSet(next);tell('Vorlage geladen. Dein vorheriges Set ist über „Vorheriges Set“ wieder erreichbar.');
+ }catch(e){tell(e.message,true);}finally{loadingSet=false;paintWorkshop();}
+};
+$('restore-set').onclick=()=>{
+ if(workshopBusy()||loadingSet||!previousSet)return;
+ replaceSet(previousSet);tell('Vorheriges Set wiederhergestellt. Das gerade verlassene Set bleibt ebenfalls abrufbar.');
+};
+$('set-title-form').onsubmit=e=>{
+ e.preventDefault();if(recording||worker||loadingSet||initializing)return;
+ try{data=renameSet(data,$('edit-set-name').value);$('edit-set-name').value=data.name;paintScenes();save();tell('Setname gespeichert. Neue Exporte tragen diesen Namen.');}
+ catch(error){tell(error.message,true);}
+};
+$('copy-scene').onclick=()=>{sceneClipboard=copyScene(data,selected);paintWorkshop();tell(`„${sceneClipboard.name}“ kopiert. Wähle jetzt die Zielszene.`);};
+$('paste-scene').onclick=()=>{
+ if(workshopBusy()||loadingSet||!sceneClipboard)return;
+ const before=copyScene(data,selected);
+ data=pasteScene(data,selected,sceneClipboard);
+ sceneUndo={index:selected,scene:before,inserted:JSON.stringify(data.scenes[selected])};
+ send({type:'scene',index:selected,scene:data.scenes[selected]});
+ state={...state,bar:-1,step:-1};paintScenes();paintDrums();paintVoice();save();
+ tell('Szene eingesetzt. Du kannst sie jetzt verändern oder das Einsetzen rückgängig machen.');
+};
+$('undo-scene').onclick=()=>{
+ if(workshopBusy()||loadingSet||!sceneUndo)return;
+ const {index,scene}=sceneUndo;sceneUndo=null;
+ data=pasteScene(data,index,scene);send({type:'scene',index,scene:data.scenes[index]});
+ paintScenes();paintDrums();paintVoice();save();tell(`Die vorherige Szene ${index+1} ist wiederhergestellt.`);
+};
 function mix(patch){Object.assign(data,{...patch,levels:{...data.levels,...patch.levels},mutes:{...data.mutes,...patch.mutes}});send({type:'mix',patch});paintMixer();save();}
 const names=['SID/65','PAULA/68','ACID/16','DRUM/08','WARM/06'],captions=['3 SYNTH-STIMMEN / 6502','4 PCM-KANÄLE / 68000','1 STIMME / SLIDE & ACCENT','8 SYNTHETISCHE DRUMS','6 STIMMEN / STEREO-CHORUS'],colors=['#bda1d6','#91b8ce','#adc188','#dfa26e','#e4bd6e'];
 const deckEls=[];
@@ -21,7 +96,7 @@ const sceneEls=[];for(let i=0;i<8;i++){const b=document.createElement('button');
 function paintMixer(){DECKS.forEach((d,i)=>{const e=deckEls[i];e.querySelector('input').value=Math.round(data.levels[d]*100);e.querySelector('output').textContent=Math.round(data.levels[d]*100)+'%';e.querySelector('[data-action=mute]').setAttribute('aria-pressed',String(data.mutes[d]));e.querySelector('[data-action=solo]').setAttribute('aria-pressed',String(data.solo===d));});$('master').value=data.master*100;$('master-value').textContent=Math.round(data.master*100)+'%';$('filter').value=data.filter*100;$('filter-value').textContent='×'+data.filter.toFixed(2);$('drum-solo').textContent=data.solo==='drums'?'Alle Maschinen hören':'Drums solo hören';}
 function paintScenes(){for(let i=0;i<8;i++){const b=sceneEls[i],s=data.scenes[i];b.querySelector('strong').textContent=s.name;b.querySelector('.scene-length').textContent=s.bars+' TAKTE';b.classList.toggle('active',selected===i);b.classList.toggle('queued',queued===i);b.setAttribute('aria-pressed',String(selected===i));b.setAttribute('aria-label',`Szene ${i+1}: ${s.name}, ${s.bars} Takte`);}$('edit-name').value=data.scenes[selected].name;$('scene-bars').value=data.scenes[selected].bars;$('evolution').checked=data.scenes[selected].evolution;$('scene-name').textContent=data.scenes[selected].name;$('bar-readout').textContent=`TAKT ${Math.max(0,state.bar+1)} / ${data.scenes[selected].bars}`;$('queue-state').textContent=queued===null?'WECHSEL AUF DEN NÄCHSTEN TAKT':'ALS NÄCHSTES: '+data.scenes[queued].name;$('duration').textContent=time(setSeconds(data));$('set-name').textContent=data.name;$('drum-edit-scene').textContent=`Szene ${selected+1} · ${data.scenes[selected].name}`;}
 function launch(index){if(playing){queued=index;send({type:'queue',index});}else{selected=index;queued=null;state={...state,bar:-1,step:-1};send({type:'queue',index});paintDrums();paintVoice();}paintScenes();tell(playing?'Die Szene startet am nächsten Taktanfang.':'Szene bereit. Play startet sie.');}
-function transport(){$('play').textContent=playing?'Ⅱ Anhalten':'▶ '+(ctx?'Spielen':'Einschalten & spielen');$('record').setAttribute('aria-pressed',String(recording));$('record').textContent=recording?'■ '+time(recordSeconds):'● REC';$('export-eight').disabled=!!worker||recording;$('export-full').disabled=!!worker||recording;$('record').disabled=!!worker;$('import-set').disabled=recording;$('display-mode').textContent=playing?($('auto').checked?'SET-ABLAUF / FÜNF MASCHINEN':'LIVE / SZENE WIEDERHOLT SICH'):'BEREIT FÜR DEN NÄCHSTEN TAKT';}
+function transport(){paintWorkshop();$('play').textContent=playing?'Ⅱ Anhalten':'▶ '+(ctx?'Spielen':'Einschalten & spielen');$('record').setAttribute('aria-pressed',String(recording));$('record').textContent=recording?'■ '+time(recordSeconds):'● REC';$('export-eight').disabled=!!worker||recording;$('export-full').disabled=!!worker||recording;$('record').disabled=!!worker;$('import-set').disabled=recording||!!worker||loadingSet;$('display-mode').textContent=playing?($('auto').checked?'SET-ABLAUF / FÜNF MASCHINEN':'LIVE / SZENE WIEDERHOLT SICH'):'BEREIT FÜR DEN NÄCHSTEN TAKT';}
 async function audio(){if(initializing)return initializing;if(ctx&&node){await ctx.resume();return;}
  initializing=(async()=>{const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)throw Error('Web Audio ist in diesem Browser nicht verfügbar.');ctx=new Audio();await ctx.resume();if(!ctx.audioWorklet)throw Error('Bitte einen Browser mit AudioWorklet-Unterstützung verwenden.');await ctx.audioWorklet.addModule('./ensemble-worklet.mjs');node=new AudioWorkletNode(ctx,'small-ensemble',{numberOfInputs:0,numberOfOutputs:1,outputChannelCount:[2]});node.port.onmessage=receive;node.connect(ctx.destination);send({type:'load',data});send({type:'queue',index:selected});node.onprocessorerror=()=>{node?.disconnect();node=null;const failed=ctx;ctx=null;void failed.close();playing=false;recording=false;transport();tell('Audio wurde unterbrochen. Bitte erneut einschalten.',true);};ctx.onstatechange=()=>{const live=ctx?.state==='running';$('audio-state').textContent=live?`${(ctx.sampleRate/1000).toFixed(1)} kHz / AUDIO AN`:'AUDIO PAUSIERT';$('audio-led').classList.toggle('on',live);};$('audio-state').textContent=`${(ctx.sampleRate/1000).toFixed(1)} kHz / AUDIO AN`;$('audio-led').classList.add('on');})();
  try{await initializing;}catch(e){node?.disconnect();node=null;if(ctx)await ctx.close();ctx=null;throw e;}finally{initializing=null;}
@@ -60,8 +135,18 @@ const safeName=()=>data.name.replace(/[^\p{L}\p{N}_-]+/gu,'-').slice(0,70)||'Sma
 function download(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),60000);}
 function setDownload(blob,suffix){if(takeURL)URL.revokeObjectURL(takeURL);takeURL=URL.createObjectURL(blob);$('take-download').href=takeURL;$('take-download').download=safeName()+'-'+suffix+'.wav';$('take-download').textContent='↓ '+suffix+' herunterladen';$('take-download').hidden=false;}
 $('export-set').onclick=()=>download(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),safeName()+'-Ensemble.json');$('import-set').onclick=()=>$('set-file').click();
-$('set-file').onchange=async()=>{try{const f=$('set-file').files[0];if(!f)return;if(f.size>16000000)throw Error('Setdatei zu groß (max. 16 MB).');const next=upgradeEnsemble(validateEnsemble(JSON.parse(await f.text())));intent++;send({type:'panic'});data=next;selected=0;queued=null;playing=false;state={scene:0,bar:-1,step:-1,meters:[0,0,0,0,0]};send({type:'load',data});paintAll();save();tell('Set und acht Szenen geladen.');}catch(e){tell(e.message,true);}finally{$('set-file').value='';}};
-$('studio-file').onchange=async()=>{try{const f=$('studio-file').files[0];if(!f)return;if(f.size>12000000)throw Error('Datei zu groß (max. 12 MB).');const raw=JSON.parse(await f.text()),{deck,scene}=importTarget,s=copy(data.scenes[scene]);
+$('set-file').onchange=async()=>{
+ try{
+  const f=$('set-file').files[0];if(!f)return;
+  if(recording||initializing||loadingSet||worker)throw Error('Bitte zuerst den laufenden Vorgang beenden.');
+  if(f.size>16000000)throw Error('Setdatei zu groß (max. 16 MB).');
+  const revision=editRevision,token=intent;
+  const next=upgradeEnsemble(validateEnsemble(JSON.parse(await f.text())));
+  if(recording||initializing||loadingSet||worker||revision!==editRevision||token!==intent)throw Error('Inzwischen wurde weitergearbeitet. Bitte die Setdatei erneut laden.');
+  replaceSet(next);tell('Set und acht Szenen geladen. Das vorherige Set bleibt abrufbar.');
+ }catch(e){tell(e.message,true);}finally{$('set-file').value='';}
+};
+$('studio-file').onchange=async()=>{try{const f=$('studio-file').files[0];if(!f)return;if(f.size>12000000)throw Error('Datei zu groß (max. 12 MB).');const target={...importTarget},revision=editRevision;const raw=JSON.parse(await f.text());if(revision!==editRevision||loadingSet)throw Error('Inzwischen wurde weitergearbeitet. Bitte Klang und Noten erneut laden.');const {deck,scene}=target,s=copy(data.scenes[scene]);
  if(deck==='sid'){s.sid=copy(validateProject(raw.sid||raw.set?.sid||raw));for(const p of s.patterns)p.sid=copy(s.sid.patterns);}
  else if(deck==='paula'){s.paula=copy(validatePaula(raw.paula||raw.set?.paula||raw));for(const p of s.patterns)p.paula=copy(s.paula.patterns);}
  else if(deck==='acid'){s.acid=validateAcid(raw);for(const p of s.patterns)p.acid=copy(s.acid.steps);}
@@ -76,7 +161,7 @@ $('export-eight').onclick=()=>exportWav(false);$('export-full').onclick=()=>expo
 $('stage').onclick=async()=>{const active=document.body.classList.toggle('stage');$('stage').textContent=active?'Studioansicht ↙':'Bühnenansicht ↗';try{if(active&&document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else if(document.fullscreenElement)await document.exitFullscreen();}catch{}drawGarden();};
 $('session-audio').onplay=()=>{if(recording){$('session-audio').pause();tell('Bitte zuerst den laufenden Take beenden.');return;}if(playing)stop();};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('panic').click();return;}if(e.repeat||e.ctrlKey||e.metaKey||e.altKey||e.target.closest('input,select,textarea,button,a,audio'))return;if(e.code==='Space'){e.preventDefault();$('play').click();}else if(/^[1-8]$/.test(e.key))launch(Number(e.key)-1);});window.addEventListener('pagehide',()=>{intent++;send({type:'panic'});});
-function paintAll(){$('bpm').value=data.bpm;paintMixer();paintScenes();paintDrums();paintVoice();transport();$('elapsed').textContent='00:00';}paintAll();
+function paintAll(){$('edit-set-name').value=data.name;$('bpm').value=data.bpm;paintMixer();paintScenes();paintDrums();paintVoice();transport();$('elapsed').textContent='00:00';}paintAll();
 const canvas=$('garden'),g=canvas.getContext('2d'),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;let lastDraw=0;
 function drawGarden(t=0){const w=canvas.clientWidth,h=canvas.clientHeight,r=Math.min(devicePixelRatio||1,2);if(!w||!h)return;if(canvas.width!==Math.round(w*r)||canvas.height!==Math.round(h*r)){canvas.width=Math.round(w*r);canvas.height=Math.round(h*r);}g.setTransform(r,0,0,r,0,0);g.clearRect(0,0,w,h);g.lineWidth=1;
  for(let j=0;j<DECKS.length;j++){const x=w*(j+.7)/(DECKS.length+.7),level=state.meters?.[j]||0,height=h*(.27+j*.04)+Math.min(h*.38,level*h*1.6);g.strokeStyle=colors[j]+'55';g.beginPath();g.moveTo(x,h*.9);g.lineTo(x,h*.9-height);g.stroke();for(let k=0;k<6;k++){const lit=playing?(k<(state.step+j*3+16)%7):k===j%6;const drift=reduced?0:Math.sin(t/1100+j+k)*level*7;g.fillStyle=colors[j]+(lit?'dd':'28');g.fillRect(x-13+(k%2)*15+drift,h*.85-height+k*height/7,9,Math.max(3,height/11));}g.strokeStyle=colors[j]+'99';g.beginPath();for(let n=0;n<50;n++){const px=x-28+n/49*56,py=h*.93+Math.sin(n*.4+(reduced?0:t/300))*level*18;n?g.lineTo(px,py):g.moveTo(px,py);}g.stroke();}
