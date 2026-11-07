@@ -11,6 +11,30 @@ A composition is stored as notes, patterns, patches, tempo and sections. The ins
 
 There are no JavaScript package dependencies to install for the studio. A full album rebuild needs several GB of working space. The commands below use a POSIX shell; adapt paths and the Python command for Windows.
 
+## Your own ensemble set
+
+Export a complete JSON set from ENSEMBLE/05, then render all eight scenes offline:
+
+```sh
+npm run render:set -- /absolute/path/My-Ensemble.json "$PWD/rendered/my-take"
+```
+
+The output directory must be new. The tool supports the four-instrument version-1
+and five-instrument version-2 set formats, keeping their tempo, scene lengths,
+patches, mutes and solo settings. It writes `audio-raw.wav` (Float32 stereo at
+44.1 kHz with four seconds of tail), the exact input bytes as `set.json`, and
+`render-report.json` with timing, sample measurements and SHA-256 hashes of the
+input, audio, renderer and studio modules. For 48 kHz, add `48000` after the
+output directory. The renderer accepts integer rates from 8000 to 96000 Hz and
+checks the RIFF size limit before creating the take.
+
+This is raw output, without mastering or normalization. Intentional silence is
+valid; check the reported peaks and listen before publishing. The final half
+second fades to zero. A render failure can leave a `.partial` audio file, but no
+completed render report; retry in a new directory. The complete set and the
+recorded engine/runtime versions are needed to reproduce a take. Existing
+published pieces still use their original production paths below.
+
 ## Licht im Hinterhof
 
 From the repository root:
