@@ -27,6 +27,8 @@ Open **http://127.0.0.1:8765/** and press the instrument's play button. On Windo
 
 The instruments work without the recorded albums. Listening-room recordings are separate media assets; see [recordings and archive downloads](archive/RELEASES.md) for their current availability. Open the instrument pages through the server rather than by double-clicking HTML files.
 
+In **ENSEMBLE/05**, the **Set-Werkstatt** loads the original quartet, the five-window variation or the short **Besuch im Hinterhof** quintet directly. Give your set a name, copy a scene, select its destination and insert it while stopped. All five instruments, samples and eight pattern bars travel with the scene. You can undo the insertion until that scene is edited again. **Vorheriges Set** swaps back to the set you left, including your edits; this backup lasts for the current page session. Export JSON to keep it beyond that session.
+
 ## Music and sources
 
 | Collection | Besetzung / instruments | Sources |

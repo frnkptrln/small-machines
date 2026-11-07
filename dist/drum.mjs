@@ -1,4 +1,5 @@
 // Eight original synthesized percussion voices. No samples or hardware ROMs.
+import {cloneData} from './clone-data.mjs';
 export const DRUMS=[['kick','Kick','Tiefer Puls'],['snare','Snare','Papier & Feder'],['clap','Clap','Drei kleine Hände'],['hat','Closed hat','Kurzes Metall'],['open','Open hat','Luft & Metall'],['tom','Tom','Runder Bauch'],['rim','Rim','Holz am Rand'],['bell','Cowbell','Zwei schiefe Glocken']].map(([id,name,description])=>({id,name,description}));
 export const freshDrum=()=>({kind:'small-drums',version:1,voices:DRUMS.map((d,i)=>({level:[.9,.66,.48,.38,.32,.55,.48,.35][i],tune:0,decay:1,mute:false})),pattern:drumPattern('house')});
 export function drumPattern(name='house'){
@@ -12,7 +13,7 @@ export function drumPattern(name='house'){
 export function validateDrum(p){
  if(!p||p.kind!=='small-drums'||p.version!==1||!Array.isArray(p.voices)||p.voices.length!==8||!Array.isArray(p.pattern)||p.pattern.length!==8)throw Error('Keine DRUM/08-Datei.');
  for(const v of p.voices){if(!v||!Number.isFinite(v.level)||v.level<0||v.level>1||!Number.isFinite(v.tune)||v.tune< -12||v.tune>12||!Number.isFinite(v.decay)||v.decay<.25||v.decay>2.5||typeof v.mute!=='boolean')throw Error('Ungültiger Drum-Klang.');}
- for(const row of p.pattern)if(!Array.isArray(row)||row.length!==16||row.some(n=>!Number.isFinite(n)||n<0||n>1))throw Error('Ungültiges Drum-Pattern.');return structuredClone(p);
+ for(const row of p.pattern)if(!Array.isArray(row)||row.length!==16||row.some(n=>!Number.isFinite(n)||n<0||n>1))throw Error('Ungültiges Drum-Pattern.');return cloneData(p);
 }
 const TAU=2*Math.PI,baseDecay=[.36,.14,.17,.045,.36,.29,.055,.22],pans=[0,-.08,.1,-.26,.26,.2,-.35,.32];
 export class DrumMachine{

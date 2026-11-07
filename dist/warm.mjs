@@ -1,5 +1,6 @@
 // WARM/06 — original six-voice subtractive synth, inspired by the Juno family.
 // No copied ROM, sample, factory patch, or circuit model. All sound is synthesized.
+import {cloneData} from './clone-data.mjs';
 export const WARM_PARAMS={
  saw:[0,100],pulse:[0,100],sub:[0,100],noise:[0,30],pulseWidth:[10,90],pwm:[0,100],
  cutoff:[80,12000],resonance:[0,85],env:[0,100],attack:[3,3000],decay:[30,5000],
@@ -7,7 +8,7 @@ export const WARM_PARAMS={
  volume:[0,100],lfoRate:[.1,5]
 };
 const defaults={saw:68,pulse:36,sub:20,noise:1,pulseWidth:46,pwm:27,cutoff:1050,resonance:18,env:26,attack:450,decay:1100,sustain:76,release:1900,hpf:35,chorus:66,drift:4,volume:75,lfoRate:.24};
-const clone=x=>structuredClone(x),clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+const clone=cloneData,clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const chords=[[50,57,60,65],[46,53,57,60],[53,60,64,69],[48,55,58,62]];
 function pattern(kind=0){return Array.from({length:8},(_,bar)=>{
  const steps=Array(16).fill(null),chord=chords[Math.floor(bar/2)%4];

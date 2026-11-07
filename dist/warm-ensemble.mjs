@@ -1,14 +1,15 @@
 import {freshEnsemble,DECKS} from './ensemble-score.mjs';
 import {freshWarm} from './warm.mjs';
+import {cloneData} from './clone-data.mjs';
 
 export const ENSEMBLE_DECKS=[...DECKS,'warm'];
 export function warmScene(scene){
- const s=structuredClone(scene);
+ const s=cloneData(scene);
  if(!s.warm){s.warm=freshWarm();s.warm.patterns=Array.from({length:8},()=>Array(16).fill(null));s.levels.warm=0;for(const bar of s.patterns)bar.warm=Array(16).fill(null);}
  return s;
 }
 export function upgradeEnsemble(set){
- const s=structuredClone(set);
+ const s=cloneData(set);
  if(s.version===1){s.version=2;s.levels.warm=1;s.mutes.warm=false;s.scenes=s.scenes.map(warmScene);}
  return s;
 }
@@ -22,6 +23,6 @@ export function freshWarmEnsemble(){
   scene.patterns.forEach((p,bar)=>{p.warm=Array(16).fill(null);const root=[50,46,53,48][Math.floor(bar/2)%4],third=bar<2?3:4;
    if(bar%2===0)p.warm[0]={notes:[root,root+7,root+12+third,root+19],velocity:.7,length:30};
   });
-  scene.warm.patterns=scene.patterns.map(p=>structuredClone(p.warm));
+  scene.warm.patterns=scene.patterns.map(p=>cloneData(p.warm));
  });return s;
 }
